@@ -179,6 +179,34 @@
                 <div class="col-0 col-sm-2 col-md-1"></div>
             </div>
         </div>
+        <div class="container" style="max-width: 800px; margin-top: 122px;">
+            <div class="d-flex justify-content-center">
+                <div class="titleProcess">Discover </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="titleProcessLineBottom"> </div>
+            </div>
+            <p class="titleType2Size textBoxTotextBoxMargin">User reaserch </p>
+            <p class="textSize textMarginToTitle">
+                Wir verschickten führten 4 Nutzerinterviews durch, um unsere Annahmen zu bestätigen. Das häufigste
+                Feedback aus den Nutzerinterviews war, dass die Website zu chaotisch und überwältigend ist. Die von
+                uns befragten Personen bestätigten unsere Annahmen.
+            </p>
+            <p class="titleSize textBoxTotextBoxMargin">Key Findings</p>
+            <ul>
+                <li class="textSize">Die Website ist verwirrend</li>
+                <li class="textSize">Es gibt keine Kategorien</li>
+                <li class="textSize">Die Inhalt muss übersichtlich sein</li>
+                <li class="textSize">Keine Navigationsleiste</li>
+                <li class="textSize">Die Bewertungen sind durcheinander</li>
+            </ul>
+        </div>
+        <div class="processDivBoxwithImg">
+            <div class="d-flex justify-content-center">
+                <img class="processDivImg" src="./images/ImageProcess.svg" />
+            </div>
+        </div>
+
 
         <style lang="scss">
             html {
@@ -256,6 +284,38 @@
             .cardProcessItemsText {
                 font-size: 16px;
                 font-weight: medium;
+            }
+
+            .titleProcess {
+                font-size: 40px;
+                font-weight: medium;
+                color: #528CA2;
+
+            }
+
+            .titleProcessLineBottom {
+                content: "";
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 96px;
+                border-bottom: 3px solid #528CA2;
+            }
+
+            .processDivBoxwithImg {
+                width: 100%;
+                background-color: rgba(82,140,162,0.47);
+            }
+
+            .processDivImg {
+                margin: 20px;
+                width: 800px;
+            }
+
+
+            @media (max-width: 850px) {
+                .processDivImg {
+                    width: 350px;
+                }
             }
         </style>
     </main>
