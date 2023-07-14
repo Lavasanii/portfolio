@@ -3,7 +3,7 @@
     class="navbar navbar-expand-lg bg-body-tertiary nav-background-color-variable"
   >
     <div class="container">
-      <div class="navbar-brand nav-title-custom">Saeid Farajollahlavasani</div>
+      <div class="navbar-brand nav-title-color">Saeid Farajollahlavasani</div>
       <button
         class="navbar-toggler"
         type="button"
@@ -21,7 +21,7 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item" v-for="n in navItems" :key="n.id">
-            <router-link class="nav-link nav-items-custom" :to="n.link">
+            <router-link class="nav-link nav-items-color" :to="n.link">
               {{ n.name }}
             </router-link>
           </li>
@@ -71,17 +71,11 @@ const navItems = ref<navItemsInterface[]>([
   background-color: $navBar-background-color !important;
 }
 
-.nav-title-custom {
+.nav-title-color {
   color: $navBar-items-color;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
 }
 
-.nav-items-custom {
+.nav-items-color {
   color: $navBar-items-color;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
 }
 </style>
