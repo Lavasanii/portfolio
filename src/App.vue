@@ -11,4 +11,8 @@
 import NavBar from "../src/components/NavBar.vue";
 </script>
 
-<style scoped></style>
+<style lang="scss">
+* {
+  font-family: "Poppins", sans-serif;
+}
+</style>
