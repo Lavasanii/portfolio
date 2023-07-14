@@ -1,22 +1,24 @@
 {
-  "name": "ux_portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lavasanii/portfolio.git"
-  },
-  "author": "Saeid Lavasani",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lavasanii/portfolio/issues"
-  },
-  "homepage": "https://github.com/Lavasanii/portfolio#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.63.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
   }
 }

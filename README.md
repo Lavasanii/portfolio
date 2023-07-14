@@ -1,7 +1,17 @@
-# portfolio
+## Project Setup
 
+```sh
+npm install
+```
 
-# To start Project Localy 
-´´´
-node --watch index.js
-´´´
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
