@@ -1,11 +1,11 @@
 <template>
-  <div class="section1-background-avatar">
+  <div class="h-background-avatar">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
           <div class="text-container mt-5">
             <div class="display-4 section1-text-title-color">Who am i ?</div>
-            <p class="lead section1-text-color mt-5">
+            <p class="lead h-text-color mt-5">
               Passionierter UX/UI-Designer mit einem Hintergrund in
               Industriedesign. Mit besonderem Interesse an IoT-Produkten.
             </p>
@@ -31,17 +31,17 @@
 
 <style lang="scss" scoped>
 @import "../../scss/theme.scss";
-.section1-background-avatar {
+.h-background-avatar {
   width: 100%;
   height: auto;
-  background-image: $section1-avatar-background;
+  background-image: $home-avatar-background;
 }
 
-.section1-text-title-color {
-  color: $section1-text-title-color;
+.h-text-title-color {
+  color: $home-text-title-color;
 }
 
-.section1-text-color {
-  color: $section1-text-color;
+.h-text-color {
+  color: $home-text-color;
 }
 </style>

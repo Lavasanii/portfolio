@@ -30,13 +30,13 @@ const projectItems = ref<projectItemsInterface[]>([
     id: 0,
     textinImg: "A code - learning platform - Rubrik's Code",
     imgSrc: "../../../public//images/project1.png",
-    link: "/project1",
+    link: "/rubrik-project",
   },
   {
     id: 1,
     textinImg: "A code - learning platform - Rubrik's Code",
     imgSrc: "../../../public//images/project1.png",
-    link: "/project1",
+    link: "/rubrik-project",
   },
 ]);
 </script>
@@ -57,7 +57,7 @@ const projectItems = ref<projectItemsInterface[]>([
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: $section1-text-inside-image-color;
+  color: $home-text-inside-image-color;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
