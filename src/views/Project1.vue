@@ -18,7 +18,7 @@
   <Project1Process class="margin-between-sections"></Project1Process>
   <Project1Discover></Project1Discover>
   <Project1Define></Project1Define>
-  <IdeationProject1></IdeationProject1>
+  <Project1Ideation></Project1Ideation>
 </template>
 
 <script setup lang="ts">
