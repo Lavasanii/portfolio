@@ -1,5 +1,5 @@
 <template>
-  <headerImageProject1></headerImageProject1>
+  <Project1HeaderImage></Project1HeaderImage>
   <div class="container" style="max-width: 972px">
     <div class="h2 mt-5 text-center">
       A code - learning platform Rubrik's Code
@@ -15,17 +15,19 @@
       <div class="h5 sections-texts">{{ s.text }}</div>
     </div>
   </div>
-  <processProject1 class="margin-between-sections"></processProject1>
-  <discoverProject1></discoverProject1>
-  <defineProject1></defineProject1>
+  <Project1Process class="margin-between-sections"></Project1Process>
+  <Project1Discover></Project1Discover>
+  <Project1Define></Project1Define>
+  <IdeationProject1></IdeationProject1>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
-import headerImageProject1 from "../components/project1-components/headerImageProject1.vue";
-import processProject1 from "../components/project1-components/processProject1.vue";
-import discoverProject1 from "../components/project1-components/discoverProject1.vue";
-import defineProject1 from "../components/project1-components/defineProject1.vue";
+import Project1HeaderImage from "../components/project1-components/Project1HeaderImage.vue";
+import Project1Process from "../components/project1-components/Project1Process.vue";
+import Project1Discover from "../components/project1-components/Project1Discover.vue";
+import Project1Define from "../components/project1-components/Project1Define.vue";
+import Project1Ideation from "../components/project1-components/Project1Ideation.vue";
 
 interface sectionsInterfaces {
   id: number;
