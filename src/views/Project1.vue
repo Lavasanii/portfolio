@@ -16,19 +16,14 @@
     </div>
   </div>
   <processProject1 class="margin-between-sections"></processProject1>
-  <div class="container" style="max-width: 972px">
-    <div class="row row-cols-auto justify-content-center">
-      <div class="cal">
-        <div class="display-6 discover-text">Discover</div>
-      </div>
-    </div>
-  </div>
+  <discoverProject1></discoverProject1>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
 import headerImageProject1 from "../components/project1-components/headerImageProject1.vue";
 import processProject1 from "../components/project1-components/processProject1.vue";
+import discoverProject1 from "../components/project1-components/discoverProject1.vue";
 
 interface sectionsInterfaces {
   id: number;
@@ -93,13 +88,5 @@ const section1Items = ref<sectionsInterfaces[]>([
 
 .sections-texts {
   margin-top: 36px;
-}
-
-.discover-text {
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding-bottom: 25px;
-  color: $project1-discover-text-color;
-  border-bottom: 3px solid $project1-discover-text-color;
 }
 </style>
