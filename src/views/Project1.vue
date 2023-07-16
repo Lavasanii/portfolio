@@ -17,6 +17,7 @@
   </div>
   <processProject1 class="margin-between-sections"></processProject1>
   <discoverProject1></discoverProject1>
+  <defineProject1></defineProject1>
 </template>
 
 <script setup lang="ts">
@@ -24,6 +25,7 @@ import { ref } from "vue";
 import headerImageProject1 from "../components/project1-components/headerImageProject1.vue";
 import processProject1 from "../components/project1-components/processProject1.vue";
 import discoverProject1 from "../components/project1-components/discoverProject1.vue";
+import defineProject1 from "../components/project1-components/defineProject1.vue";
 
 interface sectionsInterfaces {
   id: number;
