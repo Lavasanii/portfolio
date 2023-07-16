@@ -84,9 +84,7 @@
               <li>Limited budget</li>
             </ul>
           </div>
-          <div class="h4 sections-title persona-margin-top-rows">
-            Goals
-          </div>
+          <div class="h4 sections-title persona-margin-top-rows">Goals</div>
           <div class="h5">
             <ul>
               <li>to learn ML very fast</li>
@@ -94,7 +92,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 d-flex justify-content-end">
           <img
             src="../../../public//images//project1definePersona.png"
             class="img-fluid"
