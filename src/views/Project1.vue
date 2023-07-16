@@ -19,6 +19,7 @@
   <Project1Discover></Project1Discover>
   <Project1Define></Project1Define>
   <Project1Ideation></Project1Ideation>
+  <Project1Design></Project1Design>
 </template>
 
 <script setup lang="ts">
@@ -28,6 +29,7 @@ import Project1Process from "../components/project1-components/Project1Process.v
 import Project1Discover from "../components/project1-components/Project1Discover.vue";
 import Project1Define from "../components/project1-components/Project1Define.vue";
 import Project1Ideation from "../components/project1-components/Project1Ideation.vue";
+import Project1Design from "../components/project1-components/Project1Design.vue";
 
 interface sectionsInterfaces {
   id: number;
