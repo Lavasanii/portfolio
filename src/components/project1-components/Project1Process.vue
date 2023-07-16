@@ -6,7 +6,13 @@
         :key="p.id"
         class="col-6 col-sm-4 col-md-2 text-center"
       >
-        <img :src="p.imgLink" class="img-fluid" alt="Profile" width="255" height="255" />
+        <img
+          :src="p.imgLink"
+          class="img-fluid"
+          alt="Profile"
+          width="255"
+          height="255"
+        />
         <div class="h5 process-title">{{ p.title }}</div>
         <div class="h6">{{ p.text }}</div>
       </div>
@@ -60,6 +66,10 @@ const processItems = ref<processItemsInterface[]>([
 
 <style lang="scss" scoped>
 @import "../../scss/theme.scss";
+
+* {
+  color: $project1-text-color;
+}
 
 .process-title {
   margin-top: 36px;

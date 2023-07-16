@@ -119,6 +119,10 @@ const colorTestItems = ref<imageItemsInterface[]>([
 <style lang="scss" scoped>
 @import "../../scss/theme.scss";
 
+* {
+  color: $project1-text-color;
+}
+
 .ideation-text {
   margin-top: 120px;
   margin-bottom: 120px;
