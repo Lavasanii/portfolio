@@ -1,14 +1,14 @@
 <template>
-  <div class="container" style="max-width: 972px">
+  <div class="container" style="max-width: 800px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
         <div class="display-6 discover-text">Discover</div>
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 972px">
-    <div class="h4 sections-title">User reaserch</div>
-    <div class="h5 sections-texts">
+  <div class="container" style="max-width: 800px">
+    <div class="sections-title">User reaserch</div>
+    <div class="sections-texts">
       Wir verschickten führten 4 Nutzerinterviews durch, um unsere Annahmen zu
       bestätigen. Das häufigste Feedback aus den Nutzerinterviews war, dass die
       Website zu chaotisch und überwältigend ist. Die von uns befragten Personen
@@ -30,9 +30,9 @@
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 972px">
-    <div class="h4 sections-title">Solutions</div>
-    <div class="h5 sections-texts">
+  <div class="container" style="max-width: 800px">
+    <div class="sections-title">Solutions</div>
+    <div class="sections-texts">
       <ul>
         <li>Dark website</li>
         <li>Fix navbar on Scroll (Sticky Navbar)</li>
@@ -76,10 +76,13 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
 
 .sections-title {
   font-weight: 700;
+  font-size: 22px;
 }
 
 .sections-texts {
   margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .discover-process-image {

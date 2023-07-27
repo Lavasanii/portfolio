@@ -1,12 +1,12 @@
 <template>
-  <div class="container" style="max-width: 972px">
+  <div class="container" style="max-width: 800px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
         <div class="display-6 define-text">Define</div>
       </div>
     </div>
-    <div class="h4 sections-title">User Personas</div>
-    <div class="h5 sections-texts">
+    <div class="sections-title">User Personas</div>
+    <div class="sections-texts">
       Transforms an abstract user group and its needs into a real person with
       real problems, which helps to develop empathy. in this case the person is
       about 30 and has finished his studies and is looking for a suitable course
@@ -124,10 +124,13 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 
 .sections-title {
   font-weight: 700;
+  font-size: 22px;
 }
 
 .sections-texts {
   margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .define-gender-age {

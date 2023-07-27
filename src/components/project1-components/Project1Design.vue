@@ -1,12 +1,12 @@
 <template>
-  <div class="container" style="max-width: 972px">
+  <div class="container" style="max-width: 800px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
         <div class="display-6 discover-text">Design</div>
       </div>
     </div>
-    <div class="h4 sections-title">Gathering Ideas</div>
-    <div class="h5 sections-texts">
+    <div class="sections-title">Gathering Ideas</div>
+    <div class="sections-texts">
       For this website as a learning Platffoem
     </div>
     <div class="h2 moodboard-header">moodboard</div>
@@ -202,10 +202,13 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
 
 .sections-title {
   font-weight: 700;
+  font-size: 22px;
 }
 
 .sections-texts {
   margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .moodboard-header {
