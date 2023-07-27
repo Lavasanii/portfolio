@@ -1,6 +1,6 @@
 <template>
   <Project1HeaderImage></Project1HeaderImage>
-  <div class="container" style="max-width: 972px">
+  <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
       A code - learning platform Rubrik's Code
     </div>
@@ -11,8 +11,8 @@
     </div>
     <div class="display-6 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
-      <div class="h4 sections-title">{{ s.title }}</div>
-      <div class="h5 sections-texts">{{ s.text }}</div>
+      <div class="sections-title">{{ s.title }}</div>
+      <div class="sections-texts">{{ s.text }}</div>
     </div>
   </div>
   <Project1Process class="margin-between-sections"></Project1Process>
@@ -90,9 +90,12 @@ const section1Items = ref<sectionsInterfaces[]>([
 
 .sections-title {
   font-weight: 700;
+  font-size: 22px;
 }
 
 .sections-texts {
   margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
 }
 </style>
