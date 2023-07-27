@@ -75,7 +75,7 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
 }
 
 .sections-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 22px;
   color: $project1-text-color !important;
 }
