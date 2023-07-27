@@ -16,11 +16,7 @@
               avatar will be very small at this size
               see  https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements -->
         <div class="col-md-4 d-none d-md-block">
-          <img
-            src="../../assets/images/avatar.png"
-            class="img-fluid"
-            alt="Profile"
-          />
+          <img src="../../assets/images/avatar.png" class="img-fluid" alt="Profile" />
         </div>
       </div>
     </div>
@@ -31,10 +27,11 @@
 
 <style lang="scss" scoped>
 @import "../../scss/theme.scss";
+
 .h-background-avatar {
   width: 100%;
   height: auto;
-  background-image: $home-avatar-background;
+  background: $home-avatar-background;
 }
 
 .h-text-title-color {
