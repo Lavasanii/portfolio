@@ -1,24 +1,12 @@
 <template>
-  <nav
-    class="navbar navbar-expand-lg bg-body-tertiary nav-background-color-variable"
-  >
+  <nav class="navbar navbar-expand-lg fixed-top nav-background-color-variable">
     <div class="container">
       <div class="navbar-brand nav-title-color">Saeid Farajollahlavasani</div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNavDropdown"
-      >
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item" v-for="n in navItems" :key="n.id">
             <router-link class="nav-link nav-items-color" :to="n.link">
@@ -78,4 +66,5 @@ const navItems = ref<navItemsInterface[]>([
 .nav-items-color {
   color: $navBar-items-color;
 }
+
 </style>

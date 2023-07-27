@@ -14,6 +14,7 @@ import Footer from "../src/components/Footer.vue";
 </script>
 
 <style lang="scss">
+body { padding-top: 50px; }
 * {
   font-family: "Poppins", sans-serif !important;
 }
