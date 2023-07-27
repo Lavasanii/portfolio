@@ -20,6 +20,9 @@
   <Project1Define></Project1Define>
   <Project1Ideation></Project1Ideation>
   <Project1Design></Project1Design>
+  <video class="mx-auto d-block videoWidth" controls>
+    <source :src="testvideo1" type="video/mp4">
+  </video>
 </template>
 
 <script setup lang="ts">
@@ -30,6 +33,7 @@ import Project1Discover from "../components/project1-components/Project1Discover
 import Project1Define from "../components/project1-components/Project1Define.vue";
 import Project1Ideation from "../components/project1-components/Project1Ideation.vue";
 import Project1Design from "../components/project1-components/Project1Design.vue";
+import testvideo1 from "../assets/videos/testvideo1.mp4"
 
 interface sectionsInterfaces {
   id: number;
@@ -97,5 +101,25 @@ const section1Items = ref<sectionsInterfaces[]>([
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 500px) {
+  .videoWidth {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .videoWidth {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+
+.videoWidth {
+  width: 1000px;
+}
 }
 </style>

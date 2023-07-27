@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer mt-4 pt-5 pb-2">
+  <footer class="footer pt-5 pb-2" style="margin-top: 80px;">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col my-2">
