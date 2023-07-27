@@ -63,7 +63,7 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
 @import "../../scss/theme.scss";
 
 * {
-  color: $project1-text-color;
+  color: $project1-text-color !important;
 }
 
 .discover-text {
@@ -77,12 +77,14 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
 .sections-title {
   font-weight: 700;
   font-size: 22px;
+  color: $project1-text-color !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
+  color: $project1-text-color !important;
 }
 
 .discover-process-image {

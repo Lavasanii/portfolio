@@ -74,7 +74,7 @@ const processItems = ref<processItemsInterface[]>([
 @import "../../scss/theme.scss";
 
 * {
-  color: $project1-text-color;
+  color: $project1-text-color !important;
 }
 
 .process-title {

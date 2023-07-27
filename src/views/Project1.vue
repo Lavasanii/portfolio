@@ -2,14 +2,14 @@
   <Project1HeaderImage></Project1HeaderImage>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      A code - learning platform Rubrik's Code
+      A code - Learning platform Rubrik's Code
     </div>
-    <div class="h6 text-center">
-      <strong>Dauer des Projekts:</strong> 3 Wochen <strong> Umfang:</strong>
-      redesign,
-      <strong> Prototyping Art:</strong> Einzelarbeit
+    <div class="h6 text-center" style="font-weight: 300;">
+      <strong>Duration of the project: </strong> 3 weeks <strong> Scope: </strong>
+      redesign
+      <strong>prototyping Type: </strong>individual work
     </div>
-    <div class="display-6 overview-text text-uppercase">Overview</div>
+    <div class="h3 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
       <div class="sections-title">{{ s.title }}</div>
       <div class="sections-texts">{{ s.text }}</div>
@@ -79,12 +79,12 @@ const section1Items = ref<sectionsInterfaces[]>([
 @import "../scss/theme.scss";
 
 * {
-  color: $project1-text-color;
+  color: $project1-text-color !important;
 }
 
 .overview-text {
-  margin-top: 200px;
-  font-weight: 700;
+  margin-top: 90px;
+  font-weight: 600;
   opacity: 0.6;
 }
 
@@ -95,12 +95,14 @@ const section1Items = ref<sectionsInterfaces[]>([
 .sections-title {
   font-weight: 700;
   font-size: 22px;
+  color: $project1-text-color !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
+  color: $project1-text-color !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -118,8 +120,8 @@ const section1Items = ref<sectionsInterfaces[]>([
 
 @media only screen and (min-width: 1100px) {
 
-.videoWidth {
-  width: 1000px;
-}
+  .videoWidth {
+    width: 1000px;
+  }
 }
 </style>

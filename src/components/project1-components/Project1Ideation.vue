@@ -135,7 +135,7 @@ const colorTestItems = ref<imageItemsInterface[]>([
 @import "../../scss/theme.scss";
 
 * {
-  color: $project1-text-color;
+  color: $project1-text-color !important;
 }
 
 .ideation-text {
@@ -149,12 +149,14 @@ const colorTestItems = ref<imageItemsInterface[]>([
 .sections-title {
   font-weight: 700;
   font-size: 22px;
+  color: $project1-text-color !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
+  color: $project1-text-color !important;
 }
 
 .Layout-header {

@@ -111,7 +111,7 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 @import "../../scss/theme.scss";
 
 * {
-  color: $project1-text-color;
+  color: $project1-text-color !important;
 }
 
 .define-text {
@@ -125,12 +125,14 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 .sections-title {
   font-weight: 700;
   font-size: 22px;
+  color: $project1-text-color !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
+  color: $project1-text-color !important;
 }
 
 .define-gender-age {
