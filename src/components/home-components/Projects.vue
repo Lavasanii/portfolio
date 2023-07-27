@@ -17,6 +17,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import project1Image from "../../assets/images/project1.png";
 
 interface projectItemsInterface {
   id: number;
@@ -29,13 +30,13 @@ const projectItems = ref<projectItemsInterface[]>([
   {
     id: 0,
     textinImg: "A code - learning platform - Rubrik's Code",
-    imgSrc: "../../../public//images/project1.png",
+    imgSrc: project1Image,
     link: "/rubrik-project",
   },
   {
     id: 1,
     textinImg: "A code - learning platform - Rubrik's Code",
-    imgSrc: "../../../public//images/project1.png",
+    imgSrc: project1Image,
     link: "/rubrik-project",
   },
 ]);

@@ -16,10 +16,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center define-gender-age">
       <div class="col text-center">
-        <img
-          src="../../../public//images//project1defineGenderAge.png"
-          class="img-fluid"
-        />
+        <img :src="project1defineGenderAge" class="img-fluid" />
       </div>
     </div>
     <div class="container-fluid" style="max-width: 1500px">
@@ -93,10 +90,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 d-flex justify-content-end">
-          <img
-            src="../../../public//images//project1definePersona.png"
-            class="img-fluid"
-          />
+          <img :src="project1definePersona" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -105,10 +99,12 @@
 
 <script setup lang="ts">
 // import { ref } from "vue";
-import briefcase from "../../../public/icons/briefcase.svg";
-import location from "../../../public/icons/location.svg";
-import person from "../../../public/icons/person.svg";
-import home from "../../../public/icons/home.svg";
+import briefcase from "../../assets/icons/briefcase.svg";
+import location from "../../assets/icons/location.svg";
+import person from "../../assets/icons/person.svg";
+import home from "../../assets/icons/home.svg";
+import project1defineGenderAge from "../../assets/images/project1defineGenderAge.png"
+import project1definePersona from "../../assets/images/project1definePersona.png"
 </script>
 
 <style lang="scss" scoped>
@@ -117,6 +113,7 @@ import home from "../../../public/icons/home.svg";
 * {
   color: $project1-text-color;
 }
+
 .define-text {
   margin-top: 120px;
   margin-bottom: 120px;

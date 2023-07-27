@@ -26,10 +26,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center discover-process-image">
       <div class="col text-center">
-        <img
-          src="../../../public//images//project1discoverProcess.png"
-          class="img-fluid"
-        />
+        <img :src="project1discoverProcess" class="img-fluid" />
       </div>
     </div>
   </div>
@@ -59,6 +56,7 @@
 
 <script setup lang="ts">
 // import { ref } from "vue";
+import project1discoverProcess from "../../assets/images/project1discoverProcess.png"
 </script>
 
 <style lang="scss" scoped>
@@ -67,6 +65,7 @@
 * {
   color: $project1-text-color;
 }
+
 .discover-text {
   margin-top: 120px;
   margin-bottom: 120px;

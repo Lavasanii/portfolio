@@ -17,7 +17,7 @@
               see  https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements -->
         <div class="col-md-4 d-none d-md-block">
           <img
-            src="../../../public/images/avatar.png"
+            src="../../assets/images/avatar.png"
             class="img-fluid"
             alt="Profile"
           />

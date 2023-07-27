@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col text-center">
         <img
-          src="../../../public//images//project1.png"
+          src="../../assets/images/project1.png"
           class="img-fluid"
           style="max-height: 450px"
         />

@@ -22,6 +22,11 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import processProject1_01 from "../../assets/icons/processProject1_01.svg"
+import processProject1_02 from "../../assets/icons/processProject1_02.svg"
+import processProject1_03 from "../../assets/icons/processProject1_03.svg"
+import processProject1_04 from "../../assets/icons/processProject1_04.svg"
+import processProject1_05 from "../../assets/icons/processProject1_05.svg"
 
 interface processItemsInterface {
   id: number;
@@ -35,31 +40,32 @@ const processItems = ref<processItemsInterface[]>([
     id: 0,
     title: "Discover",
     text: "Generate and gather ideas plus look at other ideas",
-    imgLink: "../../../public/icons/processProject1_01.svg",
+    imgLink: processProject1_01,
+    
   },
   {
     id: 1,
     title: "Define",
     text: "Contarct point of view based on user need",
-    imgLink: "../../../public/icons/processProject1_02.svg",
+    imgLink: processProject1_02,
   },
   {
     id: 2,
     title: "Ideation",
     text: "Brainstorming and come up with creative solutions",
-    imgLink: "../../../public/icons/processProject1_03.svg",
+    imgLink: processProject1_03,
   },
   {
     id: 3,
     title: "Design",
     text: "Develop ideation designs",
-    imgLink: "../../../public/icons/processProject1_04.svg",
+    imgLink: processProject1_04,
   },
   {
     id: 4,
     title: "Prototype",
     text: "Build a Prototype",
-    imgLink: "../../../public/icons/processProject1_05.svg",
+    imgLink: processProject1_05,
   },
 ]);
 </script>

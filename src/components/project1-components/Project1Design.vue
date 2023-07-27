@@ -12,11 +12,7 @@
     <div class="h2 moodboard-header">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img
-          src="../../../public//images/Project1designmoodboard.png"
-          alt="Bild"
-          class="img-fluid"
-        />
+        <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-center mt-5">
@@ -27,21 +23,13 @@
     <div class="h4 Layout-header text-uppercase">color</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img
-          src="../../../public//images/Project1designColors.png"
-          alt="Bild"
-          class="img-fluid"
-        />
+        <img :src="Project1designColors" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img
-          src="../../../public//images/Project1designGrids.png"
-          alt="Bild"
-          class="img-fluid"
-        />
+        <img :src="Project1designGrids" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
@@ -54,35 +42,20 @@
     <div class="h4 Layout-header text-uppercase">Icons</div>
     <div class="row justify-content-center">
       <div class="cal-12 text-center">
-        <img
-          v-for="i in iconslistItems"
-          :key="i.id"
-          :src="i.imgSrc"
-          :alt="i.name"
-          class="img-fluid mx-3 my-5"
-          width="60"
-          height="60"
-        />
+        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 my-5" width="60"
+          height="60" />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">animated icon</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img
-          src="../../../public//images/Project1designAnimationsColor.png"
-          alt="Bild"
-          class="img-fluid"
-        />
+        <img :src="Project1designAnimationsColor" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">Buttons</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img
-          src="../../../public//images/Project1designButtons.png"
-          alt="Bild"
-          class="img-fluid"
-        />
+        <img :src="Project1designButtons" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">User Flows</div>
@@ -90,18 +63,10 @@
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div
-          class="col-4 text-center my-4"
-          v-for="ul in userflowItemsLight"
-          :key="ul.id"
-        >
+        <div class="col-4 text-center my-4" v-for="ul in userflowItemsLight" :key="ul.id">
           <img :src="ul.imgSrc" :alt="ul.name" class="img-fluid" />
         </div>
-        <div
-          class="col-4 text-center my-4"
-          v-for="ud in userflowItemsDark"
-          :key="ud.id"
-        >
+        <div class="col-4 text-center my-4" v-for="ud in userflowItemsDark" :key="ud.id">
           <img :src="ud.imgSrc" :alt="ud.name" class="img-fluid" />
         </div>
       </div>
@@ -111,6 +76,27 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png"
+import Project1designColors from "../../assets//images/Project1designColors.png"
+import Project1designGrids from "../../assets/images/Project1designGrids.png"
+import Project1designAnimationsColor from "../../assets//images/Project1designAnimationsColor.png"
+import Project1designButtons from "../../assets/images/Project1designButtons.png"
+
+import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg"
+import mail from "../../assets/icons/project1-design-icons/mail.svg"
+import phone from "../../assets/icons/project1-design-icons/phone.svg"
+import facebook from "../../assets/icons/project1-design-icons/facebook.svg"
+import twitter from "../../assets/icons/project1-design-icons/twitter.svg"
+import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg"
+import github from "../../assets/icons/project1-design-icons/github.svg"
+import instagram from "../../assets/icons/project1-design-icons/instagram.svg"
+import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.png"
+import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.png"
+import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.png"
+import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.png"
+import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png"
+import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png"
+
 
 interface imageItemsInterface {
   id: number;
@@ -122,42 +108,42 @@ const iconslistItems = ref<imageItemsInterface[]>([
   {
     id: 0,
     name: "map-pin",
-    imgSrc: "../../../public/icons/project1-design-icons/map-pin.svg",
+    imgSrc: mapPin,
   },
   {
     id: 1,
     name: "mail",
-    imgSrc: "../../../public/icons/project1-design-icons/mail.svg",
+    imgSrc: mail,
   },
   {
     id: 2,
     name: "phone",
-    imgSrc: "../../../public/icons/project1-design-icons/phone.svg",
+    imgSrc: phone,
   },
   {
     id: 3,
     name: "facebook",
-    imgSrc: "../../../public/icons/project1-design-icons/facebook.svg",
+    imgSrc: facebook,
   },
   {
     id: 4,
     name: "twitter",
-    imgSrc: "../../../public/icons/project1-design-icons/twitter.svg",
+    imgSrc: twitter,
   },
   {
     id: 5,
     name: "linkedin",
-    imgSrc: "../../../public/icons/project1-design-icons/linkedin.svg",
+    imgSrc: linkedin,
   },
   {
     id: 6,
     name: "github",
-    imgSrc: "../../../public/icons/project1-design-icons/github.svg",
+    imgSrc: github,
   },
   {
     id: 7,
     name: "instagram",
-    imgSrc: "../../../public/icons/project1-design-icons/instagram.svg",
+    imgSrc: instagram,
   },
 ]);
 
@@ -166,17 +152,17 @@ const userflowItemsLight = ref<imageItemsInterface[]>([
   {
     id: 0,
     name: "Project1designUserFlowLight1",
-    imgSrc: "../../../public/images/Project1designUserFlowLight1.png",
+    imgSrc: Project1designUserFlowLight1,
   },
   {
     id: 1,
     name: "Project1designUserFlowLight2",
-    imgSrc: "../../../public/images/Project1designUserFlowLight2.png",
+    imgSrc: Project1designUserFlowLight2,
   },
   {
     id: 2,
     name: "Project1designUserFlowLight3",
-    imgSrc: "../../../public/images/Project1designUserFlowLight2.png",
+    imgSrc: Project1designUserFlowLight3,
   },
 ]);
 
@@ -184,17 +170,17 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
   {
     id: 0,
     name: "Project1designUserFlowDark1",
-    imgSrc: "../../../public/images/Project1designUserFlowDark1.png",
+    imgSrc: Project1designUserFlowDark1,
   },
   {
     id: 1,
     name: "Project1designUserFlowDark2",
-    imgSrc: "../../../public/images/Project1designUserFlowDark2.png",
+    imgSrc: Project1designUserFlowDark2,
   },
   {
     id: 2,
     name: "Project1designUserFlowDark3",
-    imgSrc: "../../../public/images/Project1designUserFlowDark3.png",
+    imgSrc: Project1designUserFlowDark3,
   },
 ]);
 </script>
@@ -205,6 +191,7 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
 * {
   color: $project1-text-color;
 }
+
 .discover-text {
   margin-top: 120px;
   margin-bottom: 120px;

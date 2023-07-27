@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import AvatarWithBackground from "../components/home-components/AvatarWithBackground.vue";
 import Projects from "../components/home-components/Projects.vue";
-import mouseIcon from "../../public/icons/mouse-icon.svg";
+import mouseIcon from "../assets/icons/mouse-icon.svg";
 </script>
 
 <style lang="scss" scoped></style>

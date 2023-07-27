@@ -3,13 +3,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col my-2">
-          <a
-            v-for="s in socialItems"
-            :key="s.id"
-            :href="s.linkToSocial"
-            target="_blank"
-            class="mx-2"
-          >
+          <a v-for="s in socialItems" :key="s.id" :href="s.linkToSocial" target="_blank" class="mx-2">
             <img :src="s.iconSrc" :alt="s.name" width="32" height="32" />
           </a>
         </div>
@@ -26,6 +20,9 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import linkedin from "../assets/icons/linkedin.svg"
+import facebook from "../assets/icons/facebook.svg"
+
 
 interface socialItemsInterface {
   id: number;
@@ -38,13 +35,13 @@ const socialItems = ref<socialItemsInterface[]>([
   {
     id: 0,
     name: "linkedin",
-    iconSrc: "../../public/icons/linkedin.svg",
+    iconSrc: linkedin,
     linkToSocial: "https://www.linkedin.com/in/saeid-farajollahlavasani/",
   },
   {
     id: 1,
     name: "Facebook",
-    iconSrc: "../../public/icons/facebook.svg",
+    iconSrc: facebook,
     linkToSocial: "https://www.facebook.com/saeid.lavasani",
   },
 ]);

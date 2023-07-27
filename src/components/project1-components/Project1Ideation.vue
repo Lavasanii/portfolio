@@ -40,6 +40,21 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import Project1ideationscreenVerteilungs1 from "../../assets/images/Project1ideationscreenVerteilungs1.png"
+import Project1ideationscreenVerteilungs2 from "../../assets/images/Project1ideationscreenVerteilungs2.png"
+import Project1ideationscreenVerteilungs3 from "../../assets/images/Project1ideationscreenVerteilungs3.png"
+import Project1ideationscreenVerteilungs4 from "../../assets/images/Project1ideationscreenVerteilungs4.png"
+import Project1ideationscreenVerteilungs5 from "../../assets/images/Project1ideationscreenVerteilungs5.png"
+import Project1ideationscreenVerteilungs6 from "../../assets/images/Project1ideationscreenVerteilungs6.png"
+import Project1ideationlyout1 from "../../assets/images/Project1ideationlyout1.png"
+import Project1ideationlyout2 from "../../assets/images/Project1ideationlyout2.png"
+import Project1ideationlyout3 from "../../assets/images/Project1ideationlyout3.png"
+import Project1ideationcolortest1 from "../../assets/images/Project1ideationcolortest1.png"
+import Project1ideationcolortest2 from "../../assets/images/Project1ideationcolortest2.png"
+import Project1ideationcolortest3 from "../../assets/images/Project1ideationcolortest3.png"
+import Project1ideationcolortest4 from "../../assets/images/Project1ideationcolortest4.png"
+import Project1ideationcolortest5 from "../../assets/images/Project1ideationcolortest5.png"
+import Project1ideationcolortest6 from "../../assets/images/Project1ideationcolortest6.png"
 
 interface imageItemsInterface {
   id: number;
@@ -49,69 +64,69 @@ interface imageItemsInterface {
 const screenDisImageItems = ref<imageItemsInterface[]>([
   {
     id: 0,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs1.png",
+    imgSrc: Project1ideationscreenVerteilungs1,
   },
   {
     id: 1,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs2.png",
+    imgSrc: Project1ideationscreenVerteilungs2,
   },
   {
     id: 2,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs3.png",
+    imgSrc: Project1ideationscreenVerteilungs3,
   },
   {
     id: 3,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs4.png",
+    imgSrc: Project1ideationscreenVerteilungs4,
   },
   {
     id: 4,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs5.png",
+    imgSrc: Project1ideationscreenVerteilungs5,
   },
   {
     id: 5,
-    imgSrc: "../../../public/images/Project1ideationscreenVerteilungs6.png",
+    imgSrc: Project1ideationscreenVerteilungs6,
   },
 ]);
 
 const layoutTestItems = ref<imageItemsInterface[]>([
   {
     id: 0,
-    imgSrc: "../../../public/images/Project1ideationlyout1.png",
+    imgSrc: Project1ideationlyout1,
   },
   {
     id: 1,
-    imgSrc: "../../../public/images/Project1ideationlyout2.png",
+    imgSrc: Project1ideationlyout2,
   },
   {
     id: 2,
-    imgSrc: "../../../public/images/Project1ideationlyout3.png",
+    imgSrc: Project1ideationlyout3,
   },
 ]);
 
 const colorTestItems = ref<imageItemsInterface[]>([
   {
     id: 0,
-    imgSrc: "../../../public/images/Project1ideationcolortest1.png",
+    imgSrc: Project1ideationcolortest1,
   },
   {
     id: 1,
-    imgSrc: "../../../public/images/Project1ideationcolortest2.png",
+    imgSrc: Project1ideationcolortest2,
   },
   {
     id: 2,
-    imgSrc: "../../../public/images/Project1ideationcolortest3.png",
+    imgSrc: Project1ideationcolortest3,
   },
   {
     id: 3,
-    imgSrc: "../../../public/images/Project1ideationcolortest4.png",
+    imgSrc: Project1ideationcolortest4,
   },
   {
     id: 4,
-    imgSrc: "../../../public/images/Project1ideationcolortest5.png",
+    imgSrc: Project1ideationcolortest5,
   },
   {
     id: 5,
-    imgSrc: "../../../public/images/Project1ideationcolortest6.png",
+    imgSrc: Project1ideationcolortest6,
   },
 ]);
 </script>
