@@ -15,6 +15,6 @@ import Footer from "../src/components/Footer.vue";
 
 <style lang="scss">
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 </style>
