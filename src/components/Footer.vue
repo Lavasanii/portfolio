@@ -8,7 +8,7 @@
           </p>
           <div class="col my-4">
             <a v-for="s in socialItems" :key="s.id" :href="s.linkToSocial" target="_blank" class="mx-2">
-              <img :src="s.iconSrc" :alt="s.name" width="32" height="32" />
+              <img :src="s.iconSrc" :alt="s.name" width="25" height="25" />
             </a>
           </div>
           <div class="w-100"></div>
