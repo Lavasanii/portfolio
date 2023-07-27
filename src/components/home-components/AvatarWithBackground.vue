@@ -4,10 +4,9 @@
       <div class="row">
         <div class="col-md-8">
           <div class="text-container mt-5">
-            <div class="display-4 section1-text-title-color">Who am i ?</div>
-            <p class="lead h-text-color mt-5">
-              Passionierter UX/UI-Designer mit einem Hintergrund in
-              Industriedesign. Mit besonderem Interesse an IoT-Produkten.
+            <div class="h1 section1-text-title-color">Who am i ?</div>
+            <p class="h-text-color mt-5" style="font-size: 18px !important;">
+              Passionate UX/UI designer with a background in industrial design and a special interest in IoT products.
             </p>
           </div>
         </div>
