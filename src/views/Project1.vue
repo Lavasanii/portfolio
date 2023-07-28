@@ -56,7 +56,12 @@ const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 1,
     title: "Problem",
-    text: "Durch meinegroße Leidenschaft für Coding habe ich mich für dieses Project entschieden, daheutzutage Learning Plattformen  sehrbliebt sind , entschteht eine große konkurrenz zwischen denen. Die jungere Leute , oder Die Stundent wollten schnell die Möglichkeiten, bzw. was dieWebsite zu Bieten hat, vergleichen, Hier kann eine Saubere UI sehr Hilfreich sein.Rubrik’sCode ist eine kleine StartUp , die durch ein erfahrener Programmier gegründetist. Der versuchte das Maschine Learning (ML) schneller und diskreter zumlehren und dazu hat er eine Methode entwickelt, die Mann die Schritte durch eineJernourny lernen kann.Die Websiteist durch zwei Hauptplan verteiltet. Der erste ist das Learning von ML mitPython durch die Bücher und der zweite Teil ist das Lernen von ML mit C# durchVideos. Es wurde dabei so gedacht, dass man die Schritte weitergehen soll unddabei kann man es sehr gut lernen. Die Lectures sind so eingeordnet dass manerst mal die Grundlage wie z.B: Mathematik für ML lernt und danach lernt man dieCoding und weitere Schritte.",
+    text: `<ol>
+  <li>cluttered interface: if the site has too many elements, text, or images on a page, it can be cluttered and difficult to navigate.</li>
+  <li>inconsistent design: inconsistent use of colors, fonts, and layouts can detract from the visual appearance and interfere with the user experience.</li>
+  <li>unresponsive design: an outdated or unresponsive design can turn users off and cause them to leave the site.</li>
+  <li> Difficult navigation: An unclear or confusing navigation structure can make it difficult for users to find the information they need.</li>  
+  </ol> `,
   },
   {
     id: 2,
@@ -71,7 +76,7 @@ const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 4,
     title: "Tools",
-    text: "User reasearch, Wire friming and visual design",
+    text: "Google Forms, Figma ",
   },
   {
     id: 5,
