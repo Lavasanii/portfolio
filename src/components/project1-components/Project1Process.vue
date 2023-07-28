@@ -10,8 +10,8 @@
           :src="p.imgLink"
           class="img-fluid"
           alt="Profile"
-          width="255"
-          height="255"
+          width="200"
+          height="200"
         />
         <div class="h5 process-title">{{ p.title }}</div>
         <div class="h6">{{ p.text }}</div>
