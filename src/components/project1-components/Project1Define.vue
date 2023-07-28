@@ -143,7 +143,7 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 .persona-text-bottom-icons {
   color: $project1-persona-text-bottom-icons-color;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 36px;
 }
 
