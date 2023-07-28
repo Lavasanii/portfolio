@@ -5,11 +5,7 @@
         <div class="display-6 discover-text">Design</div>
       </div>
     </div>
-    <div class="sections-title">Gathering Ideas</div>
-    <div class="sections-texts">
-      For this website as a learning Platffoem
-    </div>
-    <div class="h2 moodboard-header">moodboard</div>
+    <div class="moodboard-header">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
@@ -19,7 +15,7 @@
         Generate and gather ideas plus look at other ideas
       </div>
     </div>
-    <div class="h2 moodboard-header">styleguide</div>
+    <div class="moodboard-header">styleguide</div>
     <div class="h4 Layout-header text-uppercase">color</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
@@ -214,8 +210,8 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
 }
 
 .moodboard-header {
-  margin-top: 130px;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 22px;
   color: $project1-design-Headers-color;
 }
 
