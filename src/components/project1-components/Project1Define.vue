@@ -21,7 +21,7 @@
     </div>
     <div class="container-fluid" style="max-width: 1300px">
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="row">
             <div class="col">
               <img :src="briefcase" alt="briefcase" width="32" height="32" />
@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class=" sections-title">Needs</div>
           <div>
             <ul>
@@ -89,8 +89,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
-          <img :src="project1definePersona" class="img-fluid" width="365" height="490" />
+        <div class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center">
+          <img :src="project1definePersona" width="365" height="490" />
         </div>
       </div>
     </div>
