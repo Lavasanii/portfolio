@@ -19,7 +19,7 @@
         <img :src="project1defineGenderAge" class="img-fluid" />
       </div>
     </div>
-    <div class="container-fluid" style="max-width: 1500px">
+    <div class="container-fluid" style="max-width: 1300px">
       <div class="row">
         <div class="col-12 col-md-4">
           <div class="row">
@@ -51,8 +51,8 @@
             </div>
           </div>
           <div class="row persona-margin-top-rows">
-            <div class="h4 sections-title">Biography</div>
-            <div class="h5">
+            <div class=" sections-title">Biography</div>
+            <div>
               After his education as mechanical engineer, he find that needs,
               that he must learn ML and he decieded to use online plattform and
               the went fo RubrikCode
@@ -60,8 +60,8 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="h4 sections-title">Needs</div>
-          <div class="h5">
+          <div class=" sections-title">Needs</div>
+          <div>
             <ul>
               <li>Easy learn plattform</li>
               <li>
@@ -71,26 +71,26 @@
               <li>Discout items</li>
             </ul>
           </div>
-          <div class="h4 sections-title persona-margin-top-rows">
+          <div class="sections-title persona-margin-top-rows">
             Pain points
           </div>
-          <div class="h5">
+          <div>
             <ul>
               <li>He has not to much time to test the lerning method</li>
               <li>He Wants to see the result</li>
               <li>Limited budget</li>
             </ul>
           </div>
-          <div class="h4 sections-title persona-margin-top-rows">Goals</div>
-          <div class="h5">
+          <div class="sections-title persona-margin-top-rows">Goals</div>
+          <div>
             <ul>
               <li>to learn ML very fast</li>
               <li>To impliement what he learn in the work</li>
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-end">
-          <img :src="project1definePersona" class="img-fluid" />
+        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
+          <img :src="project1definePersona" class="img-fluid" width="365" height="490" />
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 
 .sections-title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   color: $project1-text-color !important;
 }
 
@@ -141,10 +141,10 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 }
 
 .persona-text-bottom-icons {
-  color: $project1-persona-text-bottom-icons-color;
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 36px;
+  color: $project1-persona-text-bottom-icons-color !important; 
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 25px;
 }
 
 .persona-margin-top-rows {
