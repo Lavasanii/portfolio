@@ -9,17 +9,15 @@
   <div class="container" style="max-width: 800px">
     <div class="sections-title">User reaserch</div>
     <div class="sections-texts">
-      Wir verschickten führten 4 Nutzerinterviews durch, um unsere Annahmen zu
-      bestätigen. Das häufigste Feedback aus den Nutzerinterviews war, dass die
-      Website zu chaotisch und überwältigend ist. Die von uns befragten Personen
-      bestätigten unsere Annahmen.
+      We conducted 4 user interviews to confirm our assumptions. The most common feedback from the user interviews was
+      that the site was too chaotic and overwhelming. The people we interviewed confirmed our assumptions.
       <div class="my-4"><strong>Key Findings</strong></div>
       <ul>
-        <li>Die Website ist verwirrend</li>
-        <li>Es gibt keine Kategorien</li>
-        <li>Die Inhalt muss übersichtlich sein</li>
-        <li>Keine Navigationsleiste</li>
-        <li>Die Bewertungen sind durcheinander</li>
+        <li>The website is confusing.</li>
+        <li>There are no categories.</li>
+        <li>The content must be clearly arranged.</li>
+        <li>No navigation bar.</li>
+        <li>The ratings are jumbled.</li>
       </ul>
     </div>
   </div>
@@ -34,21 +32,20 @@
     <div class="sections-title">Solutions</div>
     <div class="sections-texts">
       <ul>
-        <li>Dark website</li>
+        <li>Dark them website</li>
         <li>Fix navbar on Scroll (Sticky Navbar)</li>
-        <li>Split screen, it helps to show the direcly wich Subjects are</li>
+        <li>Implement a split screen to clearly display the subjects.</li>
         <li>
-          Design principles: clean, emotionally connected (colors, icons) ?
+          Design principles: clean, emotionally connected (colors, icons)
         </li>
-        <li>Brand Colour wich comes from C# logo</li>
+        <li>Utilize the brand color inspired by the C# logo.</li>
         <li>
-          Animation against the picture of Robout with inspration of Neural
-          Networks
+          Animation against the image of Robout with Inspiration of Neural Neural Networks
         </li>
         <li>
-          A preview of the first capture of lectures in both Part of courses
+          A preview of the first recording of lectures in both parts of courses
         </li>
-        <li>Use icons to ecourage the users</li>
+        <li>Use icons to encourage users</li>
       </ul>
     </div>
   </div>
