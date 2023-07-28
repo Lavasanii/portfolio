@@ -70,8 +70,8 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-discover-text-color;
-  border-bottom: 3px solid $project1-discover-text-color;
+  color: $project1-discover-text-color !important;
+  border-bottom: 3px solid $project1-discover-text-color !important;
 }
 
 .sections-title {

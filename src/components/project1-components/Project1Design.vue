@@ -196,8 +196,8 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-design-text-color;
-  border-bottom: 3px solid $project1-design-text-color;
+  color: $project1-design-text-color !important;
+  border-bottom: 3px solid $project1-design-text-color !important;
 }
 
 .sections-title {

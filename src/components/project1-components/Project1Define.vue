@@ -118,8 +118,8 @@ import project1definePersona from "../../assets/images/project1definePersona.png
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-define-text-color;
-  border-bottom: 3px solid $project1-define-text-color;
+  color: $project1-define-text-color !important;
+  border-bottom: 3px solid $project1-define-text-color !important;
 }
 
 .sections-title {
