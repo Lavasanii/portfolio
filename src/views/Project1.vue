@@ -5,7 +5,7 @@
       A code - Learning platform Rubrik's Code
     </div>
     <div class="h6 text-center" style="font-weight: 300;">
-      <strong>Duration of the project: </strong> 3 weeks
+      <strong>Duration of the project: </strong> 3 weeks | 
       <strong>prototyping Type: </strong>individual work
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
