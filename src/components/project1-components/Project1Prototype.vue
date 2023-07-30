@@ -98,7 +98,6 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
 .user-flow-image {
   padding-top: 78px;
   padding-bottom: 78px;
-  margin-top: 92px;
   margin-bottom: 92px;
   background-color: $project1-design-user-flow-background-color;
 }
