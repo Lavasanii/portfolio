@@ -54,7 +54,7 @@
 
 <script setup lang="ts">
 // import { ref } from "vue";
-import project1discoverProcess from "../../assets/images/project1discoverProcess.png"
+import project1discoverProcess from "../../assets/images/project1discoverProcess.svg"
 </script>
 
 <style lang="scss" scoped>

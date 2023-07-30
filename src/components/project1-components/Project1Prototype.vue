@@ -30,12 +30,12 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.png";
-import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.png";
-import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.png";
-import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.png";
-import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png";
-import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png";
+import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.svg";
+import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.svg";
+import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.svg";
+import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.svg";
+import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.svg";
+import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.svg";
 
 interface imageItemsInterface {
   id: number;
