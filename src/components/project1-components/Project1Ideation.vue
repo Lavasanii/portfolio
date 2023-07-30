@@ -17,7 +17,7 @@
       layout to prominently display the two specific course offerings that users
       are most interested in.
     </div>
-    <div class="h4 Layout-header text-uppercase">screen verteilungs</div>
+    <div class="h4 Layout-header text-uppercase">SCREEN DISTRIBUTION</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in screenDisImageItems">
         <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
