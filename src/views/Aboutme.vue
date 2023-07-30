@@ -1,22 +1,25 @@
 <template>
-  <div style="width: 600px; background-color: red; position: relative">
-    <div class="d-flex justify-content-end" style="position: relative">
-      <img
-        :src="saeidImageAboutme"
-        :alt="saeidImageAboutme"
-        class="rounded float-left"
-        style="max-width: 100%; height: auto"
-      />
-      <div
-        style="
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          z-index: 1;
-        "
-      >
-        <p style="background-color: white; padding: 10px">Hiii</p>
+  <div class="container">
+    <div class="row justify-content-start" style="margin-top: 40px">
+      <div class="col-6 d-flex align-items-center">
+        <p class="mt-6">
+          Growing up in an art-loving family, I developed a passion for art and
+          design. My father introduced me to the world of design, sparking my
+          enthusiasm. That's why I decided to pursue Industrial Design. While
+          interning in Berlin, I became involved in UX/UI design and realized
+          its importance. I am excited by complex topics and enjoy finding the
+          optimal solution for customers. As an Industrial Designer specializing
+          in UX/UI design, my goal is to develop innovative, aesthetically
+          pleasing products that meet the users' needs.
+        </p>
+      </div>
+      <div class="col-6">
+        <img
+          :src="saeidImageAboutme"
+          :alt="saeidImageAboutme"
+          class="rounded mx-auto d-block"
+          width="500"
+        />
       </div>
     </div>
   </div>
@@ -26,10 +29,4 @@
 import saeidImageAboutme from "../../src/assets/images/saeidImageAboutme.svg";
 </script>
 
-<style lang="scss" scoped>
-/* Hier können Sie das Styling des Texts anpassen */
-p {
-  font-size: 24px;
-  font-weight: bold;
-}
-</style>
+<style lang="scss" scoped></style>
