@@ -17,6 +17,9 @@
     <div class="row justify-content-center define-gender-age">
       <div class="col text-center">
         <img :src="project1defineGenderAge" class="img-fluid" />
+        <div class="text-center mt-2">
+          The charts are used to help you better understand who the users are. For example, they show the age and gender of the users
+        </div>
       </div>
     </div>
     <div class="container-fluid" style="max-width: 1300px">
@@ -51,7 +54,7 @@
             </div>
           </div>
           <div class="row persona-margin-top-rows">
-            <div class=" sections-title">Biography</div>
+            <div class="sections-title">Biography</div>
             <div>
               After his education as mechanical engineer, he find that needs,
               that he must learn ML and he decieded to use online plattform and
@@ -60,7 +63,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-          <div class=" sections-title">Needs</div>
+          <div class="sections-title">Needs</div>
           <div>
             <ul>
               <li>Easy learn plattform</li>
@@ -71,9 +74,7 @@
               <li>Discout items</li>
             </ul>
           </div>
-          <div class="sections-title persona-margin-top-rows">
-            Pain points
-          </div>
+          <div class="sections-title persona-margin-top-rows">Pain points</div>
           <div>
             <ul>
               <li>He has not to much time to test the lerning method</li>
@@ -89,7 +90,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center">
+        <div
+          class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center"
+        >
           <img :src="project1definePersona" width="365" height="490" />
         </div>
       </div>
@@ -103,8 +106,8 @@ import briefcase from "../../assets/icons/briefcase.svg";
 import location from "../../assets/icons/location.svg";
 import person from "../../assets/icons/person.svg";
 import home from "../../assets/icons/home.svg";
-import project1defineGenderAge from "../../assets/images/project1defineGenderAge.png"
-import project1definePersona from "../../assets/images/project1definePersona.png"
+import project1defineGenderAge from "../../assets/images/project1defineGenderAge.png";
+import project1definePersona from "../../assets/images/project1definePersona.png";
 </script>
 
 <style lang="scss" scoped>
@@ -136,12 +139,12 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 }
 
 .define-gender-age {
-  margin-top: 132px;
-  margin-bottom: 132px;
+  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 .persona-text-bottom-icons {
-  color: $project1-persona-text-bottom-icons-color !important; 
+  color: $project1-persona-text-bottom-icons-color !important;
   font-size: 20px;
   font-weight: 500;
   margin-top: 25px;

@@ -11,7 +11,7 @@
         <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
-      <div class="col text-center mt-5">
+      <div class="col text-center mt-2">
         Generate and gather ideas plus look at other ideas
       </div>
     </div>
@@ -35,17 +35,36 @@
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">typography</div>
+    <div class="row">
+      <div class="cal-4 text-start">
+        <img :src="Typografy1" class="img-fluid" />
+      </div>
+      <div class="cal-8 text-start">
+        Heading 1
+      </div>
+    </div>
     <div class="h4 Layout-header text-uppercase">Icons</div>
     <div class="row justify-content-center">
       <div class="cal-12 text-center">
-        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 my-5" width="60"
-          height="60" />
+        <img
+          v-for="i in iconslistItems"
+          :key="i.id"
+          :src="i.imgSrc"
+          :alt="i.name"
+          class="img-fluid mx-3 my-5"
+          width="60"
+          height="60"
+        />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">animated icon</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designAnimationsColor" alt="Bild" class="img-fluid" />
+        <img
+          :src="Project1designAnimationsColor"
+          alt="Bild"
+          class="img-fluid"
+        />
       </div>
     </div>
     <div class="h4 Layout-header text-uppercase">Buttons</div>
@@ -59,10 +78,18 @@
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div class="col-4 text-center my-4" v-for="ul in userflowItemsLight" :key="ul.id">
+        <div
+          class="col-4 text-center my-4"
+          v-for="ul in userflowItemsLight"
+          :key="ul.id"
+        >
           <img :src="ul.imgSrc" :alt="ul.name" class="img-fluid" />
         </div>
-        <div class="col-4 text-center my-4" v-for="ud in userflowItemsDark" :key="ud.id">
+        <div
+          class="col-4 text-center my-4"
+          v-for="ud in userflowItemsDark"
+          :key="ud.id"
+        >
           <img :src="ud.imgSrc" :alt="ud.name" class="img-fluid" />
         </div>
       </div>
@@ -72,27 +99,27 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png"
-import Project1designColors from "../../assets//images/Project1designColors.png"
-import Project1designGrids from "../../assets/images/Project1designGrids.png"
-import Project1designAnimationsColor from "../../assets//images/Project1designAnimationsColor.png"
-import Project1designButtons from "../../assets/images/Project1designButtons.png"
+import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png";
+import Project1designColors from "../../assets//images/Project1designColors.png";
+import Project1designGrids from "../../assets/images/Project1designGrids.png";
+import Project1designAnimationsColor from "../../assets//images/Project1designAnimationsColor.png";
+import Project1designButtons from "../../assets/images/Project1designButtons.png";
 
-import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg"
-import mail from "../../assets/icons/project1-design-icons/mail.svg"
-import phone from "../../assets/icons/project1-design-icons/phone.svg"
-import facebook from "../../assets/icons/project1-design-icons/facebook.svg"
-import twitter from "../../assets/icons/project1-design-icons/twitter.svg"
-import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg"
-import github from "../../assets/icons/project1-design-icons/github.svg"
-import instagram from "../../assets/icons/project1-design-icons/instagram.svg"
-import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.png"
-import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.png"
-import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.png"
-import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.png"
-import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png"
-import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png"
-
+import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
+import mail from "../../assets/icons/project1-design-icons/mail.svg";
+import phone from "../../assets/icons/project1-design-icons/phone.svg";
+import facebook from "../../assets/icons/project1-design-icons/facebook.svg";
+import twitter from "../../assets/icons/project1-design-icons/twitter.svg";
+import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg";
+import github from "../../assets/icons/project1-design-icons/github.svg";
+import instagram from "../../assets/icons/project1-design-icons/instagram.svg";
+import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.png";
+import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.png";
+import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.png";
+import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.png";
+import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png";
+import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png";
+import Typografy1 from "../../assets/icons/project1-design-typographies/Typografy1.svg";
 
 interface imageItemsInterface {
   id: number;
@@ -142,7 +169,6 @@ const iconslistItems = ref<imageItemsInterface[]>([
     imgSrc: instagram,
   },
 ]);
-
 
 const userflowItemsLight = ref<imageItemsInterface[]>([
   {
