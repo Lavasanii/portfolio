@@ -20,6 +20,7 @@
         <li>The ratings are jumbled.</li>
       </ul>
     </div>
+    <div class="sections-title" style="margin-top: 92px;">Sitemap</div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center discover-process-image">
@@ -87,7 +88,7 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
 .discover-process-image {
   padding-top: 78px;
   padding-bottom: 78px;
-  margin-top: 92px;
+  margin-top: 36px;
   margin-bottom: 92px;
   background-color: $project1-discover-process-background-color;
 }
