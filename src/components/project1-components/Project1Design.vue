@@ -123,7 +123,7 @@
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
-      <div class="cal-12 d-flex align-items-end justify-content-center ">
+      <div class="cal-12 d-flex align-items-end justify-content-center">
         <img
           v-for="b in buttonslistItems"
           :key="b.id"
@@ -131,27 +131,6 @@
           :alt="b.name"
           class="img-fluid mx-3 mt-5 mb-2"
         />
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">User Flows</div>
-  </div>
-  <div class="container-fluid">
-    <div class="row justify-content-center user-flow-image">
-      <div class="row justify-content-center">
-        <div
-          class="col-4 text-center my-4"
-          v-for="ul in userflowItemsLight"
-          :key="ul.id"
-        >
-          <img :src="ul.imgSrc" :alt="ul.name" class="img-fluid" />
-        </div>
-        <div
-          class="col-4 text-center my-4"
-          v-for="ud in userflowItemsDark"
-          :key="ud.id"
-        >
-          <img :src="ud.imgSrc" :alt="ud.name" class="img-fluid" />
-        </div>
       </div>
     </div>
   </div>
@@ -170,12 +149,6 @@ import twitter from "../../assets/icons/project1-design-icons/twitter.svg";
 import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg";
 import github from "../../assets/icons/project1-design-icons/github.svg";
 import instagram from "../../assets/icons/project1-design-icons/instagram.svg";
-import Project1designUserFlowLight1 from "../../assets/images/Project1designUserFlowLight1.png";
-import Project1designUserFlowLight2 from "../../assets/images/Project1designUserFlowLight2.png";
-import Project1designUserFlowLight3 from "../../assets/images/Project1designUserFlowLight3.png";
-import Project1designUserFlowDark1 from "../../assets/images/Project1designUserFlowDark1.png";
-import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png";
-import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png";
 import Typografy1 from "../../assets/icons/project1-design-typographies/Typografy1.svg";
 import Typografy2 from "../../assets/icons/project1-design-typographies/Typografy2.svg";
 import Typografy3 from "../../assets/icons/project1-design-typographies/Typografy3.svg";
@@ -232,42 +205,6 @@ const iconslistItems = ref<imageItemsInterface[]>([
     id: 7,
     name: "instagram",
     imgSrc: instagram,
-  },
-]);
-
-const userflowItemsLight = ref<imageItemsInterface[]>([
-  {
-    id: 0,
-    name: "Project1designUserFlowLight1",
-    imgSrc: Project1designUserFlowLight1,
-  },
-  {
-    id: 1,
-    name: "Project1designUserFlowLight2",
-    imgSrc: Project1designUserFlowLight2,
-  },
-  {
-    id: 2,
-    name: "Project1designUserFlowLight3",
-    imgSrc: Project1designUserFlowLight3,
-  },
-]);
-
-const userflowItemsDark = ref<imageItemsInterface[]>([
-  {
-    id: 0,
-    name: "Project1designUserFlowDark1",
-    imgSrc: Project1designUserFlowDark1,
-  },
-  {
-    id: 1,
-    name: "Project1designUserFlowDark2",
-    imgSrc: Project1designUserFlowDark2,
-  },
-  {
-    id: 2,
-    name: "Project1designUserFlowDark3",
-    imgSrc: Project1designUserFlowDark3,
   },
 ]);
 
@@ -331,14 +268,6 @@ const buttonslistItems = ref<imageItemsInterface[]>([
   padding-bottom: 6px;
   color: $project1-design-Headers-color;
   border-bottom: 1px solid $project1-design-Headers-color;
-}
-
-.user-flow-image {
-  padding-top: 78px;
-  padding-bottom: 78px;
-  margin-top: 92px;
-  margin-bottom: 92px;
-  background-color: $project1-design-user-flow-background-color;
 }
 
 .animeColsClass {

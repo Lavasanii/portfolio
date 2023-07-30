@@ -4,8 +4,8 @@
     <div class="h2 mt-5 text-center">
       A code - Learning platform Rubrik's Code
     </div>
-    <div class="h6 text-center" style="font-weight: 300;">
-      <strong>Duration of the project: </strong> 3 weeks | 
+    <div class="h6 text-center" style="font-weight: 300">
+      <strong>Duration of the project: </strong> 3 weeks |
       <strong>prototyping Type: </strong>individual work
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
@@ -19,8 +19,9 @@
   <Project1Define></Project1Define>
   <Project1Ideation></Project1Ideation>
   <Project1Design></Project1Design>
+  <Project1Prototype></Project1Prototype>
   <video class="mx-auto d-block videoWidth" controls>
-    <source :src="testvideo1" type="video/mp4">
+    <source :src="testvideo1" type="video/mp4" />
   </video>
 </template>
 
@@ -32,7 +33,8 @@ import Project1Discover from "../components/project1-components/Project1Discover
 import Project1Define from "../components/project1-components/Project1Define.vue";
 import Project1Ideation from "../components/project1-components/Project1Ideation.vue";
 import Project1Design from "../components/project1-components/Project1Design.vue";
-import testvideo1 from "../assets/videos/testvideo1.mp4"
+import Project1Prototype from "../components/project1-components/Project1Prototype.vue";
+import testvideo1 from "../assets/videos/testvideo1.mp4";
 
 interface sectionsInterfaces {
   id: number;
@@ -122,14 +124,12 @@ const section1Items = ref<sectionsInterfaces[]>([
 }
 
 @media only screen and (max-width: 1100px) {
-
   .videoWidth {
     width: 500px;
   }
 }
 
 @media only screen and (min-width: 1100px) {
-
   .videoWidth {
     width: 1000px;
   }
