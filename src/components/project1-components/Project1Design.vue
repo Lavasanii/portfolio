@@ -11,7 +11,7 @@
         <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
-      <div class="col text-center mt-2">
+      <div class="col text-center mt-4">
         Generate and gather ideas plus look at other ideas <br />
         I use a combination of modern, bold colors to encourage the user. The
         smooth design helps improve the user's eye comfort during use.
@@ -118,7 +118,7 @@
         <img :src="bookAnime1" alt="bookAnime1" style="height: 75%" />
       </div>
     </div>
-    <div class="col text-center mt-2 mb-5">
+    <div class="col text-center mt-4 mb-5">
       The usage of animated icons helps to make the page more interactive.
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
