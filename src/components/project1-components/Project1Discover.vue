@@ -11,7 +11,7 @@
     <div class="sections-texts">
       We conducted 4 user interviews to confirm our assumptions. The most common feedback from the user interviews was
       that the site was too chaotic and overwhelming. The people we interviewed confirmed our assumptions.
-      <div class="my-4"><strong>Key Findings</strong></div>
+      <div class="my-4 divider-bottom"><strong>Key Findings</strong></div>
       <ul>
         <li>The website is confusing.</li>
         <li>There are no categories.</li>
@@ -91,4 +91,9 @@ import project1discoverProcess from "../../assets/images/project1discoverProcess
   margin-bottom: 92px;
   background-color: $project1-discover-process-background-color;
 }
+
+.divider-bottom {
+  border-bottom: 1px solid $project1-discover-process-background-color;
+}
+
 </style>
