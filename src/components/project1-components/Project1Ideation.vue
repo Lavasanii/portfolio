@@ -17,19 +17,19 @@
       layout to prominently display the two specific course offerings that users
       are most interested in.
     </div>
-    <div class="h4 Layout-header text-uppercase">SCREEN DISTRIBUTION</div>
+    <div class="sections-subtitle text-uppercase">SCREEN DISTRIBUTION</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in screenDisImageItems">
         <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">layout test</div>
+    <div class="sections-subtitle text-uppercase">layout test</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in layoutTestItems">
         <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">color test</div>
+    <div class="sections-subtitle text-uppercase">color test</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in colorTestItems">
         <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
@@ -159,7 +159,9 @@ const colorTestItems = ref<imageItemsInterface[]>([
   color: $project1-text-color !important;
 }
 
-.Layout-header {
+.sections-subtitle {
+  font-size: 16px;
+  font-weight: 600 !important;
   margin-top: 70px;
   padding-bottom: 6px;
   color: $project1-ideation-Layout-header;
