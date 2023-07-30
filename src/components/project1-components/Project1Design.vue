@@ -52,11 +52,8 @@
         </div>
         <div class="col-9">
           <div class="row">
-            <div style="font-size: 36px; font-weight: bold">
-              Heading 1 - Poppins Bold - 36px
-            </div>
             <div style="font-size: 33px; font-weight: bold">
-              Heading 2 - Poppins Bold - 33px
+              Heading 1/2 - Poppins Bold - 36px/33px
             </div>
             <div style="font-size: 23px; font-weight: bold">
               Button - Poppins Bold - 23px
