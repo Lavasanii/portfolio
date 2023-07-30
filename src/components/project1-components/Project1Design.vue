@@ -13,7 +13,8 @@
       <div class="w-100"></div>
       <div class="col text-center mt-2">
         Generate and gather ideas plus look at other ideas <br />
-        The usage of animated icons helps to make the page more interactive.
+        I use a combination of modern, bold colors to encourage the user. The
+        smooth design helps improve the user's eye comfort during use.
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
@@ -105,7 +106,7 @@
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">animated icon</div>
-    <div class="row justify-content-center align-items-center my-5">
+    <div class="row justify-content-center align-items-center mt-5">
       <div
         class="col-5 mx-3 d-flex align-items-center justify-content-centeralign-self-center animeColsClass"
       >
@@ -116,6 +117,9 @@
       >
         <img :src="bookAnime1" alt="bookAnime1" style="height: 75%" />
       </div>
+    </div>
+    <div class="col text-center mt-2 mb-5">
+      The usage of animated icons helps to make the page more interactive.
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center my-5">
