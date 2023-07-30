@@ -105,13 +105,17 @@
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">animated icon</div>
-      <div class="row justify-content-center my-5">
-        <div class="col-5 text-center mx-3 align-self-center animeColsClass">
-          <img :src="videoAnime1" alt="videoAnime1" class="img-fluid" />
-        </div>
-        <div class="col-5 text-center mx-3 align-self-center animeColsClass">
-          <img :src="bookAnime1" alt="bookAnime1" class="img-fluid" />
-        </div>
+    <div class="row justify-content-center align-items-center my-5">
+      <div
+        class="col-5 mx-3 d-flex align-items-center justify-content-centeralign-self-center animeColsClass"
+      >
+        <img :src="videoAnime1" alt="videoAnime1" class="img-fluid" />
+      </div>
+      <div
+        class="col-5 mx-3 d-flex align-items-center justify-content-center animeColsClass"
+      >
+        <img :src="bookAnime1" alt="bookAnime1" style="height: 75%" />
+      </div>
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center my-5">
