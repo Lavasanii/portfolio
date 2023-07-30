@@ -105,14 +105,13 @@
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">animated icon</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
-        <img
-          :src="Project1designAnimationsColor"
-          alt="Bild"
-          class="img-fluid"
-        />
-      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-5 text-center mx-3 align-self-center animeColsClass">
+          <img :src="videoAnime1" alt="videoAnime1" class="img-fluid" />
+        </div>
+        <div class="col-5 text-center mx-3 align-self-center animeColsClass">
+          <img :src="bookAnime1" alt="bookAnime1" class="img-fluid" />
+        </div>
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center my-5">
@@ -149,7 +148,6 @@ import { ref } from "vue";
 import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png";
 import Project1designColors from "../../assets//images/Project1designColors.png";
 import Project1designGrids from "../../assets/images/Project1designGrids.png";
-import Project1designAnimationsColor from "../../assets//images/Project1designAnimationsColor.png";
 import Project1designButtons from "../../assets/images/Project1designButtons.png";
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
@@ -169,6 +167,8 @@ import Typografy1 from "../../assets/icons/project1-design-typographies/Typograf
 import Typografy2 from "../../assets/icons/project1-design-typographies/Typografy2.svg";
 import Typografy3 from "../../assets/icons/project1-design-typographies/Typografy3.svg";
 import Typografy4 from "../../assets/icons/project1-design-typographies/Typografy4.svg";
+import bookAnime1 from "../../assets/gifs/book.gif";
+import videoAnime1 from "../../assets/gifs/video.gif";
 
 interface imageItemsInterface {
   id: number;
@@ -305,5 +305,12 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
   margin-top: 92px;
   margin-bottom: 92px;
   background-color: $project1-design-user-flow-background-color;
+}
+
+.animeColsClass {
+  background-color: $project1-anime-background;
+  border-radius: 10px;
+  padding: 10px;
+  height: 270px;
 }
 </style>
