@@ -16,13 +16,13 @@
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
-    <div class="h4 Layout-header text-uppercase">color</div>
+    <div class="sections-subtitle text-uppercase">color</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designColors" alt="Bild" class="img-fluid" />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">Grid</div>
+    <div class="sections-subtitle text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designGrids" alt="Bild" class="img-fluid" />
@@ -34,7 +34,7 @@
         <br />Gutter : 20 Px
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">typography</div>
+    <div class="sections-subtitle text-uppercase">typography</div>
     <div class="row">
       <div class="cal-4 text-start">
         <img :src="Typografy1" class="img-fluid" />
@@ -43,7 +43,7 @@
         Heading 1
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">Icons</div>
+    <div class="sections-subtitle text-uppercase">Icons</div>
     <div class="row justify-content-center">
       <div class="cal-12 text-center">
         <img
@@ -57,7 +57,7 @@
         />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">animated icon</div>
+    <div class="sections-subtitle text-uppercase">animated icon</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img
@@ -67,13 +67,13 @@
         />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">Buttons</div>
+    <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designButtons" alt="Bild" class="img-fluid" />
       </div>
     </div>
-    <div class="h4 Layout-header text-uppercase">User Flows</div>
+    <div class="sections-subtitle text-uppercase">User Flows</div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
@@ -241,7 +241,9 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
   color: $project1-design-Headers-color;
 }
 
-.Layout-header {
+.sections-subtitle {
+  font-size: 16px;
+  font-weight: 600 !important;
   margin-top: 70px;
   padding-bottom: 6px;
   color: $project1-design-Headers-color;
