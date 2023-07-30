@@ -33,7 +33,7 @@
       <div class="col text-start mt-5">
         <strong>Desktop Total</strong>
         <br />Width : 1440 Px <br />Columns : 12 <br />Margin : 70 Px
-        <br />Gutter : 20 Px
+        <br />Gutter : 70 Px
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">typography</div>
@@ -99,7 +99,7 @@
           :key="i.id"
           :src="i.imgSrc"
           :alt="i.name"
-          class="img-fluid mx-3 my-5"
+          class="img-fluid mx-3 mt-5 mb-2"
           width="60"
           height="60"
         />
@@ -122,9 +122,15 @@
       The usage of animated icons helps to make the page more interactive.
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
-        <img :src="Project1designButtons" alt="Bild" class="img-fluid" />
+    <div class="row justify-content-center">
+      <div class="cal-12 d-flex align-items-end justify-content-center ">
+        <img
+          v-for="b in buttonslistItems"
+          :key="b.id"
+          :src="b.imgSrc"
+          :alt="b.name"
+          class="img-fluid mx-3 mt-5 mb-2"
+        />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">User Flows</div>
@@ -156,7 +162,6 @@ import { ref } from "vue";
 import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png";
 import Project1designColors from "../../assets//images/Project1designColors.png";
 import Project1designGrids from "../../assets/images/Project1designGrids.png";
-import Project1designButtons from "../../assets/images/Project1designButtons.png";
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
 import phone from "../../assets/icons/project1-design-icons/phone.svg";
@@ -177,6 +182,9 @@ import Typografy3 from "../../assets/icons/project1-design-typographies/Typograf
 import Typografy4 from "../../assets/icons/project1-design-typographies/Typografy4.svg";
 import bookAnime1 from "../../assets/gifs/book.gif";
 import videoAnime1 from "../../assets/gifs/video.gif";
+import Button1 from "../../assets/icons/project1-design-buttons/Button1.svg";
+import Button2 from "../../assets/icons/project1-design-buttons/Button2.svg";
+import Button3 from "../../assets/icons/project1-design-buttons/Button3.svg";
 
 interface imageItemsInterface {
   id: number;
@@ -260,6 +268,24 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
     id: 2,
     name: "Project1designUserFlowDark3",
     imgSrc: Project1designUserFlowDark3,
+  },
+]);
+
+const buttonslistItems = ref<imageItemsInterface[]>([
+  {
+    id: 0,
+    name: "Button1",
+    imgSrc: Button1,
+  },
+  {
+    id: 1,
+    name: "Button2",
+    imgSrc: Button2,
+  },
+  {
+    id: 2,
+    name: "Button3",
+    imgSrc: Button3,
   },
 ]);
 </script>
