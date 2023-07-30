@@ -12,7 +12,8 @@
       </div>
       <div class="w-100"></div>
       <div class="col text-center mt-2">
-        Generate and gather ideas plus look at other ideas
+        Generate and gather ideas plus look at other ideas <br />
+        The usage of animated icons helps to make the page more interactive.
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
