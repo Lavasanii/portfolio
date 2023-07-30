@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
-    <div class="sections-subtitle text-uppercase">color</div>
+    <div class="sections-subtitle text-uppercase">colors</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designColors" alt="Bild" class="img-fluid" />
@@ -136,7 +136,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png";
-import Project1designColors from "../../assets//images/Project1designColors.png";
+import Project1designColors from "../../assets/images/ColorSet.svg";
 import Project1designGrids from "../../assets/images/Project1designGrids.png";
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
