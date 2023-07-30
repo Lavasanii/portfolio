@@ -36,12 +36,58 @@
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">typography</div>
-    <div class="row">
-      <div class="cal-4 text-start">
-        <img :src="Typografy1" class="img-fluid" />
+    <div class="row mt-5">
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy1" class="img-fluid" />
+        </div>
+        <div class="col-9" style="font-size: 48px; font-weight: bold">
+          Numbers - Poppins Medium - 48px
+        </div>
       </div>
-      <div class="cal-8 text-start">
-        Heading 1
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy2" class="img-fluid" />
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div style="font-size: 36px; font-weight: bold">
+              Heading 1 - Poppins Bold - 36px
+            </div>
+            <div style="font-size: 33px; font-weight: bold">
+              Heading 2 - Poppins Bold - 33px
+            </div>
+            <div style="font-size: 23px; font-weight: bold">
+              Button - Poppins Bold - 23px
+            </div>
+            <div style="font-size: 18px; font-weight: bold">
+              Heading 3 - Poppins Bold - 18px
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy3" class="img-fluid" />
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div style="font-size: 18px; font-weight: 400">
+              Body - Poppins Regular - 18px
+            </div>
+            <div style="font-size: 18px; font-weight: 400">
+              Caption Text - Poppins Regular - 18px
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-start">
+        <div class="col-3">
+          <img :src="Typografy4" class="img-fluid" />
+        </div>
+        <div class="col-9" style="font-size: 18px; font-weight: bold">
+          Numbers - Poppins Bold - 48px
+        </div>
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Icons</div>
@@ -105,7 +151,6 @@ import Project1designColors from "../../assets//images/Project1designColors.png"
 import Project1designGrids from "../../assets/images/Project1designGrids.png";
 import Project1designAnimationsColor from "../../assets//images/Project1designAnimationsColor.png";
 import Project1designButtons from "../../assets/images/Project1designButtons.png";
-
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
 import phone from "../../assets/icons/project1-design-icons/phone.svg";
@@ -121,6 +166,9 @@ import Project1designUserFlowDark1 from "../../assets/images/Project1designUserF
 import Project1designUserFlowDark2 from "../../assets/images/Project1designUserFlowDark2.png";
 import Project1designUserFlowDark3 from "../../assets/images/Project1designUserFlowDark3.png";
 import Typografy1 from "../../assets/icons/project1-design-typographies/Typografy1.svg";
+import Typografy2 from "../../assets/icons/project1-design-typographies/Typografy2.svg";
+import Typografy3 from "../../assets/icons/project1-design-typographies/Typografy3.svg";
+import Typografy4 from "../../assets/icons/project1-design-typographies/Typografy4.svg";
 
 interface imageItemsInterface {
   id: number;
