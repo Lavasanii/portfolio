@@ -18,6 +18,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import project1Image from "../../assets/images/project1.png";
+import project2Image from "../../assets/images/Project2/Project2MockUp.png"
 
 interface projectItemsInterface {
   id: number;
@@ -35,9 +36,9 @@ const projectItems = ref<projectItemsInterface[]>([
   },
   {
     id: 1,
-    textinImg: "A code - learning platform - Rubrik's Code",
-    imgSrc: project1Image,
-    link: "/rubrik-project",
+    textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
+    imgSrc: project2Image,
+    link: "/catcheat-project",
   },
 ]);
 </script>
@@ -47,12 +48,15 @@ const projectItems = ref<projectItemsInterface[]>([
 .hover-effect {
   position: relative;
 }
+
 .hover-effect img {
   transition: opacity 0.3s ease;
 }
+
 .hover-effect:hover img {
   opacity: 0.2;
 }
+
 .hover-effect .hover-text {
   position: absolute;
   top: 50%;
@@ -62,7 +66,7 @@ const projectItems = ref<projectItemsInterface[]>([
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .hover-effect:hover .hover-text {
   opacity: 1;
-}
-</style>
+}</style>

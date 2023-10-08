@@ -1,7 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg fixed-top nav-background-color-variable">
     <div class="container">
-      <div class="navbar-brand nav-title-color">Saeid Farajollahlavasani</div>
+      <!-- <div class="navbar-brand nav-title-color" onclick="window.location.href = 'http://example.com'">Saeid Farajollahlavasani</div> -->
+      <a href="/" class="navbar-brand nav-title-color">Saeid Farajollahlavasani</a>
       <button
         class="navbar-toggler"
         type="button"
