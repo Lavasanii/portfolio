@@ -8,31 +8,31 @@
     <div class="moodboard-header">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
+        <img :src="MoodboardProject2" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-center mt-4">
-        Generate and gather ideas plus look at other ideas <br />
-        I use a combination of modern, bold colors to encourage the user. The
-        smooth design helps improve the user's eye comfort during use.
+        The Moodboard for CatchEat encapsulates the essence of the app - sleek
+        and stylish, vibrant and cheerful, positive and happy, smooth and seamless.
+        These elements give CatchEat a unique identity that brings energy and joy to users' everyday lives.
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
     <div class="sections-subtitle text-uppercase">colors</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designColors" alt="Bild" class="img-fluid" />
+        <img :src="Project2designColors" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designGrids" alt="Bild" class="img-fluid" />
+        <img :src="Project2designGrids" alt="Bild" class="img-fluid" align="left" />
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
-        <strong>Desktop Total</strong>
-        <br />Width : 1440 Px <br />Columns : 12 <br />Margin : 70 Px
+        <strong>Mobil Grid</strong>
+        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px
         <br />Gutter : 70 Px
       </div>
     </div>
@@ -40,15 +40,16 @@
     <div class="row mt-5">
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy1" class="img-fluid" />
+          <img :src="Typografy2p1" class="img-fluid" />
         </div>
-        <div class="col-9" style="font-size: 48px; font-weight: bold">
-          Numbers - Poppins Medium - 48px
+        <div class="col-9" style="font-size: 26px; font-weight: bold">
+          Heading <div class="row"> Heading Description</div>
+          <div class="col">Inter Bold</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy2" class="img-fluid" />
+          <img :src="Typografy2p2" class="img-fluid" />
         </div>
         <div class="col-9">
           <div class="row">
@@ -66,7 +67,7 @@
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy3" class="img-fluid" />
+          <img :src="Typografy2p3" class="img-fluid" />
         </div>
         <div class="col-9">
           <div class="row">
@@ -81,7 +82,7 @@
       </div>
       <div class="row align-items-center justify-content-start">
         <div class="col-3">
-          <img :src="Typografy4" class="img-fluid" />
+          <img :src="Typografy2p4" class="img-fluid" />
         </div>
         <div class="col-9" style="font-size: 18px; font-weight: bold">
           Numbers - Poppins Bold - 48px
@@ -91,28 +92,20 @@
     <div class="sections-subtitle text-uppercase">Icons</div>
     <div class="row justify-content-center">
       <div class="cal-12 text-center">
-        <img
-          v-for="i in iconslistItems"
-          :key="i.id"
-          :src="i.imgSrc"
-          :alt="i.name"
-          class="img-fluid mx-3 mt-5 mb-2"
-          width="60"
-          height="60"
-        />
+        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 mt-5 mb-2"
+          width="60" height="60" />
       </div>
     </div>
-    <div class="sections-subtitle text-uppercase">animated icon</div>
+    <div class="sections-subtitle text-uppercase">Illustration</div>
     <div class="row justify-content-center align-items-center mt-5">
-      <div
-        class="col-5 mx-3 d-flex align-items-center justify-content-centeralign-self-center animeColsClass"
-      >
-        <img :src="videoAnime1" alt="videoAnime1" class="img-fluid" />
+      <div class="col-4">
+        <img :src="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
       </div>
-      <div
-        class="col-5 mx-3 d-flex align-items-center justify-content-center animeColsClass"
-      >
-        <img :src="bookAnime1" alt="bookAnime1" style="height: 75%" />
+      <div class="col-4">
+        <img :src="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
+      </div>
+      <div class="col-4">
+        <img :src="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
       </div>
     </div>
     <div class="col text-center mt-4 mb-5">
@@ -121,13 +114,7 @@
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
       <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img
-          v-for="b in buttonslistItems"
-          :key="b.id"
-          :src="b.imgSrc"
-          :alt="b.name"
-          class="img-fluid mx-3 mt-5 mb-2"
-        />
+        <img v-for="b in buttonslistItems" :key="b.id" :src="b.imgSrc" :alt="b.name" class="img-fluid mx-3 mt-5 mb-2" />
       </div>
     </div>
   </div>
@@ -135,9 +122,9 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Project1designmoodboard from "../../assets/images/Project1designmoodboard.png";
-import Project1designColors from "../../assets/images/ColorSet.svg";
-import Project1designGrids from "../../assets/images/Project1designGrids.png";
+import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
+import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
+import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg"
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
 import phone from "../../assets/icons/project1-design-icons/phone.svg";
@@ -146,15 +133,16 @@ import twitter from "../../assets/icons/project1-design-icons/twitter.svg";
 import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg";
 import github from "../../assets/icons/project1-design-icons/github.svg";
 import instagram from "../../assets/icons/project1-design-icons/instagram.svg";
-import Typografy1 from "../../assets/icons/project1-design-typographies/Typografy1.svg";
-import Typografy2 from "../../assets/icons/project1-design-typographies/Typografy2.svg";
-import Typografy3 from "../../assets/icons/project1-design-typographies/Typografy3.svg";
-import Typografy4 from "../../assets/icons/project1-design-typographies/Typografy4.svg";
-import bookAnime1 from "../../assets/gifs/book.gif";
-import videoAnime1 from "../../assets/gifs/video.gif";
+import Typografy2p1 from "../../assets/icons/Project2-Icons/Typografy2p1.svg";
+import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
+import Typografy2p3 from "../../assets/icons/project2-Icons/Typografy2p3.svg";
+import Typografy2p4 from "../../assets/icons/project2-Icons/Typografy2p4.svg";
 import Button1 from "../../assets/icons/project1-design-buttons/Button1.svg";
 import Button2 from "../../assets/icons/project1-design-buttons/Button2.svg";
 import Button3 from "../../assets/icons/project1-design-buttons/Button3.svg";
+import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg"
+import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg"
+import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg"
 
 interface imageItemsInterface {
   id: number;
@@ -237,7 +225,9 @@ const buttonslistItems = ref<imageItemsInterface[]>([
   padding-bottom: 25px;
   color: $project2-design-text-color !important;
   border-bottom: 3px solid $project2-design-text-color !important;
-} // Design Text and Border Color 
+}
+
+// Design Text and Border Color 
 
 .sections-title {
   font-weight: 600;
@@ -265,12 +255,5 @@ const buttonslistItems = ref<imageItemsInterface[]>([
   padding-bottom: 6px;
   color: $project1-design-Headers-color;
   border-bottom: 1px solid $project1-design-Headers-color;
-}
-
-.animeColsClass {
-  background-color: $project1-anime-background;
-  border-radius: 10px;
-  padding: 10px;
-  height: 270px;
 }
 </style>

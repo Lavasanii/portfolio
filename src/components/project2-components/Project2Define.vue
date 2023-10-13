@@ -18,57 +18,73 @@
     </div>
     <div class="container-fluid" style="max-width: 1300px">
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="row">
-            <div class="sections-title">Biography</div>
-            <div>
-              Highly educated, currently employed full-time and earning a respectable salary
-            </div>
-            <div class="col">
-              <br />
-              <img :src="briefcase" alt="briefcase" width="32" height="32" />
-              <br />
-              <div class="persona-text-bottom-icons">Occupation</div>
-              <p>Software Developer</p>
-            </div>
-            <div class="col">
-              <br />
-              <br />
-              <br />
-              <br />
-              <img :src="location" alt="location" width="32" height="32" />
-              <br />
-              <div class="persona-text-bottom-icons">Location</div>
-              <p>Berlin, Germany</p>
-            </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4 mt-auto">
+          <div class="sections-title mb-2">Biography</div>
+          <div class="mb-4">
+            Highly educated, currently employed full-time and earning a respectable salary
           </div>
 
           <div class="row">
+
             <div class="col">
               <div class="row">
-                
                 <div class="col text-end my-auto ">
-                  <img :src="person" alt="person" width="32" height="32" />
+                  <img :src="briefcase" alt="briefcase" width="32" height="32" />
                 </div>
                 <div class="col py-4 pl-0 ">
-                  <div class="Info">Age</div>
-                  <p class="my-0">26-35</p> 
+                  <div class="Info">Occupation</div>
+                  <p class="my-0">Software Developer</p>
                 </div>
               </div>
             </div>
 
             <div class="col">
-              <img :src="home" alt="home" width="32" height="32" />
-              <br />
-              <div class="persona-text-bottom-icons">Family</div>
-              <p>Single</p>
+              <div class="row">
+                <div class="col text-end my-auto ">
+                  <img :src="location" alt="location" width="32" height="32" />
+                </div>
+                <div class="col py-4 pl-0 ">
+                  <div class="Info">Location</div>
+                  <p class="my-0">Berlin, Germany</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row persona-margin-top-rows">
 
           </div>
+
+          <div class="row">
+
+
+            <div class="col">
+              <div class="row">
+                <div class="col text-end my-auto ">
+                  <img :src="person" alt="person" width="32" height="32" />
+                </div>
+                <div class="col py-4 pl-0 ">
+                  <div class="Info">Age</div>
+                  <p class="my-0">26-35</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="row">
+                <div class="col text-end my-auto ">
+                  <img :src="home" alt="home" width="32" height="32" />
+                </div>
+                <div class="col py-4 pl-0 ">
+                  <div class="Info">Family</div>
+                  <p class="my-0">Single</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 mt-auto" style="padding-left: 65px;">
           <div class="sections-title">Behavior</div>
           <div>
             <ul>
@@ -80,7 +96,7 @@
               <li>Not much sports</li>
             </ul>
           </div>
-          <div class="sections-title persona-margin-top-rows">Needs & Goals</div>
+          <div class="sections-title" style="margin-top: 37px;">Needs & Goals</div>
           <div>
             <ul>
               <li>Good quality food</li>
@@ -90,13 +106,6 @@
               <li>Personal food preferences</li>
             </ul>
           </div>
-          <!-- <div class="sections-title persona-margin-top-rows">Goals</div>
-          <div>
-            <ul>
-              <li>to learn ML very fast</li>
-              <li>To impliement what he learn in the work</li>
-            </ul>
-          </div> -->
         </div>
         <div class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center">
           <img :src="Project2Personas" class="Personas-Bild" />
@@ -136,6 +145,10 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
   color: $project1-text-color !important;
 }
 
+//div {
+//  border: dashed;
+//}
+
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
@@ -148,6 +161,7 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
   margin-bottom: 92px;
 }
 
+
 .persona-text-bottom-icons {
   color: $project1-persona-text-bottom-icons-color !important;
   font-size: 20px;
@@ -155,18 +169,14 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
   margin-top: 25px;
 }
 
-.persona-margin-top-rows {
-  margin-top: 77px;
-}
 
 .Personas-Bild {
   width: 332px;
   height: 482px;
 }
-.Info { 
-  font-weight: 500;
-  font-size: 17px;
-  
-}
 
+.Info {
+  font-weight: 500;
+  font-size: 16,5px;
+}
 </style>

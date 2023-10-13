@@ -21,7 +21,7 @@
   <Project2Design></Project2Design>
   <Project2Prototype></Project2Prototype>
   <video class="mx-auto d-block videoWidth" controls>
-    <source :src="testvideo1" type="video/mp4" />
+    <source :src="CatchEatVideo" type="video/mp4" />
   </video>
 </template>
   
@@ -34,7 +34,7 @@ import Project2Define from "../components/project2-components/Project2Define.vue
 import Project2Ideation from "../components/project2-components/Project2Ideation.vue";
 import Project2Design from "../components/project2-components/Project2Design.vue";
 import Project2Prototype from "../components/project2-components/Project2Prototype.vue";
-import testvideo2 from "../assets/videos/testvideo1.mp4";
+import CatchEatVideo from "../assets/videos/CatchEatVideo.mp4";
 
 interface sectionsInterfaces {
   id: number;

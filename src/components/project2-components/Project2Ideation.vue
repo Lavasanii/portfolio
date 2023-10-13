@@ -7,33 +7,20 @@
     </div>
     <div class="sections-title">Gathering Ideas</div>
     <div class="sections-texts">
-      As a UX designer for this e-learning platform, I recognize the importance
-      of the landing page as the user's first point of interaction. Therefore, I
-      began the design process with a strong focus on the landing page. My goal
-      was to grab the user's attention and foster enthusiasm, achieved through
-      the use of a full-screen animation. The animation was carefully crafted to
-      resemble the points and connected lines of a neural network, which is at
-      the core of machine learning. Additionally, I utilized a split screen
-      layout to prominently display the two specific course offerings that users
-      are most interested in.
+      The inception of ideation involves sketching and wireframing,
+      so I created numerous variations of sketches.
+      Each sketch represented a different angle or perspective,
+      allowing for a comprehensive exploration of potential ideas.
+      This process not only sparked creativity but also provided a
+      tangible foundation for the subsequent stages of development.
     </div>
-    <div class="sections-subtitle text-uppercase">SCREEN DISTRIBUTION</div>
+    <div class="sections-subtitle text-uppercase">LOW FI</div>
     <div class="row justify-content-center">
-      <div class="col-4 text-center my-4" v-for="i in screenDisImageItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
+      
+      <div class="col LowFi">
+        <img :src="LowFi" class="img-fluid" />
       </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">layout test</div>
-    <div class="row justify-content-center">
-      <div class="col-4 text-center my-4" v-for="i in layoutTestItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">color test</div>
-    <div class="row justify-content-center">
-      <div class="col-4 text-center my-4" v-for="i in colorTestItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
-      </div>
+
     </div>
   </div>
 </template>
@@ -55,6 +42,7 @@ import Project1ideationcolortest3 from "../../assets/images/Project1ideationcolo
 import Project1ideationcolortest4 from "../../assets/images/Project1ideationcolortest4.png"
 import Project1ideationcolortest5 from "../../assets/images/Project1ideationcolortest5.png"
 import Project1ideationcolortest6 from "../../assets/images/Project1ideationcolortest6.png"
+import LowFi from "../../assets/images/Project2/LowFi.svg"
 
 interface imageItemsInterface {
   id: number;
@@ -167,4 +155,10 @@ const colorTestItems = ref<imageItemsInterface[]>([
   color: $project1-ideation-Layout-header;
   border-bottom: 1px solid $project1-ideation-Layout-header;
 }
+
+.LowFi {
+  margin-top: 50px;
+  
+}
+
 </style>
