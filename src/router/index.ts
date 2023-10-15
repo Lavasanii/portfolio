@@ -28,6 +28,10 @@ const router = createRouter({
       component: Aboutme,
     },
   ],
+  scrollBehavior() {
+    // alwasy Scroll to top
+    return { top: 0 };
+  },
 });
 
 export default router;
