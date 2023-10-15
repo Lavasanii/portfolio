@@ -121,8 +121,8 @@
           :src="i.imgSrc"
           :alt="i.name"
           class="img-fluid mx-3 mt-5 mb-2"
-          width="60"
-          height="60"
+          width="40"
+          height="45"
         />
       </div>
     </div>
@@ -144,13 +144,7 @@
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
       <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img
-          v-for="b in buttonslistItems"
-          :key="b.id"
-          :src="b.imgSrc"
-          :alt="b.name"
-          class="img-fluid mx-3 mt-5 mb-2"
-        />
+        <img :src="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
       </div>
     </div>
   </div>
@@ -161,21 +155,17 @@ import { ref } from "vue";
 import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
 import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
 import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
-import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
-import mail from "../../assets/icons/project1-design-icons/mail.svg";
-import phone from "../../assets/icons/project1-design-icons/phone.svg";
-import facebook from "../../assets/icons/project1-design-icons/facebook.svg";
-import twitter from "../../assets/icons/project1-design-icons/twitter.svg";
-import linkedin from "../../assets/icons/project1-design-icons/linkedin.svg";
-import github from "../../assets/icons/project1-design-icons/github.svg";
-import instagram from "../../assets/icons/project1-design-icons/instagram.svg";
+import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
+import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
+import LunchIconP2 from "../../assets/icons/Project2-Icons/LunchIconP2.svg";
+import zoomIconP2 from "../../assets/icons/Project2-Icons/zoomIconP2.svg";
+import personIconP2 from "../../assets/icons/Project2-Icons/personIconP2.svg";
+import LocationIconP2 from "../../assets/icons/Project2-Icons/LocationIconP2.svg";
 import Typografy2p1 from "../../assets/icons/Project2-Icons/Typografy2p1.svg";
 import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
 import Typografy2p3 from "../../assets/icons/project2-Icons/Typografy2p3.svg";
 import Typografy2p4 from "../../assets/icons/project2-Icons/Typografy2p4.svg";
-import Button1 from "../../assets/icons/project1-design-buttons/Button1.svg";
-import Button2 from "../../assets/icons/project1-design-buttons/Button2.svg";
-import Button3 from "../../assets/icons/project1-design-buttons/Button3.svg";
+import ButtonsP2 from "../../assets/icons/project2-Icons/ButtonsP2.svg";
 import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
 import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
 import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
@@ -189,61 +179,33 @@ interface imageItemsInterface {
 const iconslistItems = ref<imageItemsInterface[]>([
   {
     id: 0,
-    name: "map-pin",
-    imgSrc: mapPin,
+    name: "homeIconP2",
+    imgSrc: homeIconP2,
   },
   {
     id: 1,
-    name: "mail",
-    imgSrc: mail,
+    name: "arrowIconP2",
+    imgSrc: arrowIconP2,
   },
   {
     id: 2,
-    name: "phone",
-    imgSrc: phone,
+    name: "LunchIconP2",
+    imgSrc: LunchIconP2,
   },
   {
     id: 3,
-    name: "facebook",
-    imgSrc: facebook,
+    name: "zoomIconP2",
+    imgSrc: zoomIconP2,
   },
   {
     id: 4,
-    name: "twitter",
-    imgSrc: twitter,
+    name: "personIconP2",
+    imgSrc: personIconP2,
   },
   {
     id: 5,
-    name: "linkedin",
-    imgSrc: linkedin,
-  },
-  {
-    id: 6,
-    name: "github",
-    imgSrc: github,
-  },
-  {
-    id: 7,
-    name: "instagram",
-    imgSrc: instagram,
-  },
-]);
-
-const buttonslistItems = ref<imageItemsInterface[]>([
-  {
-    id: 0,
-    name: "Button1",
-    imgSrc: Button1,
-  },
-  {
-    id: 1,
-    name: "Button2",
-    imgSrc: Button2,
-  },
-  {
-    id: 2,
-    name: "Button3",
-    imgSrc: Button3,
+    name: "LocationIconP2",
+    imgSrc: LocationIconP2,
   },
 ]);
 </script>
