@@ -164,7 +164,7 @@ const GalaxyPlusItems2 = ref<imageItemsInterface[]>([
   margin-bottom: 92px;
   padding-left: 150px;
   padding-right: 150px;
-  background-color: $project1-design-user-flow-background-color;
+  background-color: rgba(73, 107, 52, 0.35);
 }
 
 .sections-title {
