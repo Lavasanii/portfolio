@@ -13,8 +13,9 @@
       <div class="w-100"></div>
       <div class="col text-center mt-4">
         The Moodboard for CatchEat encapsulates the essence of the app - sleek
-        and stylish, vibrant and cheerful, positive and happy, smooth and seamless.
-        These elements give CatchEat a unique identity that brings energy and joy to users' everyday lives.
+        and stylish, vibrant and cheerful, positive and happy, smooth and
+        seamless. These elements give CatchEat a unique identity that brings
+        energy and joy to users' everyday lives.
       </div>
     </div>
     <div class="moodboard-header">styleguide</div>
@@ -27,13 +28,18 @@
     <div class="sections-subtitle text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project2designGrids" alt="Bild" class="img-fluid" align="left" />
+        <img
+          :src="Project2designGrids"
+          alt="Bild"
+          class="img-fluid"
+          align="left"
+        />
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
         <strong>Mobil Grid</strong>
-        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px
-        <br />Gutter : 70 Px
+        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px <br />Gutter
+        : 70 Px
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">typography</div>
@@ -42,58 +48,82 @@
         <div class="col-3">
           <img :src="Typografy2p1" class="img-fluid" />
         </div>
-        <div class="col-9" style="font-size: 26px; font-weight: bold">
-          Heading <div class="row"> Heading Description</div>
-          <div class="col">Inter Bold</div>
+        <div class="col-4">
+          <div style="font-size: 26px; font-weight: 700">Heading</div>
+          <div style="font-size: 18px; font-weight: 700">
+            Heading Description
+          </div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 26px; font-weight: 700">Inter Bold</div>
+          <div style="font-size: 18px; font-weight: 700">Inter Bold</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 26px; font-weight: 700">26px</div>
+          <div style="font-size: 18px; font-weight: 700">18px</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
           <img :src="Typografy2p2" class="img-fluid" />
         </div>
-        <div class="col-9">
-          <div class="row">
-            <div style="font-size: 33px; font-weight: bold">
-              Heading 1/2 - Poppins Bold - 36px/33px
-            </div>
-            <div style="font-size: 23px; font-weight: bold">
-              Button - Poppins Bold - 23px
-            </div>
-            <div style="font-size: 18px; font-weight: bold">
-              Heading 3 - Poppins Bold - 18px
-            </div>
-          </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 600">Heading Photo</div>
+          <div style="font-size: 13px; font-weight: 600">Menu</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 600">Inter Bold</div>
+          <div style="font-size: 13px; font-weight: 600">Inter Bold</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 20px; font-weight: 600">20px</div>
+          <div style="font-size: 13px; font-weight: 600">13px</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
           <img :src="Typografy2p3" class="img-fluid" />
         </div>
-        <div class="col-9">
-          <div class="row">
-            <div style="font-size: 18px; font-weight: 400">
-              Body - Poppins Regular - 18px
-            </div>
-            <div style="font-size: 18px; font-weight: 400">
-              Caption Text - Poppins Regular - 18px
-            </div>
-          </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 500">Button</div>
+          <div style="font-size: 16px; font-weight: 500">Caption Text</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 500">Inter Medium</div>
+          <div style="font-size: 16px; font-weight: 500">Inter Medium</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 20px; font-weight: 500">20px</div>
+          <div style="font-size: 16px; font-weight: 500">16px</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start">
         <div class="col-3">
           <img :src="Typografy2p4" class="img-fluid" />
         </div>
-        <div class="col-9" style="font-size: 18px; font-weight: bold">
-          Numbers - Poppins Bold - 48px
+        <div class="col-4">
+          <div style="font-size: 16px; font-weight: 400">Body</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 16px; font-weight: 400">Inter Regular</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 16px; font-weight: 400">16px</div>
         </div>
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Icons</div>
     <div class="row justify-content-center">
       <div class="cal-12 text-center">
-        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 mt-5 mb-2"
-          width="60" height="60" />
+        <img
+          v-for="i in iconslistItems"
+          :key="i.id"
+          :src="i.imgSrc"
+          :alt="i.name"
+          class="img-fluid mx-3 mt-5 mb-2"
+          width="60"
+          height="60"
+        />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Illustration</div>
@@ -114,7 +144,13 @@
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
       <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img v-for="b in buttonslistItems" :key="b.id" :src="b.imgSrc" :alt="b.name" class="img-fluid mx-3 mt-5 mb-2" />
+        <img
+          v-for="b in buttonslistItems"
+          :key="b.id"
+          :src="b.imgSrc"
+          :alt="b.name"
+          class="img-fluid mx-3 mt-5 mb-2"
+        />
       </div>
     </div>
   </div>
@@ -124,7 +160,7 @@
 import { ref } from "vue";
 import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
 import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
-import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg"
+import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
 import mapPin from "../../assets/icons/project1-design-icons/map-pin.svg";
 import mail from "../../assets/icons/project1-design-icons/mail.svg";
 import phone from "../../assets/icons/project1-design-icons/phone.svg";
@@ -140,9 +176,9 @@ import Typografy2p4 from "../../assets/icons/project2-Icons/Typografy2p4.svg";
 import Button1 from "../../assets/icons/project1-design-buttons/Button1.svg";
 import Button2 from "../../assets/icons/project1-design-buttons/Button2.svg";
 import Button3 from "../../assets/icons/project1-design-buttons/Button3.svg";
-import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg"
-import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg"
-import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg"
+import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
+import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
+import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
 
 interface imageItemsInterface {
   id: number;
@@ -227,7 +263,7 @@ const buttonslistItems = ref<imageItemsInterface[]>([
   border-bottom: 3px solid $project2-design-text-color !important;
 }
 
-// Design Text and Border Color 
+// Design Text and Border Color
 
 .sections-title {
   font-weight: 600;
