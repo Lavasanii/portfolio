@@ -21,14 +21,14 @@ npm run build
 On your computer
 
 ```sh
-cd PROJECT_FOLDER
+cd PROJECT_FOLDER_PATH
 npm run build
-scp -r dist root@SERVER_ID:/home/portfolio/
+scp -r dist root@SERVER_IP:/home/portfolio/
 ```
 Open the server via ssh and run this
 
 ```sh
-ssh root@SERVER_ID
+ssh root@SERVER_IP
 sudo nginx -t
 sudo systemctl restart nginx
 ```
