@@ -15,3 +15,20 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Deploy On Server
+
+On your computer
+
+```sh
+cd PROJECT_FOLDER
+npm run build
+scp -r dist root@SERVER_ID:/home/portfolio/
+```
+Open the server via ssh and run this
+
+```sh
+ssh root@SERVER_ID
+sudo nginx -t
+sudo systemctl restart nginx
+```
