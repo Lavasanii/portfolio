@@ -23,7 +23,7 @@ On your computer
 ```sh
 cd PROJECT_FOLDER_PATH
 npm run build
-scp -r dist root@SERVER_IP:/home/portfolio/
+scp -r dist root@104.248.35.250:/home/portfolio/
 ```
 Open the server via ssh and run this
 
