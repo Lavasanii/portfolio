@@ -34,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import saeidImageAboutme from "../../src/assets/images/saeidImageAboutme.svg";
+import saeidImageAboutme from "../../src/assets/images/AboutMe/Me.png";
 </script>
 
 <style lang="scss" scoped>
