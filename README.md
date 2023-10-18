@@ -28,7 +28,7 @@ scp -r dist root@104.248.35.250:/home/portfolio/
 Open the server via ssh and run this
 
 ```sh
-ssh root@SERVER_IP
+ssh root@104.248.35.250
 sudo nginx -t
 sudo systemctl restart nginx
 ```
