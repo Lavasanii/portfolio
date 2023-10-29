@@ -69,8 +69,8 @@ const navItems = ref<navItemsInterface[]>([
   {
     id: 3,
     name: "Industrial Design",
-    link: "/industrial-design",
-    active: false,
+    link: "/IDHome",
+    active: true,
   },
 ]);
 </script>
