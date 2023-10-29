@@ -12,7 +12,7 @@
 <script setup lang="ts">
 //import IDprojectBODUM from"../assets/images/IDimages/Bodum/BodumHA.svg";
 import AvatarWithBackground from "../components/home-components/AvatarWithBackground.vue";
-import Projects from "../components/home-components/ProjectsCopy.vue";
+import Projects from "../components/home-components/ProjectsID.vue";
 </script>
 
 <style lang="scss" scoped>
