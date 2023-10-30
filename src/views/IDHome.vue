@@ -1,5 +1,5 @@
 <template>
-  <AvatarWithBackground></AvatarWithBackground>
+  <IDlandingPageBackground></IDlandingPageBackground>
   <div class="mousey mx-auto d-block my-5">
     <div class="scroller"></div>
   </div>
@@ -10,8 +10,7 @@
 </template>
 
 <script setup lang="ts">
-//import IDprojectBODUM from"../assets/images/IDimages/Bodum/BodumHA.svg";
-import AvatarWithBackground from "../components/home-components/AvatarWithBackground.vue";
+import IDlandingPageBackground from "../components/home-components/IDlandingPageBackground.vue";
 import Projects from "../components/home-components/ProjectsID.vue";
 </script>
 

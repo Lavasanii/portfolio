@@ -1,5 +1,5 @@
 <template>
-  <Project1HeaderImage></Project1HeaderImage>
+  <IDProject1HeaderImage></IDProject1HeaderImage>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
       A code - Learning platform Rubrik's Code
@@ -14,12 +14,12 @@
       <div class="sections-texts"><span v-html="s.text"></span></div>
     </div>
   </div>
-  <Project1Process class="margin-between-sections"></Project1Process>
-  <Project1Discover></Project1Discover>
-  <Project1Define></Project1Define>
-  <Project1Ideation></Project1Ideation>
-  <Project1Design></Project1Design>
-  <Project1Prototype></Project1Prototype>
+  <IDProject1Process class="margin-between-sections"></IDProject1Process>
+  <IDProject1Discover></IDProject1Discover>
+  <IDProject1Define></IDProject1Define>
+  <IDProject1Ideation></IDProject1Ideation>
+  <IDProject1Design></IDProject1Design>
+  <IDProject1Prototype></IDProject1Prototype>
   <video class="mx-auto d-block videoWidth" controls>
     <source :src="testvideo1" type="video/mp4" />
   </video>
@@ -27,13 +27,13 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Project1HeaderImage from "../components/project1-components/Project1HeaderImage.vue";
-import Project1Process from "../components/project1-components/Project1Process.vue";
-import Project1Discover from "../components/project1-components/Project1Discover.vue";
-import Project1Define from "../components/project1-components/Project1Define.vue";
-import Project1Ideation from "../components/project1-components/Project1Ideation.vue";
-import Project1Design from "../components/project1-components/Project1Design.vue";
-import Project1Prototype from "../components/project1-components/Project1Prototype.vue";
+import IDProject1HeaderImage from "../components/IDComponents/IDproject1-components/IDProject1HeaderImage.vue";
+// import IDProject1Process from "../components/IDComponents/IDproject1-components/IDProject1Process.vue";
+// import IDProject1Discover from "../components/IDComponents/IDproject1-components/IDProject1Discover.vue";
+// import IDProject1Define from "../components/IDComponents/IDproject1-components/IDProject1Define.vue";
+// import IDProject1Ideation from "../components/IDComponents/IDproject1-components/IDProject1Ideation.vue";
+// import IDProject1Design from "../components/IDComponents/IDproject1-components/IDProject1Design.vue";
+// import IDProject1Prototype from "../components/IDComponents/IDproject1-components/IDProject1Prototype.vue";
 import testvideo1 from "../assets/videos/testvideo1.mp4";
 
 interface sectionsInterfaces {

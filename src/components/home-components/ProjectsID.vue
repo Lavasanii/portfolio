@@ -17,7 +17,6 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-//import IDprojectBODUM from"../assets/images/IDimages/Bodum/BodumHA.svg";
 import project1Image from "../../assets/images/IDimages/Bodum/BodumHA.svg";
 import project2Image from "../../assets/images/IDimages/Imbus/ImbusHA.svg"
 
@@ -31,13 +30,13 @@ interface projectItemsInterface {
 const projectItems = ref<projectItemsInterface[]>([
   {
     id: 0,
-    textinImg: "A code - learning platform - Rubrik's Code",
+    textinImg: "BODUM LIBRA Personal scale",
     imgSrc: project1Image,
     link: "/IDProject1Bodum",
   },
   {
     id: 1,
-    textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
+    textinImg: "IMBUS Hex key ",
     imgSrc: project2Image,
     link: "/catcheat-project",
   },
