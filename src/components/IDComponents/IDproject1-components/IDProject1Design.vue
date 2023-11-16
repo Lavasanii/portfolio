@@ -1,0 +1,300 @@
+<template>
+  <div class="h-background-avatar">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-2"> -->
+        <div class="text-container">
+          <!-- <div class="h1 section1-text-title-color">Who am i ?</div> -->
+
+          <!-- <p class="h-text-color mt-5" style="font-size: 18px !important;">
+              Passionate UX/UI designer with a background in industrial design and a special interest in IoT products.
+            </p> -->
+        </div>
+        <!-- </div> -->
+
+        <div class="col-md-12 d-md-block p-5">
+
+          <div class="col text-center mb-5 pb-5">
+            <img :src="AusbauV3" alt="Bild" class="img-fluid" />
+            <!-- <p class="h-text-color mt-5" style="font-size: 18px !important;">
+              Passionate UX/UI designer with a background in industrial design and a special interest in IoT products.
+            </p> -->
+            <div class="col text-center mt-4">
+              Generate and gather ideas plus look at other ideas <br />
+              I use a combination of modern, bold colors to encourage the user. The
+              smooth design helps improve the user's eye comfort during use.
+            </div>
+          </div>
+
+          <div class="container text-center mt-5 mb-5 pt-5">
+            <img :src="CAD" class="img-fluid max-height-img" alt="Profile" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container" style="max-width: 800px">
+    <div class="row row-cols-auto justify-content-center">
+      <div class="cal">
+        <div class="display-6 discover-text">Design</div>
+      </div>
+    </div>
+    <div class="moodboard-header">moodboard</div>
+    <div class="row justify-content-center my-5">
+      <div class="col text-center">
+        <img :src="MoodboardProject2" alt="Bild" class="img-fluid" />
+      </div>
+      <div class="w-100"></div>
+      <div class="col text-center mt-4">
+        The Moodboard for CatchEat encapsulates the essence of the app - sleek
+        and stylish, vibrant and cheerful, positive and happy, smooth and
+        seamless. These elements give CatchEat a unique identity that brings
+        energy and joy to users' everyday lives.
+      </div>
+    </div>
+    <div class="moodboard-header">styleguide</div>
+    <div class="sections-subtitle text-uppercase">colors</div>
+    <div class="row justify-content-center my-5">
+      <div class="col text-center">
+        <img :src="Project2designColors" alt="Bild" class="img-fluid" />
+      </div>
+    </div>
+    <div class="sections-subtitle text-uppercase">Grid</div>
+    <div class="row justify-content-center my-5">
+      <div class="col text-center">
+        <img :src="Project2designGrids" alt="Bild" class="img-fluid" align="left" />
+      </div>
+      <div class="w-100"></div>
+      <div class="col text-start mt-5">
+        <strong>Mobil Grid</strong>
+        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px <br />Gutter
+        : 70 Px
+      </div>
+    </div>
+    <div class="sections-subtitle text-uppercase">typography</div>
+    <div class="row mt-5">
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy2p1" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <div style="font-size: 26px; font-weight: 700">Heading</div>
+          <div style="font-size: 18px; font-weight: 700">
+            Heading Description
+          </div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 26px; font-weight: 700">Inter Bold</div>
+          <div style="font-size: 18px; font-weight: 700">Inter Bold</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 26px; font-weight: 700">26px</div>
+          <div style="font-size: 18px; font-weight: 700">18px</div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy2p2" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 600">Heading Photo</div>
+          <div style="font-size: 13px; font-weight: 600">Menu</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 600">Inter Bold</div>
+          <div style="font-size: 13px; font-weight: 600">Inter Bold</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 20px; font-weight: 600">20px</div>
+          <div style="font-size: 13px; font-weight: 600">13px</div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-start mb-3">
+        <div class="col-3">
+          <img :src="Typografy2p3" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 500">Button</div>
+          <div style="font-size: 16px; font-weight: 500">Caption Text</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 20px; font-weight: 500">Inter Medium</div>
+          <div style="font-size: 16px; font-weight: 500">Inter Medium</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 20px; font-weight: 500">20px</div>
+          <div style="font-size: 16px; font-weight: 500">16px</div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-start">
+        <div class="col-3">
+          <img :src="Typografy2p4" class="img-fluid" />
+        </div>
+        <div class="col-4">
+          <div style="font-size: 16px; font-weight: 400">Body</div>
+        </div>
+        <div class="col-4">
+          <div style="font-size: 16px; font-weight: 400">Inter Regular</div>
+        </div>
+        <div class="col-1">
+          <div style="font-size: 16px; font-weight: 400">16px</div>
+        </div>
+      </div>
+    </div>
+    <div class="sections-subtitle text-uppercase">Icons</div>
+    <div class="row justify-content-center">
+      <div class="cal-12 text-center">
+        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 mt-5 mb-2"
+          width="40" height="45" />
+      </div>
+    </div>
+    <div class="sections-subtitle text-uppercase">Illustration</div>
+    <div class="row justify-content-center align-items-center mt-5">
+      <div class="col-4">
+        <img :src="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
+      </div>
+      <div class="col-4">
+        <img :src="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
+      </div>
+      <div class="col-4">
+        <img :src="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
+      </div>
+    </div>
+    <div class="col text-center mt-4 mb-5">
+      The usage of animated icons helps to make the page more interactive.
+    </div>
+    <div class="sections-subtitle text-uppercase">Buttons</div>
+    <div class="row justify-content-center">
+      <div class="cal-12 d-flex align-items-end justify-content-center">
+        <img :src="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.svg"
+import CAD from "../../../assets/images/IDimages/Bodum/CADV1.svg"
+// import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
+// import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
+// import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
+// import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
+// import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
+// import LunchIconP2 from "../../assets/icons/Project2-Icons/LunchIconP2.svg";
+// import zoomIconP2 from "../../assets/icons/Project2-Icons/zoomIconP2.svg";
+// import personIconP2 from "../../assets/icons/Project2-Icons/personIconP2.svg";
+// import LocationIconP2 from "../../assets/icons/Project2-Icons/LocationIconP2.svg";
+// import Typografy2p1 from "../../assets/icons/Project2-Icons/Typografy2p1.svg";
+// import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
+// import Typografy2p3 from "../../assets/icons/project2-Icons/Typografy2p3.svg";
+// import Typografy2p4 from "../../assets/icons/project2-Icons/Typografy2p4.svg";
+// import ButtonsP2 from "../../assets/icons/project2-Icons/ButtonsP2.svg";
+// import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
+// import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
+// import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
+
+interface imageItemsInterface {
+  id: number;
+  name: string;
+  imgSrc: string;
+}
+
+// const iconslistItems = ref<imageItemsInterface[]>([
+//   {
+//     id: 0,
+//     name: "homeIconP2",
+//     imgSrc: homeIconP2,
+//   },
+//   {
+//     id: 1,
+//     name: "arrowIconP2",
+//     imgSrc: arrowIconP2,
+//   },
+//   {
+//     id: 2,
+//     name: "LunchIconP2",
+//     imgSrc: LunchIconP2,
+//   },
+//   {
+//     id: 3,
+//     name: "zoomIconP2",
+//     imgSrc: zoomIconP2,
+//   },
+//   {
+//     id: 4,
+//     name: "personIconP2",
+//     imgSrc: personIconP2,
+//   },
+//   {
+//     id: 5,
+//     name: "LocationIconP2",
+//     imgSrc: LocationIconP2,
+//   },
+// ]);
+</script>
+
+<style lang="scss" scoped>
+@import "../../../scss/theme.scss";
+
+* {
+  color: $project1-text-color !important;
+}
+
+.discover-text {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-bottom: 25px;
+  color: $project2-design-text-color !important;
+  border-bottom: 3px solid $project2-design-text-color !important;
+}
+
+// Design Text and Border Color
+
+.sections-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: $project1-text-color !important;
+}
+
+.sections-texts {
+  margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
+  color: $project1-text-color !important;
+}
+
+.moodboard-header {
+  font-weight: 600;
+  font-size: 22px;
+  color: $project1-design-Headers-color;
+}
+
+.sections-subtitle {
+  font-size: 16px;
+  font-weight: 600 !important;
+  margin-top: 70px;
+  padding-bottom: 6px;
+  color: $project1-design-Headers-color;
+  border-bottom: 1px solid $project1-design-Headers-color;
+}
+
+.h-background-avatar {
+  width: 100%;
+  height: auto;
+  background: $ID-Project1-background;
+  //margin-top: 120px;
+}
+
+.max-height-img {
+  max-height: 600px;
+  /* Hier die maximale Höhe in Pixeln festlegen */
+  width: auto;
+  /* Damit das Bild weiterhin proportional skaliert wird */
+  margin-top: 20px;
+  /* Hier den oberen Seitenabstand in Pixeln festlegen */
+}</style>

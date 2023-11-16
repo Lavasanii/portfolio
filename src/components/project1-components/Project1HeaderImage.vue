@@ -12,7 +12,10 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WaageH from "../../assets/images/IDimages/Bodum/WaageH.png";
+
+</script>
 
 <style lang="scss" scoped>
 @import "../../scss/theme.scss";

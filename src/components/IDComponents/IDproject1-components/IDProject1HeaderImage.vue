@@ -3,9 +3,8 @@
     <div class="row justify-content-center">
       <div class="col text-center">
         <img
-          src="../../assets/images/project1.png"
+          src="../../../assets/images/IDimages/Bodum/WaageH.png"
           class="img-fluid"
-          style="max-height: 450px"
         />
       </div>
     </div>
@@ -18,7 +17,7 @@
 @import "../../../scss/theme.scss";
 
 .section1-header-color {
-  background-color: $project1-header-image-background-color !important;
+  //background-color: $project1-header-image-background-color !important;
   width: 100%;
   height: 450px;
 }

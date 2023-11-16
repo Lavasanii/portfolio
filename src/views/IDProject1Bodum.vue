@@ -2,11 +2,14 @@
   <IDProject1HeaderImage></IDProject1HeaderImage>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      A code - Learning platform Rubrik's Code
+      BODUM LIBRA Personal scale
     </div>
     <div class="h6 text-center" style="font-weight: 300">
-      <strong>Duration of the project: </strong> 3 weeks |
+      <strong>Duration of the project: </strong> 12 weeks |
       <strong>prototyping Type: </strong>individual work
+      <br />
+      Not commissioned by Bodum
+      <br />
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
@@ -14,27 +17,40 @@
       <div class="sections-texts"><span v-html="s.text"></span></div>
     </div>
   </div>
+
   <IDProject1Process class="margin-between-sections"></IDProject1Process>
-  <IDProject1Discover></IDProject1Discover>
-  <IDProject1Define></IDProject1Define>
-  <IDProject1Ideation></IDProject1Ideation>
+
+
+  <div class="container" style="max-width: 800px">
+    <div class="row justify-content-center mt-5">
+
+      <div class="margin-between-sections" v-for="Item in ID_Liste" :key="Item.id">
+        <div class="sections-title">{{ Item.title }}</div>
+        <div class="sections-texts"><span v-html="Item.text"></span></div>
+      </div>
+
+
+<!-- 
+      <div class="col text-center mt-5 mb-12 px">
+        <img :src="Ausbau" alt="Bild" class="img-fluid" />
+      </div> -->
+    
+    </div>
+
+  </div>
   <IDProject1Design></IDProject1Design>
-  <IDProject1Prototype></IDProject1Prototype>
-  <video class="mx-auto d-block videoWidth" controls>
-    <source :src="testvideo1" type="video/mp4" />
-  </video>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { h, ref } from "vue";
 import IDProject1HeaderImage from "../components/IDComponents/IDproject1-components/IDProject1HeaderImage.vue";
-// import IDProject1Process from "../components/IDComponents/IDproject1-components/IDProject1Process.vue";
-// import IDProject1Discover from "../components/IDComponents/IDproject1-components/IDProject1Discover.vue";
+import IDProject1Process from "../components/IDComponents/IDproject1-components/IDProject1Process.vue";
+//import IDProject1Discover from "../components/IDComponents/IDproject1-components/IDProject1Discover.vue";
 // import IDProject1Define from "../components/IDComponents/IDproject1-components/IDProject1Define.vue";
 // import IDProject1Ideation from "../components/IDComponents/IDproject1-components/IDProject1Ideation.vue";
-// import IDProject1Design from "../components/IDComponents/IDproject1-components/IDProject1Design.vue";
+import IDProject1Design from "../components/IDComponents/IDproject1-components/IDProject1Design.vue";
 // import IDProject1Prototype from "../components/IDComponents/IDproject1-components/IDProject1Prototype.vue";
-import testvideo1 from "../assets/videos/testvideo1.mp4";
+// import Ausbau from "../assets/images/IDimages/Bodum/AusbauV2.svg"
 
 interface sectionsInterfaces {
   id: number;
@@ -46,45 +62,45 @@ const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 0,
     title: "Project background",
-    text: `I decided to undertake this project due to my passion for coding. The popularity of learning platforms nowadays has led to intense competition amongst them. Younger people and students, in particular, desire a quick comparison of website options and offerings. Having a clear and user-friendly user interface can be exceedingly helpful in this regard. 
+    text: `Design a personal scale with
+    focus on the technical components and
+    realistic implementation of the design.
     <br />
-    Rubrik's Code is a small startup established by an experienced software developer. Our aim is to accelerate and optimize Machine Learning (ML) education. To achieve this goal, our unique approach makes the steps in the learning process more understandable.
-    <br />
-    Our website is divided into two primary sections. Part one focuses on learning machine learning with Python using textbooks. Part two consists of lessons on learning machine learning with C# through videos. The structure is designed to ensure that each step builds on the previous one and provides a deeper understanding.
-    <br />
-    The lessons are carefully designed to first introduce essential concepts, such as Mathematics for Machine Learning, and then proceed to coding and more advanced steps. This approach ensures that learning is efficient and practical, and allows for a step-by-step building process.`,
+    `,
   },
   {
     id: 1,
-    title: "Problem",
-    text: `<ol>
-  <li>cluttered interface: if the site has too many elements, text, or images on a page, it can be cluttered and difficult to navigate.</li>
-  <li>inconsistent design: inconsistent use of colors, fonts, and layouts can detract from the visual appearance and interfere with the user experience.</li>
-  <li>unresponsive design: an outdated or unresponsive design can turn users off and cause them to leave the site.</li>
-  <li> Difficult navigation: An unclear or confusing navigation structure can make it difficult for users to find the information they need.</li>  
-  </ol> `,
-  },
-  {
-    id: 2,
-    title: "The Goal",
-    text: "Redesigning the exisiting website for better using and aquising more costumers",
-  },
-  {
-    id: 3,
-    title: "Responsibilities",
-    text: "User reasearch, Wire friming and visual design",
-  },
-  {
-    id: 4,
-    title: "Tools",
-    text: "Google Forms, Figma ",
-  },
-  {
-    id: 5,
     title: "The Process",
     text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
   },
+
 ]);
+
+
+
+
+
+interface sections1Interfaces {
+  id: string;
+  title: string;
+  text: string;
+}
+
+const ID_Liste = ref<sections1Interfaces[]>([
+  {
+    id: 2,
+    title: "Problems",
+    text: `<ul>
+    <li> <span style="font-weight:600;"> Complex assembly process </span> </li>
+    <li> <span style="font-weight:600;"> Excessive, expensive components </span> </li>
+    <li> <span style="font-weight:600;"> Unnecessary expense due to complicated design</span> </li>
+    <li> <span style="font-weight:600;"> Complicated structure with many screws </span> </li>
+    <li> <span style="font-weight:600;"> Poor display quality</span> </li>
+  </ul> `,
+  },
+
+]);
+
 </script>
 
 <style lang="scss" scoped>
@@ -115,23 +131,5 @@ const section1Items = ref<sectionsInterfaces[]>([
   font-size: 18px;
   font-weight: 400;
   color: $project1-text-color !important;
-}
-
-@media only screen and (max-width: 500px) {
-  .videoWidth {
-    width: 200px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .videoWidth {
-    width: 500px;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-  .videoWidth {
-    width: 1000px;
-  }
 }
 </style>
