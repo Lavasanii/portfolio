@@ -45,12 +45,8 @@
 import { h, ref } from "vue";
 import IDProject1HeaderImage from "../components/IDComponents/IDproject1-components/IDProject1HeaderImage.vue";
 import IDProject1Process from "../components/IDComponents/IDproject1-components/IDProject1Process.vue";
-//import IDProject1Discover from "../components/IDComponents/IDproject1-components/IDProject1Discover.vue";
-// import IDProject1Define from "../components/IDComponents/IDproject1-components/IDProject1Define.vue";
-// import IDProject1Ideation from "../components/IDComponents/IDproject1-components/IDProject1Ideation.vue";
 import IDProject1Design from "../components/IDComponents/IDproject1-components/IDProject1Design.vue";
-// import IDProject1Prototype from "../components/IDComponents/IDproject1-components/IDProject1Prototype.vue";
-// import Ausbau from "../assets/images/IDimages/Bodum/AusbauV2.svg"
+
 
 interface sectionsInterfaces {
   id: number;

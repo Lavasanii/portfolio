@@ -5,7 +5,7 @@
         <div class="display-6 discover-text">Design</div>
       </div>
     </div>
-    <div class="moodboard-header">moodboard</div>
+    <div class="">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />

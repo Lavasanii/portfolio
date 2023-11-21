@@ -16,18 +16,18 @@
 
           <div class="col text-center mb-5 pb-5">
             <img :src="AusbauV3" alt="Bild" class="img-fluid" />
-            <!-- <p class="h-text-color mt-5" style="font-size: 18px !important;">
-              Passionate UX/UI designer with a background in industrial design and a special interest in IoT products.
-            </p> -->
             <div class="col text-center mt-4">
-              Generate and gather ideas plus look at other ideas <br />
-              I use a combination of modern, bold colors to encourage the user. The
-              smooth design helps improve the user's eye comfort during use.
+              Expanding a bathroom scale to understand how
+              the components in a scale work <br />
             </div>
           </div>
 
           <div class="container text-center mt-5 mb-5 pt-5">
             <img :src="CAD" class="img-fluid max-height-img" alt="Profile" />
+            <div class="col text-center mt-4">
+              The reconstruction as a CAD model helps to better understand the
+              better understand the dimensions and proportions <br />
+            </div>
           </div>
 
         </div>
@@ -36,206 +36,207 @@
   </div>
 
 
+  <!-- 
+  <div class="container MittelDesignJustify"> -->
+  <!-- <div class="row row-cols-auto justify-content-center ">
 
-  <div class="container" style="max-width: 800px">
-    <div class="row row-cols-auto justify-content-center">
+    </div> -->
+  <div class="container moodboard-header MittelDesignJustify mb-5">Design Goals</div>
+
+  <IDP1DesignGoal class="margin-between-sections"></IDP1DesignGoal>
+
+  <div class="container MittelDesignJustify">
+    <div class="moodboard-header">Moodboard</div>
+    <div class="row row-cols-auto justify-content-left">
       <div class="cal">
-        <div class="display-6 discover-text">Design</div>
-      </div>
-    </div>
-    <div class="moodboard-header">moodboard</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
-        <img :src="MoodboardProject2" alt="Bild" class="img-fluid" />
-      </div>
-      <div class="w-100"></div>
-      <div class="col text-center mt-4">
-        The Moodboard for CatchEat encapsulates the essence of the app - sleek
-        and stylish, vibrant and cheerful, positive and happy, smooth and
-        seamless. These elements give CatchEat a unique identity that brings
-        energy and joy to users' everyday lives.
-      </div>
-    </div>
-    <div class="moodboard-header">styleguide</div>
-    <div class="sections-subtitle text-uppercase">colors</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
-        <img :src="Project2designColors" alt="Bild" class="img-fluid" />
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">Grid</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
-        <img :src="Project2designGrids" alt="Bild" class="img-fluid" align="left" />
-      </div>
-      <div class="w-100"></div>
-      <div class="col text-start mt-5">
-        <strong>Mobil Grid</strong>
-        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px <br />Gutter
-        : 70 Px
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">typography</div>
-    <div class="row mt-5">
-      <div class="row align-items-center justify-content-start mb-3">
-        <div class="col-3">
-          <img :src="Typografy2p1" class="img-fluid" />
+        <div class="row justify-content-center my-5">
         </div>
-        <div class="col-4">
-          <div style="font-size: 26px; font-weight: 700">Heading</div>
-          <div style="font-size: 18px; font-weight: 700">
-            Heading Description
-          </div>
-        </div>
-        <div class="col-4">
-          <div style="font-size: 26px; font-weight: 700">Inter Bold</div>
-          <div style="font-size: 18px; font-weight: 700">Inter Bold</div>
-        </div>
-        <div class="col-1">
-          <div style="font-size: 26px; font-weight: 700">26px</div>
-          <div style="font-size: 18px; font-weight: 700">18px</div>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-start mb-3">
-        <div class="col-3">
-          <img :src="Typografy2p2" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <div style="font-size: 20px; font-weight: 600">Heading Photo</div>
-          <div style="font-size: 13px; font-weight: 600">Menu</div>
-        </div>
-        <div class="col-4">
-          <div style="font-size: 20px; font-weight: 600">Inter Bold</div>
-          <div style="font-size: 13px; font-weight: 600">Inter Bold</div>
-        </div>
-        <div class="col-1">
-          <div style="font-size: 20px; font-weight: 600">20px</div>
-          <div style="font-size: 13px; font-weight: 600">13px</div>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-start mb-3">
-        <div class="col-3">
-          <img :src="Typografy2p3" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <div style="font-size: 20px; font-weight: 500">Button</div>
-          <div style="font-size: 16px; font-weight: 500">Caption Text</div>
-        </div>
-        <div class="col-4">
-          <div style="font-size: 20px; font-weight: 500">Inter Medium</div>
-          <div style="font-size: 16px; font-weight: 500">Inter Medium</div>
-        </div>
-        <div class="col-1">
-          <div style="font-size: 20px; font-weight: 500">20px</div>
-          <div style="font-size: 16px; font-weight: 500">16px</div>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-start">
-        <div class="col-3">
-          <img :src="Typografy2p4" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <div style="font-size: 16px; font-weight: 400">Body</div>
-        </div>
-        <div class="col-4">
-          <div style="font-size: 16px; font-weight: 400">Inter Regular</div>
-        </div>
-        <div class="col-1">
-          <div style="font-size: 16px; font-weight: 400">16px</div>
-        </div>
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">Icons</div>
-    <div class="row justify-content-center">
-      <div class="cal-12 text-center">
-        <img v-for="i in iconslistItems" :key="i.id" :src="i.imgSrc" :alt="i.name" class="img-fluid mx-3 mt-5 mb-2"
-          width="40" height="45" />
-      </div>
-    </div>
-    <div class="sections-subtitle text-uppercase">Illustration</div>
-    <div class="row justify-content-center align-items-center mt-5">
-      <div class="col-4">
-        <img :src="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
-      </div>
-      <div class="col-4">
-        <img :src="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
-      </div>
-      <div class="col-4">
-        <img :src="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
-      </div>
-    </div>
-    <div class="col text-center mt-4 mb-5">
-      The usage of animated icons helps to make the page more interactive.
-    </div>
-    <div class="sections-subtitle text-uppercase">Buttons</div>
-    <div class="row justify-content-center">
-      <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img :src="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
       </div>
     </div>
   </div>
+  <div class="MoodBoardIDcolor">
+    <div class="col text-center">
+      <img :src="MoadBoradIDBodum" alt="Bild" class="img-fluid MoodBoardID MoodBoardIDpadding" />
+    </div>
+  </div>
+  <div class="w-100"></div>
+  <div class="col text-center mt-4">
+    Smooth edges, large branding, black and
+    White color, are the characteristics of the brand
+    BODUM<br />
+  </div>
+
+
+  <div class="container MittelDesignJustify">
+    <div class="row row-cols-auto justify-content-left">
+      <div class="cal">
+        <div class="moodboard-header">Consolidated Concepts</div>
+        <div class="row justify-content-center my-5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" style="max-width: 500px">
+    <div class="row"><img :src="RundKanten" alt="Bild" class="img-fluid " style="width: 100%;" />
+      <p>Instead of the sharp edges and diamond-cut design, we introduced rounded edges
+        because they better fit the design language of Bodum.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-6"> <img :src="DiamondCut" alt="Bild" class="img-fluid " style="width: 100%;" />
+        <p>Diamond cutting and large radii, in addition to sharp edges,
+          render this product unsuitable for use with Bodum
+        </p>
+      </div>
+      <div class="col-6"> <img :src="KonKleinR" alt="Bild" class="img-fluid " style="width: 100%;" />
+        <p>Smooth curves and rounded edges</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Malmir Code:  -->
+
+
+  <!-- <div class="container">
+
+  <div class="row"><img :src="KonKonzept" alt="Bild" class="img-fluid " style="width: 100 %;" />
+    <p>fafafaf</p>
+  
+  </div>
+
+  <div class="row">
+  
+    <div class="col-6">  <img :src="DiamondCut" alt="Bild" class="img-fluid " style="width: 100 %;" />
+    <p>fafafaf</p> 
+    </div>
+
+    <div class="col-6"> <img :src="RundKanten" alt="Bild" class="img-fluid " style="width: 100 %;" /> </div>
+
+  </div>
+ </div> -->
+
+
+
+  <div class="container MittelDesignJustify">
+    <div class="row row-cols-auto justify-content-left">
+      <div class="cal">
+        <div class="moodboard-header">Model making</div>
+        <div class="row justify-content-center my-5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="max-width: 500px">
+    <div class="row mb-4"> <img :src="Bauteile" alt="Bild" class="img-fluid " style="width: 100%;" />
+    </div>
+    <div class="row">
+      <div class="col-6"> <img :src="CNC1" alt="Bild" class="img-fluid " style="width: 100%;" />
+      </div>
+      <div class="col-6"> <img :src="CNC2" alt="Bild" class="img-fluid " style="width: 100%;" />
+      </div>
+    </div>
+    <p class="text-center">CNC Milled Model</p>
+  </div>
+
+  <!-- Sample by Me -->
+  <!-- <div class="container" style="max-width: 500px">
+    <div class="row mb-4" >
+     <p> Instead of the sharp edges and diamond-cut design, we introduced rounded edges
+      because they better fit the design language of Bodum.</p>
+
+      <img :src="RundKanten" alt="Bild" class="img-fluid " style="width: 100%;" />
+    </div>
+
+    <div class="row">
+      <div class="col-6"> <img :src="DiamondCut" alt="Bild" class="img-fluid " style="width: 100%;" />
+        <p class="mt-4">Diamond cutting and large radii, in addition to sharp edges,
+          render this product unsuitable for use with Bodum
+        </p>
+      </div>
+
+      <div class="col-6"> <img :src="KonKleinR" alt="Bild" class="img-fluid " style="width: 100%;" />
+        <p class="mt-4">Smooth curves and rounded edges</p>
+      </div>
+    </div>
+  </div> -->
+  <div class="container MittelDesignJustify">
+    <div class="moodboard-header">Boolean graphic</div>
+    <div class="row row-cols-auto justify-content-left">
+      <div class="cal">
+        <div class="row justify-content-center my-5">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="col text-center">
+      <img :src="BoolianGrafik" alt="Bild" class="img-fluid " />
+    </div>
+  </div>
+
+
+  <div class="ModelBackgroudColor MoodBoardIDpadding BigMargin ">
+    <div class="container my-5" style="max-width: 900px">
+
+      <div class="row mb-2">
+        <div class="col-8"> <img :src="Test2" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
+        <div class="col-4"> <img :src="Test" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4"> <img :src="Test1" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
+        <div class="col-8"> <img :src="Test3" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col text-center margin-between-sections ">
+    <img :src="ContBathroom" alt="Bild" class="img-fluid " />
+  </div>
+
+  <div class="col text-center margin-between-sections">
+    <img :src="WaageBathroom" alt="Bild" class="img-fluid " />
+  </div>
+
+
+
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
-import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.svg"
-import CAD from "../../../assets/images/IDimages/Bodum/CADV1.svg"
-// import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
-// import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
-// import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
-// import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
-// import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
-// import LunchIconP2 from "../../assets/icons/Project2-Icons/LunchIconP2.svg";
-// import zoomIconP2 from "../../assets/icons/Project2-Icons/zoomIconP2.svg";
-// import personIconP2 from "../../assets/icons/Project2-Icons/personIconP2.svg";
-// import LocationIconP2 from "../../assets/icons/Project2-Icons/LocationIconP2.svg";
-// import Typografy2p1 from "../../assets/icons/Project2-Icons/Typografy2p1.svg";
-// import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
-// import Typografy2p3 from "../../assets/icons/project2-Icons/Typografy2p3.svg";
-// import Typografy2p4 from "../../assets/icons/project2-Icons/Typografy2p4.svg";
-// import ButtonsP2 from "../../assets/icons/project2-Icons/ButtonsP2.svg";
-// import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
-// import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
-// import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
+import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.svg";
+import CAD from "../../../assets/images/IDimages/Bodum/CADV1.svg";
+import IDP1DesignGoal from "./IDP1DesignGoal.vue";
+import MoadBoradIDBodum from "../../../assets/images/IDimages/Bodum/MoadBoradIDBodum.svg";
 
-interface imageItemsInterface {
-  id: number;
-  name: string;
-  imgSrc: string;
-}
+import KonKleinR from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RandKlein.svg";
+import DiamondCut from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendEckig.svg";
+import RundKanten from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendRund.svg";
 
-// const iconslistItems = ref<imageItemsInterface[]>([
-//   {
-//     id: 0,
-//     name: "homeIconP2",
-//     imgSrc: homeIconP2,
-//   },
-//   {
-//     id: 1,
-//     name: "arrowIconP2",
-//     imgSrc: arrowIconP2,
-//   },
-//   {
-//     id: 2,
-//     name: "LunchIconP2",
-//     imgSrc: LunchIconP2,
-//   },
-//   {
-//     id: 3,
-//     name: "zoomIconP2",
-//     imgSrc: zoomIconP2,
-//   },
-//   {
-//     id: 4,
-//     name: "personIconP2",
-//     imgSrc: personIconP2,
-//   },
-//   {
-//     id: 5,
-//     name: "LocationIconP2",
-//     imgSrc: LocationIconP2,
-//   },
-// ]);
+// Model Making 
+
+import CNC1 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC1N.svg";
+import CNC2 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC2N.svg";
+import Bauteile from "../../../assets/images/IDimages/Bodum/Modell_Making/BestandteileV1.svg";
+
+import BoolianGrafik from "../../../assets/images/IDimages/Bodum/BoolianGrafik.png";
+
+//Modell
+
+import Test from "../../../assets/images/IDimages/Bodum/Modell/Test.svg";
+import Test1 from "../../../assets/images/IDimages/Bodum/Modell/Test1.svg";
+import Test2 from "../../../assets/images/IDimages/Bodum/Modell/Test3.svg";
+import Test3 from "../../../assets/images/IDimages/Bodum/Modell/Test4.svg";
+
+// Rendering
+
+import ContBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/ContBathroom.png";
+import WaageBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/WaageBathroom.png";
+
 </script>
 
 <style lang="scss" scoped>
@@ -245,42 +246,10 @@ interface imageItemsInterface {
   color: $project1-text-color !important;
 }
 
-.discover-text {
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding-bottom: 25px;
-  color: $project2-design-text-color !important;
-  border-bottom: 3px solid $project2-design-text-color !important;
-}
-
-// Design Text and Border Color
-
-.sections-title {
-  font-weight: 600;
-  font-size: 22px;
-  color: $project1-text-color !important;
-}
-
-.sections-texts {
-  margin-top: 36px;
-  font-size: 18px;
-  font-weight: 400;
-  color: $project1-text-color !important;
-}
-
 .moodboard-header {
   font-weight: 600;
   font-size: 22px;
   color: $project1-design-Headers-color;
-}
-
-.sections-subtitle {
-  font-size: 16px;
-  font-weight: 600 !important;
-  margin-top: 70px;
-  padding-bottom: 6px;
-  color: $project1-design-Headers-color;
-  border-bottom: 1px solid $project1-design-Headers-color;
 }
 
 .h-background-avatar {
@@ -297,4 +266,37 @@ interface imageItemsInterface {
   /* Damit das Bild weiterhin proportional skaliert wird */
   margin-top: 20px;
   /* Hier den oberen Seitenabstand in Pixeln festlegen */
-}</style>
+}
+
+.MittelDesignJustify {
+  max-width: 800px;
+  margin-top: 120px;
+}
+
+.margin-between-sections {
+  margin-top: 75px;
+}
+
+.MoodBoardID {
+  max-width: 470px;
+}
+
+.MoodBoardIDcolor {
+  background-color: rgba(123, 123, 123, 1);
+}
+
+.ModelBackgroudColor {
+
+  background-color: rgba(47, 47, 47, 1);
+
+}
+
+.MoodBoardIDpadding {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.BigMargin {
+  margin-top: 175px;
+}
+</style>

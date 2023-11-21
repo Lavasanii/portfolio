@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="text-container mt-5">
-            <div class="display-2 h-text-title-color ">industrial design
+            <div class="display-2 h-text-title-color ">Industrial design
               Portfolio </div>
           </div>
         </div>
