@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { h, ref } from "vue";
+import { ref } from "vue";
 import IDProject1HeaderImage from "../components/IDComponents/IDproject1-components/IDProject1HeaderImage.vue";
 import IDProject1Process from "../components/IDComponents/IDproject1-components/IDProject1Process.vue";
 import IDProject1Design from "../components/IDComponents/IDproject1-components/IDProject1Design.vue";
