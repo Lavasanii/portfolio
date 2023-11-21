@@ -207,7 +207,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+//import { ref } from "vue";
 import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.svg";
 import CAD from "../../../assets/images/IDimages/Bodum/CADV1.svg";
 import IDP1DesignGoal from "./IDP1DesignGoal.vue";

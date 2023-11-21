@@ -77,14 +77,14 @@ const section1Items = ref<sectionsInterfaces[]>([
 
 
 interface sections1Interfaces {
-  id: string;
+  id: number;
   title: string;
   text: string;
 }
 
 const ID_Liste = ref<sections1Interfaces[]>([
   {
-    id: 2,
+    id: 0,
     title: "Problems",
     text: `<ul>
     <li> <span style="font-weight:600;"> Complex assembly process </span> </li>

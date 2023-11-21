@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import WaageH from "../../assets/images/IDimages/Bodum/WaageH.png";
+//import WaageH from "../../assets/images/IDimages/Bodum/WaageH.png";
 
 </script>
 
