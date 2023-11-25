@@ -146,7 +146,7 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
 }
 
 //div {
-//  border: dashed;
+ // border: dashed;
 //}
 
 .sections-texts {

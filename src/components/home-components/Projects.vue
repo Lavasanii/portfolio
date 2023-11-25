@@ -69,4 +69,8 @@ const projectItems = ref<projectItemsInterface[]>([
 
 .hover-effect:hover .hover-text {
   opacity: 1;
-}</style>
+}
+
+
+
+</style>

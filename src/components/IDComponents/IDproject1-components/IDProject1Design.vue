@@ -178,23 +178,28 @@
   </div>
 
 
-  <div class="ModelBackgroudColor MoodBoardIDpadding BigMargin ">
-    <div class="container my-5" style="max-width: 900px">
+  <div class="container MittelDesignJustify BigMargin ">
+    <div class="moodboard-header">Model</div>
+  </div>
 
-      <div class="row mb-2">
-        <div class="col-8"> <img :src="Test2" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
-        <div class="col-4"> <img :src="Test" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
-      </div>
+  <div class="ModelBackgroudColor MoodBoardIDpadding " style="margin-top: 80px;">
+    <div class="container my-5" style="max-width: 880px">
 
-      <div class="row">
-        <div class="col-4"> <img :src="Test1" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
-        <div class="col-8"> <img :src="Test3" alt="Bild" class="img-fluid" style="width: 100%; height:100%;"> </div>
+      <div class="row mb-2 g-2 justify-content-center">
+        <div class="col-8 "> <img :src="Test2" alt="Bild" style="max-height: 381px; max-width: 100%; "> </div>
+        <div class="col-4 "> <img :src="Test" alt="Bild"  style="max-height: 381px; max-width: 100%; " > </div>
+        <div class="col-4 "> <img :src="Test1" alt="Bild"  style="max-height: 381px; max-width: 100%;"> </div>
+        <div class="col-8 "> <img :src="Test3" alt="Bild" style="max-height: 381px; max-width: 100%;"  > </div>
       </div>
     </div>
   </div>
 
+  <div class="container MittelDesignJustify">
+    <div class="moodboard-header">Renderings</div>
+  </div>
 
-  <div class="col text-center margin-between-sections ">
+
+  <div class="col text-center margin-between-sections" style="margin-top: 80px;">
     <img :src="ContBathroom" alt="Bild" class="img-fluid " />
   </div>
 

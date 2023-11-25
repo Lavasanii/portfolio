@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import project1Image from "../../assets/images/IDimages/Bodum/BodumHA.svg";
-import project2Image from "../../assets/images/IDimages/Imbus/ImbusHA.svg"
+import project2Image from "../../assets/images/IDimages/Inbus/ImbusHA.svg"
 
 interface projectItemsInterface {
   id: number;
@@ -36,9 +36,9 @@ const projectItems = ref<projectItemsInterface[]>([
   },
   {
     id: 1,
-    textinImg: "IMBUS Hex key ",
+    textinImg: "INBUS Hex key",
     imgSrc: project2Image,
-    link: "/catcheat-project",
+    link: "/IDProject2Imbus",
   },
 ]);
 </script>

@@ -1,14 +1,14 @@
 <template>
-  <div class="container-fluid section1-header-color">
-    <div class="row justify-content-center">
-      <div class="col text-center">
+  <!-- <div class="container-fluid section1-header-color" > -->
+    <!-- <div class="row justify-content-center "> -->
+      <div class="col text-center ">
         <img
-          src="../../../assets/images/IDimages/Bodum/WaageH.png"
+          src="../../../assets/images/IDimages/Bodum/WaageH.svg"
           class="img-fluid"
         />
       </div>
-    </div>
-  </div>
+    <!-- </div> -->
+  <!-- </div> -->
 </template>
 
 <script setup lang="ts"></script>
@@ -21,4 +21,7 @@
   width: 100%;
   height: 450px;
 }
+
+//div{ border:dashed}
+
 </style>
