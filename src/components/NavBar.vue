@@ -24,6 +24,7 @@
               v-if="n.active"
               class="nav-link nav-items-color"
               :to="n.link"
+              :class="{ 'industrial-design-button': n.name === 'Industrial Design' }"
             >
               {{ n.name }}
             </router-link>
@@ -92,5 +93,14 @@ const navItems = ref<navItemsInterface[]>([
 
 .nav-deactive-items-color {
   color: $nav-deactive-items-color;
+}
+
+.industrial-design-button {
+  //border: 1px solid #000; /* Hier kannst du die gewünschten Rahmenstile definieren */
+  //padding: 5px 10px; /* Zusätzliche Gestaltung, falls nötig */
+  border-radius: 5px;
+  background-color: #4794F6;
+  margin-left: 30px;
+  /* Weitere Styling-Attribute nach Bedarf hinzufügen */
 }
 </style>
