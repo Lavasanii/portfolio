@@ -1,17 +1,16 @@
 <template>
   <!-- <div class="container-fluid section1-header-color h-background-avatar ">
     <div class="row justify-content-center"> -->
-      <div class="col text-center  ">
-        <img
-          src="../../../assets/images/IDimages/Inbus/INBUSCover.png"
-          class="img-fluid"
-        />
-      </div>
-    <!-- </div>
+  <div class="col text-center">
+    <img v-lazy="INBUSCover" class="img-fluid" />
+  </div>
+  <!-- </div>
   </div> -->
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import INBUSCover from "../../../assets/images/IDimages/Inbus/INBUSCover.png";
+</script>
 
 <style lang="scss" scoped>
 @import "../../../scss/theme.scss";
@@ -28,5 +27,4 @@
   //margin-top: 120px;
 }
 //div { border:dashed;}
-
 </style>

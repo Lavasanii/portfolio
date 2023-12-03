@@ -1,11 +1,9 @@
 <template>
-  <v-app>
+  <div id="app">
     <NavBar></NavBar>
-    <v-main>
-      <router-view />
-    </v-main>
+    <router-view />
     <Footer></Footer>
-  </v-app>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -14,7 +12,9 @@ import Footer from "../src/components/Footer.vue";
 </script>
 
 <style lang="scss">
-body { padding-top: 50px; }
+body {
+  padding-top: 50px;
+}
 * {
   font-family: "Poppins", sans-serif !important;
 }

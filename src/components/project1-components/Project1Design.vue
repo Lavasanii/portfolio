@@ -8,7 +8,7 @@
     <div class="">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designmoodboard" alt="Bild" class="img-fluid" />
+        <img v-lazy="Project1designmoodboard" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-center mt-4">
@@ -21,13 +21,13 @@
     <div class="sections-subtitle text-uppercase">colors</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designColors" alt="Bild" class="img-fluid" />
+        <img v-lazy="Project1designColors" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project1designGrids" alt="Bild" class="img-fluid" />
+        <img v-lazy="Project1designGrids" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
@@ -40,7 +40,7 @@
     <div class="row mt-5">
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy1" class="img-fluid" />
+          <img v-lazy="Typografy1" class="img-fluid" />
         </div>
         <div class="col-9" style="font-size: 48px; font-weight: bold">
           Numbers - Poppins Medium - 48px
@@ -48,7 +48,7 @@
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy2" class="img-fluid" />
+          <img v-lazy="Typografy2" class="img-fluid" />
         </div>
         <div class="col-9">
           <div class="row">
@@ -66,7 +66,7 @@
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy3" class="img-fluid" />
+          <img v-lazy="Typografy3" class="img-fluid" />
         </div>
         <div class="col-9">
           <div class="row">
@@ -81,7 +81,7 @@
       </div>
       <div class="row align-items-center justify-content-start">
         <div class="col-3">
-          <img :src="Typografy4" class="img-fluid" />
+          <img v-lazy="Typografy4" class="img-fluid" />
         </div>
         <div class="col-9" style="font-size: 18px; font-weight: bold">
           Numbers - Poppins Bold - 48px
@@ -94,7 +94,7 @@
         <img
           v-for="i in iconslistItems"
           :key="i.id"
-          :src="i.imgSrc"
+          v-lazy="i.imgSrc"
           :alt="i.name"
           class="img-fluid mx-3 mt-5 mb-2"
           width="60"
@@ -107,12 +107,12 @@
       <div
         class="col-5 mx-3 d-flex align-items-center justify-content-centeralign-self-center animeColsClass"
       >
-        <img :src="videoAnime1" alt="videoAnime1" class="img-fluid" />
+        <img v-lazy="videoAnime1" alt="videoAnime1" class="img-fluid" />
       </div>
       <div
         class="col-5 mx-3 d-flex align-items-center justify-content-center animeColsClass"
       >
-        <img :src="bookAnime1" alt="bookAnime1" style="height: 75%" />
+        <img v-lazy="bookAnime1" alt="bookAnime1" style="height: 75%" />
       </div>
     </div>
     <div class="col text-center mt-4 mb-5">
@@ -124,7 +124,7 @@
         <img
           v-for="b in buttonslistItems"
           :key="b.id"
-          :src="b.imgSrc"
+          v-lazy="b.imgSrc"
           :alt="b.name"
           class="img-fluid mx-3 mt-5 mb-2"
         />

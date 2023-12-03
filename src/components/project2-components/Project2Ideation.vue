@@ -18,7 +18,7 @@
     <div class="row justify-content-center">
       
       <div class="col LowFi">
-        <img :src="LowFi" class="img-fluid" />
+        <img v-lazy="LowFi" class="img-fluid" />
       </div>
 
     </div>

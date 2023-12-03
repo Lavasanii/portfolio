@@ -4,7 +4,7 @@
       <div class="col-sm-12 col-md-6" v-for="p in projectItems">
         <router-link :to="p.link">
           <div class="hover-effect">
-            <img :src="p.imgSrc" alt="Bild" class="img-fluid" />
+            <img v-lazy="p.imgSrc" lazy="loaded" alt="Bild" class="img-fluid" />
             <div class="h2 hover-text">
               {{ p.textinImg }}
             </div>
@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import project1Image from "../../assets/images/project1.png";
-import project2Image from "../../assets/images/Project2/Project2MockUp.png"
+import project2Image from "../../assets/images/Project2/Project2MockUp.png";
 
 interface projectItemsInterface {
   id: number;
@@ -70,7 +70,4 @@ const projectItems = ref<projectItemsInterface[]>([
 .hover-effect:hover .hover-text {
   opacity: 1;
 }
-
-
-
 </style>

@@ -18,7 +18,7 @@
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
         <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems1" :key="ul.id">
-          <img :src="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
         <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems2" :key="ul.id">
-          <img :src="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
         <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems3" :key="ul.id">
-          <img :src="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
         <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems4" :key="ul.id">
-          <img :src="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
         </div>
       </div>
     </div>

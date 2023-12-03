@@ -46,9 +46,6 @@ const router = createRouter({
       name: "IDProject2Imbus",
       component: IDProject2ImbusVue
     }
-  
-
-
   ],
   scrollBehavior() {
     // alwasy Scroll to top

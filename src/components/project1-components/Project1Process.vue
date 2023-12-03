@@ -7,7 +7,7 @@
         class="col-6 col-sm-4 col-md-2 text-center"
       >
         <img
-          :src="p.imgLink"
+          v-lazy="p.imgLink"
           class="img-fluid"
           alt="Profile"
           width="200"

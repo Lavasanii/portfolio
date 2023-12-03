@@ -20,19 +20,19 @@
     <div class="sections-subtitle text-uppercase">SCREEN DISTRIBUTION</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in screenDisImageItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
+        <img v-lazy="i.imgSrc" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">layout test</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in layoutTestItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
+        <img v-lazy="i.imgSrc" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">color test</div>
     <div class="row justify-content-center">
       <div class="col-4 text-center my-4" v-for="i in colorTestItems">
-        <img :src="i.imgSrc" alt="Bild" class="img-fluid" />
+        <img v-lazy="i.imgSrc" alt="Bild" class="img-fluid" />
       </div>
     </div>
   </div>

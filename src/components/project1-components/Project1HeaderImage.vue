@@ -2,19 +2,14 @@
   <div class="container-fluid section1-header-color">
     <div class="row justify-content-center">
       <div class="col text-center">
-        <img
-          src="../../assets/images/project1.png"
-          class="img-fluid"
-          style="max-height: 450px"
-        />
+        <img v-lazy="project1" class="img-fluid" style="max-height: 450px" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-
-
+import project1 from "../../assets/images/project1.png";
 </script>
 
 <style lang="scss" scoped>

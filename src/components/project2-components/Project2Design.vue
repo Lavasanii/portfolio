@@ -8,7 +8,7 @@
     <div class="moodboard-header">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="MoodboardProject2" alt="Bild" class="img-fluid" />
+        <img v-lazy="MoodboardProject2" alt="Bild" class="img-fluid" />
       </div>
       <div class="w-100"></div>
       <div class="col text-center mt-4">
@@ -22,14 +22,14 @@
     <div class="sections-subtitle text-uppercase">colors</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
-        <img :src="Project2designColors" alt="Bild" class="img-fluid" />
+        <img v-lazy="Project2designColors" alt="Bild" class="img-fluid" />
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Grid</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img
-          :src="Project2designGrids"
+          v-lazy="Project2designGrids"
           alt="Bild"
           class="img-fluid"
           align="left"
@@ -46,7 +46,7 @@
     <div class="row mt-5">
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy2p1" class="img-fluid" />
+          <img v-lazy="Typografy2p1" class="img-fluid" />
         </div>
         <div class="col-4">
           <div style="font-size: 26px; font-weight: 700">Heading</div>
@@ -65,7 +65,7 @@
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy2p2" class="img-fluid" />
+          <img v-lazy="Typografy2p2" class="img-fluid" />
         </div>
         <div class="col-4">
           <div style="font-size: 20px; font-weight: 600">Heading Photo</div>
@@ -82,7 +82,7 @@
       </div>
       <div class="row align-items-center justify-content-start mb-3">
         <div class="col-3">
-          <img :src="Typografy2p3" class="img-fluid" />
+          <img v-lazy="Typografy2p3" class="img-fluid" />
         </div>
         <div class="col-4">
           <div style="font-size: 20px; font-weight: 500">Button</div>
@@ -99,7 +99,7 @@
       </div>
       <div class="row align-items-center justify-content-start">
         <div class="col-3">
-          <img :src="Typografy2p4" class="img-fluid" />
+          <img v-lazy="Typografy2p4" class="img-fluid" />
         </div>
         <div class="col-4">
           <div style="font-size: 16px; font-weight: 400">Body</div>
@@ -118,7 +118,7 @@
         <img
           v-for="i in iconslistItems"
           :key="i.id"
-          :src="i.imgSrc"
+          v-lazy="i.imgSrc"
           :alt="i.name"
           class="img-fluid mx-3 mt-5 mb-2"
           width="40"
@@ -129,13 +129,13 @@
     <div class="sections-subtitle text-uppercase">Illustration</div>
     <div class="row justify-content-center align-items-center mt-5">
       <div class="col-4">
-        <img :src="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
+        <img v-lazy="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
       </div>
       <div class="col-4">
-        <img :src="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
+        <img v-lazy="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
       </div>
       <div class="col-4">
-        <img :src="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
+        <img v-lazy="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
       </div>
     </div>
     <div class="col text-center mt-4 mb-5">
@@ -144,7 +144,7 @@
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
       <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img :src="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
+        <img v-lazy="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
       </div>
     </div>
   </div>

@@ -1,27 +1,11 @@
 <template>
-  <!-- <div class="container-fluid section1-header-color" > -->
-    <!-- <div class="row justify-content-center "> -->
-      <div class="col text-center ">
-        <img
-          src="../../../assets/images/IDimages/Bodum/WaageH.svg"
-          class="img-fluid"
-        />
-      </div>
-    <!-- </div> -->
-  <!-- </div> -->
+  <div class="col text-center">
+    <img v-lazy="WaageH" class="img-fluid" />
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WaageH from "../../../assets/images/IDimages/Bodum/WaageH.svg";
+</script>
 
-<style lang="scss" scoped>
-@import "../../../scss/theme.scss";
-
-.section1-header-color {
-  //background-color: $project1-header-image-background-color !important;
-  width: 100%;
-  height: 450px;
-}
-
-//div{ border:dashed}
-
-</style>
+<style lang="scss" scoped></style>

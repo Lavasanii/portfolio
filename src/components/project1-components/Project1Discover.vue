@@ -25,7 +25,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center discover-process-image">
       <div class="col text-center">
-        <img :src="project1discoverProcess" class="img-fluid" />
+        <img v-lazy="project1discoverProcess" class="img-fluid" />
       </div>
     </div>
   </div>

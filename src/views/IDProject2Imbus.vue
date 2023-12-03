@@ -1,9 +1,7 @@
 <template>
   <IDProject2HeaderImage></IDProject2HeaderImage>
   <div class="container" style="max-width: 800px">
-    <div class="h2 mt-5 text-center">
-      INBUS Hex key
-    </div>
+    <div class="h2 mt-5 text-center">INBUS Hex key</div>
     <div class="h6 text-center" style="font-weight: 300">
       <strong>Duration of the project: </strong> 12 weeks |
       <strong>prototyping Type: </strong>individual work
@@ -20,23 +18,22 @@
 
   <IDProject2Process class="margin-between-sections"></IDProject2Process>
 
-
   <div class="container" style="max-width: 800px">
     <div class="row justify-content-center mt-5">
-
-      <div class="margin-between-sections" v-for="Item in ID_Liste" :key="Item.id">
+      <div
+        class="margin-between-sections"
+        v-for="Item in ID_Liste"
+        :key="Item.id"
+      >
         <div class="sections-title">{{ Item.title }}</div>
         <div class="sections-texts"><span v-html="Item.text"></span></div>
       </div>
 
-
-<!-- 
+      <!-- 
       <div class="col text-center mt-5 mb-12 px">
         <img :src="Ausbau" alt="Bild" class="img-fluid" />
       </div> -->
-    
     </div>
-
   </div>
   <IDProject2Design></IDProject2Design>
 </template>
@@ -46,7 +43,6 @@ import { ref } from "vue";
 import IDProject2HeaderImage from "../components/IDComponents/IDproject2Imbus-components/IDProject2HeaderImage.vue";
 import IDProject2Process from "../components/IDComponents/IDproject2Imbus-components/IDProject2Process.vue";
 import IDProject2Design from "../components/IDComponents/IDproject2Imbus-components/IDProject2Design.vue";
-
 
 interface sectionsInterfaces {
   id: number;
@@ -68,12 +64,7 @@ const section1Items = ref<sectionsInterfaces[]>([
     title: "The Process",
     text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
   },
-
 ]);
-
-
-
-
 
 interface sections1Interfaces {
   id: number;
@@ -93,9 +84,7 @@ const ID_Liste = ref<sections1Interfaces[]>([
     <li> <span style="font-weight:600;"> The box is excessively bulky and does not meet aesthetic standards</span> </li>
   </ul> `,
   },
-
 ]);
-
 </script>
 
 <style lang="scss" scoped>

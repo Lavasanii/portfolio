@@ -14,14 +14,14 @@
           v-for="ul in userflowItemsLight"
           :key="ul.id"
         >
-          <img :src="ul.imgSrc" :alt="ul.name" class="img-fluid" />
+          <img v-lazy="ul.imgSrc" :alt="ul.name" class="img-fluid" />
         </div>
         <div
           class="col-4 text-center my-4"
           v-for="ud in userflowItemsDark"
           :key="ud.id"
         >
-          <img :src="ud.imgSrc" :alt="ud.name" class="img-fluid" />
+          <img v-lazy="ud.imgSrc" :alt="ud.name" class="img-fluid" />
         </div>
       </div>
     </div>

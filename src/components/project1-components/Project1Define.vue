@@ -16,7 +16,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center define-gender-age">
       <div class="col text-center">
-        <img :src="project1defineGenderAge" class="img-fluid" />
+        <img v-lazy="project1defineGenderAge" class="img-fluid" />
         <div class="text-center mt-2">
           The charts are used to help you better understand who the users are. For example, they show the age and gender of the users
         </div>
@@ -27,13 +27,13 @@
         <div class="col-12 col-md-6 col-lg-4">
           <div class="row">
             <div class="col">
-              <img :src="briefcase" alt="briefcase" width="32" height="32" />
+              <img v-lazy="briefcase" alt="briefcase" width="32" height="32" />
               <br />
               <div class="persona-text-bottom-icons">Occupation</div>
               <p>engineer</p>
             </div>
             <div class="col">
-              <img :src="location" alt="location" width="32" height="32" />
+              <img v-lazy="location" alt="location" width="32" height="32" />
               <br />
               <div class="persona-text-bottom-icons">Location</div>
               <p>Düsseldorf, Germany</p>
@@ -41,13 +41,13 @@
           </div>
           <div class="row persona-margin-top-rows">
             <div class="col">
-              <img :src="person" alt="person" width="32" height="32" />
+              <img v-lazy="person" alt="person" width="32" height="32" />
               <br />
               <div class="persona-text-bottom-icons">Age</div>
               <p>33</p>
             </div>
             <div class="col">
-              <img :src="home" alt="home" width="32" height="32" />
+              <img v-lazy="home" alt="home" width="32" height="32" />
               <br />
               <div class="persona-text-bottom-icons">Family</div>
               <p>Single</p>
@@ -93,7 +93,7 @@
         <div
           class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center"
         >
-          <img :src="project1definePersona" width="365" height="490" />
+          <img v-lazy="project1definePersona" width="365" height="490" />
         </div>
       </div>
     </div>

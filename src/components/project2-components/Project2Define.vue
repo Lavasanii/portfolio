@@ -7,33 +7,35 @@
     </div>
     <div class="sections-title">User Personas</div>
     <div class="sections-texts">
-      I created a preliminary persona to foster a deeper understanding of their perspective after identifying the target
-      audience.
+      I created a preliminary persona to foster a deeper understanding of their
+      perspective after identifying the target audience.
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center define-gender-age">
-      <div class="col text-center">
-      </div>
+      <div class="col text-center"></div>
     </div>
     <div class="container-fluid" style="max-width: 1300px">
       <div class="row">
-
-
         <div class="col-12 col-md-6 col-lg-4 mt-auto">
           <div class="sections-title mb-2">Biography</div>
           <div class="mb-4">
-            Highly educated, currently employed full-time and earning a respectable salary
+            Highly educated, currently employed full-time and earning a
+            respectable salary
           </div>
 
           <div class="row">
-
             <div class="col">
               <div class="row">
-                <div class="col text-end my-auto ">
-                  <img :src="briefcase" alt="briefcase" width="32" height="32" />
+                <div class="col text-end my-auto">
+                  <img
+                    v-lazy="briefcase"
+                    alt="briefcase"
+                    width="32"
+                    height="32"
+                  />
                 </div>
-                <div class="col py-4 pl-0 ">
+                <div class="col py-4 pl-0">
                   <div class="Info">Occupation</div>
                   <p class="my-0">Software Developer</p>
                 </div>
@@ -42,27 +44,29 @@
 
             <div class="col">
               <div class="row">
-                <div class="col text-end my-auto ">
-                  <img :src="location" alt="location" width="32" height="32" />
+                <div class="col text-end my-auto">
+                  <img
+                    v-lazy="location"
+                    alt="location"
+                    width="32"
+                    height="32"
+                  />
                 </div>
-                <div class="col py-4 pl-0 ">
+                <div class="col py-4 pl-0">
                   <div class="Info">Location</div>
                   <p class="my-0">Berlin, Germany</p>
                 </div>
               </div>
             </div>
-
           </div>
 
           <div class="row">
-
-
             <div class="col">
               <div class="row">
-                <div class="col text-end my-auto ">
-                  <img :src="person" alt="person" width="32" height="32" />
+                <div class="col text-end my-auto">
+                  <img v-lazy="person" alt="person" width="32" height="32" />
                 </div>
-                <div class="col py-4 pl-0 ">
+                <div class="col py-4 pl-0">
                   <div class="Info">Age</div>
                   <p class="my-0">26-35</p>
                 </div>
@@ -71,32 +75,33 @@
 
             <div class="col">
               <div class="row">
-                <div class="col text-end my-auto ">
-                  <img :src="home" alt="home" width="32" height="32" />
+                <div class="col text-end my-auto">
+                  <img v-lazy="home" alt="home" width="32" height="32" />
                 </div>
-                <div class="col py-4 pl-0 ">
+                <div class="col py-4 pl-0">
                   <div class="Info">Family</div>
                   <p class="my-0">Single</p>
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-auto" style="padding-left: 65px;">
+        <div
+          class="col-12 col-md-6 col-lg-4 mt-auto"
+          style="padding-left: 65px"
+        >
           <div class="sections-title">Behavior</div>
           <div>
             <ul>
               <li>Busy schedule</li>
-              <li>
-                Not much of a community
-              </li>
+              <li>Not much of a community</li>
               <li>Nerd, Interested in new technology</li>
               <li>Not much sports</li>
             </ul>
           </div>
-          <div class="sections-title" style="margin-top: 37px;">Needs & Goals</div>
+          <div class="sections-title" style="margin-top: 37px">
+            Needs & Goals
+          </div>
           <div>
             <ul>
               <li>Good quality food</li>
@@ -107,8 +112,10 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center">
-          <img :src="Project2Personas" class="Personas-Bild" />
+        <div
+          class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center"
+        >
+          <img v-lazy="Project2Personas" class="Personas-Bild" />
         </div>
       </div>
     </div>
@@ -145,10 +152,6 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
   color: $project1-text-color !important;
 }
 
-//div {
- // border: dashed;
-//}
-
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
@@ -161,15 +164,6 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
   margin-bottom: 92px;
 }
 
-
-.persona-text-bottom-icons {
-  color: $project1-persona-text-bottom-icons-color !important;
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: 25px;
-}
-
-
 .Personas-Bild {
   width: 332px;
   height: 482px;
@@ -177,6 +171,6 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
 
 .Info {
   font-weight: 500;
-  font-size: 16,5px;
+  font-size: 16, 5px;
 }
 </style>
