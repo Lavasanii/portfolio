@@ -88,10 +88,8 @@ const section1Items = ref<sectionsInterfaces[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .overview-text {
@@ -107,14 +105,14 @@ const section1Items = ref<sectionsInterfaces[]>([
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 @media only screen and (max-width: 500px) {

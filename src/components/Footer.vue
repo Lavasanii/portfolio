@@ -60,13 +60,12 @@ const socialItems = ref<socialItemsInterface[]>([
 </script>
 
 <style lang="scss">
-@import "../scss/theme.scss";
 
 .footer {
   bottom: 0;
   width: 100%;
-  background-color: $footer-background-color;
-  color: $footer-items-color;
+  background-color: #2e555245;
+  color: #000000;
   text-align: center;
 }
 </style>

@@ -70,10 +70,8 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {

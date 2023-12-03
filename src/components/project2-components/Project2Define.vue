@@ -132,31 +132,29 @@ import Project2Personas from "../../assets/images/Project2/Project2Personas.jpg"
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .define-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project2-define-text-color !important;
-  border-bottom: 3px solid $project2-define-text-color !important;
+  color: #496b34bf !important;
+  border-bottom: 3px solid #496b34bf !important;
 }
 
 .sections-title {
   font-weight: 600;
   font-size: 20px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .define-gender-age {

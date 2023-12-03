@@ -4,8 +4,9 @@
       <div class="row">
         <div class="col-md-8">
           <div class="text-container mt-5">
-            <div class="display-2 h-text-title-color ">Industrial design
-              Portfolio </div>
+            <div class="display-2 h-text-title-color">
+              Industrial design Portfolio
+            </div>
           </div>
         </div>
         <!-- 
@@ -23,24 +24,23 @@
 <script setup lang="ts"></script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 .IDHomeP-background {
   width: 100%;
   height: auto;
-  background: $home-avatar-background;
+  background: linear-gradient(
+    158deg,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(46, 85, 82, 0.24) 48%,
+    rgba(226, 174, 93, 1) 100%
+  );
 }
 
 .h-text-title-color {
-  color: $home-text-title-color;
+  color: #296879;
   margin-bottom: 100px;
-  
 }
-
 
 .h-text-color {
-  color: $home-text-color;
+  color: #000000;
 }
-
-
 </style>

@@ -211,18 +211,16 @@ const iconslistItems = ref<imageItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .discover-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project2-design-text-color !important;
-  border-bottom: 3px solid $project2-design-text-color !important;
+  color: #496b34bf !important;
+  border-bottom: 3px solid #496b34bf !important;
 }
 
 // Design Text and Border Color
@@ -230,20 +228,20 @@ const iconslistItems = ref<imageItemsInterface[]>([
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .moodboard-header {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-design-Headers-color;
+  color: rgba(27, 27, 27, 0.6);
 }
 
 .sections-subtitle {
@@ -251,7 +249,7 @@ const iconslistItems = ref<imageItemsInterface[]>([
   font-weight: 600 !important;
   margin-top: 70px;
   padding-bottom: 6px;
-  color: $project1-design-Headers-color;
-  border-bottom: 1px solid $project1-design-Headers-color;
+  color: rgba(27, 27, 27, 0.6);
+  border-bottom: 1px solid rgba(27, 27, 27, 0.6);
 }
 </style>

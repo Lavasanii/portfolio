@@ -22,11 +22,11 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Define2icon from"../../assets/icons/Project2-Icons/Define2Icon.svg"
-import Descover2icon from"../../assets/icons/Project2-Icons/Discover2Icon.svg"
-import Ideation2icon from "../../assets/icons/Project2-Icons/Ideation2Icon.svg"
-import Design2icon from "../../assets/icons/Project2-Icons/Design2Icon.svg"
-import Prototype2icon from "../../assets/icons/Project2-Icons/Prototype2Icon.svg"
+import Define2icon from "../../assets/icons/Project2-Icons/Define2Icon.svg";
+import Descover2icon from "../../assets/icons/Project2-Icons/Discover2Icon.svg";
+import Ideation2icon from "../../assets/icons/Project2-Icons/Ideation2Icon.svg";
+import Design2icon from "../../assets/icons/Project2-Icons/Design2Icon.svg";
+import Prototype2icon from "../../assets/icons/Project2-Icons/Prototype2Icon.svg";
 
 interface processItemsInterface {
   id: number;
@@ -41,7 +41,6 @@ const processItems = ref<processItemsInterface[]>([
     title: "Discover",
     text: "Generate and gather ideas plus look at other ideas",
     imgLink: Descover2icon,
-    
   },
   {
     id: 1,
@@ -71,10 +70,8 @@ const processItems = ref<processItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {

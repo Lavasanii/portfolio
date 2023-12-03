@@ -18,7 +18,8 @@
       <div class="col text-center">
         <img v-lazy="project1defineGenderAge" class="img-fluid" />
         <div class="text-center mt-2">
-          The charts are used to help you better understand who the users are. For example, they show the age and gender of the users
+          The charts are used to help you better understand who the users are.
+          For example, they show the age and gender of the users
         </div>
       </div>
     </div>
@@ -111,31 +112,30 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
 
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .define-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-define-text-color !important;
-  border-bottom: 3px solid $project1-define-text-color !important;
+  color: #528CA2 !important;
+  border-bottom: 3px solid #528CA2 !important;
 }
 
 .sections-title {
   font-weight: 600;
   font-size: 20px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .define-gender-age {
@@ -144,7 +144,7 @@ import project1definePersona from "../../assets/images/project1definePersona.png
 }
 
 .persona-text-bottom-icons {
-  color: $project1-persona-text-bottom-icons-color !important;
+  color: rgba(27,27,27,0.8) !important;
   font-size: 20px;
   font-weight: 500;
   margin-top: 25px;

@@ -2,7 +2,9 @@
   <nav class="navbar navbar-expand-lg fixed-top nav-background-color-variable">
     <div class="container">
       <!-- <div class="navbar-brand nav-title-color" onclick="window.location.href = 'http://example.com'">Saeid Farajollahlavasani</div> -->
-      <a href="/" class="navbar-brand nav-title-color">Saeid Farajollahlavasani</a>
+      <a href="/" class="navbar-brand nav-title-color"
+        >Saeid Farajollahlavasani</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -24,7 +26,9 @@
               v-if="n.active"
               class="nav-link nav-items-color"
               :to="n.link"
-              :class="{ 'industrial-design-button': n.name === 'Industrial Design' }"
+              :class="{
+                'industrial-design-button': n.name === 'Industrial Design',
+              }"
             >
               {{ n.name }}
             </router-link>
@@ -77,29 +81,27 @@ const navItems = ref<navItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/theme.scss";
-
 .nav-background-color-variable {
-  background-color: $navBar-background-color !important;
+  background-color: #c6d1d0 !important;
 }
 
 .nav-title-color {
-  color: $navBar-items-color;
+  color: #000000;
 }
 
 .nav-items-color {
-  color: $navBar-items-color;
+  color: #000000;
 }
 
 .nav-deactive-items-color {
-  color: $nav-deactive-items-color;
+  color: #666666;
 }
 
 .industrial-design-button {
   //border: 1px solid #000; /* Hier kannst du die gewünschten Rahmenstile definieren */
   //padding: 5px 10px; /* Zusätzliche Gestaltung, falls nötig */
   border-radius: 5px;
-  background-color: #4794F6;
+  background-color: #4794f6;
   margin-left: 30px;
   /* Weitere Styling-Attribute nach Bedarf hinzufügen */
 }

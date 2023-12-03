@@ -17,8 +17,6 @@ import CatchEatMockUpS22 from "../../assets/images/Project2/CatchEatMockUpS22.sv
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 .section1-header-color {
   background-color: #496b34bf !important;
   width: 100%;

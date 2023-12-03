@@ -106,7 +106,12 @@
       </div>
       <div class="row">
         <div class="col-6">
-          <img v-lazy="Inbus2" alt="Bild" class="img-fluid" style="width: 100%" />
+          <img
+            v-lazy="Inbus2"
+            alt="Bild"
+            class="img-fluid"
+            style="width: 100%"
+          />
           <p>
             The unique feature of this design is that the suspended INBUS keys
             can be stably positioned, even with the compact design. As a result,
@@ -114,7 +119,12 @@
           </p>
         </div>
         <div class="col-6">
-          <img v-lazy="Inbus1" alt="Bild" class="img-fluid" style="width: 100%" />
+          <img
+            v-lazy="Inbus1"
+            alt="Bild"
+            class="img-fluid"
+            style="width: 100%"
+          />
           <p>
             This operates through a rotating motion. The spring assists in
             pushing the holder upwards for the INBUS keys to become removable.
@@ -305,22 +315,21 @@ import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/INbus
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
 
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .moodboard-header {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-design-Headers-color;
+  color: rgba(27,27,27,0.6);
 }
 
 .h-background-avatar {
   width: 100%;
   height: auto;
-  background: $ID-Project1-background;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
   //margin-top: 120px;
 }
 
@@ -392,6 +401,6 @@ import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/INbus
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 </style>

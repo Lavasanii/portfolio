@@ -43,8 +43,6 @@ const projectItems = ref<projectItemsInterface[]>([
 ]);
 </script>
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 .hover-effect {
   position: relative;
 }
@@ -62,7 +60,7 @@ const projectItems = ref<projectItemsInterface[]>([
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: $home-text-inside-image-color;
+  color: #000000;
   opacity: 0;
   transition: opacity 0.3s ease;
 }

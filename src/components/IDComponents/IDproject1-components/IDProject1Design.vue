@@ -278,22 +278,21 @@ import WaageBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
 
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .moodboard-header {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-design-Headers-color;
+  color: rgba(27,27,27,0.6);
 }
 
 .h-background-avatar {
   width: 100%;
   height: auto;
-  background: $ID-Project1-background;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
   //margin-top: 120px;
 }
 

@@ -40,21 +40,21 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Project1ideationscreenVerteilungs1 from "../../assets/images/Project1ideationscreenVerteilungs1.png"
-import Project1ideationscreenVerteilungs2 from "../../assets/images/Project1ideationscreenVerteilungs2.png"
-import Project1ideationscreenVerteilungs3 from "../../assets/images/Project1ideationscreenVerteilungs3.png"
-import Project1ideationscreenVerteilungs4 from "../../assets/images/Project1ideationscreenVerteilungs4.png"
-import Project1ideationscreenVerteilungs5 from "../../assets/images/Project1ideationscreenVerteilungs5.png"
-import Project1ideationscreenVerteilungs6 from "../../assets/images/Project1ideationscreenVerteilungs6.png"
-import Project1ideationlyout1 from "../../assets/images/Project1ideationlyout1.png"
-import Project1ideationlyout2 from "../../assets/images/Project1ideationlyout2.png"
-import Project1ideationlyout3 from "../../assets/images/Project1ideationlyout3.png"
-import Project1ideationcolortest1 from "../../assets/images/Project1ideationcolortest1.png"
-import Project1ideationcolortest2 from "../../assets/images/Project1ideationcolortest2.png"
-import Project1ideationcolortest3 from "../../assets/images/Project1ideationcolortest3.png"
-import Project1ideationcolortest4 from "../../assets/images/Project1ideationcolortest4.png"
-import Project1ideationcolortest5 from "../../assets/images/Project1ideationcolortest5.png"
-import Project1ideationcolortest6 from "../../assets/images/Project1ideationcolortest6.png"
+import Project1ideationscreenVerteilungs1 from "../../assets/images/Project1ideationscreenVerteilungs1.png";
+import Project1ideationscreenVerteilungs2 from "../../assets/images/Project1ideationscreenVerteilungs2.png";
+import Project1ideationscreenVerteilungs3 from "../../assets/images/Project1ideationscreenVerteilungs3.png";
+import Project1ideationscreenVerteilungs4 from "../../assets/images/Project1ideationscreenVerteilungs4.png";
+import Project1ideationscreenVerteilungs5 from "../../assets/images/Project1ideationscreenVerteilungs5.png";
+import Project1ideationscreenVerteilungs6 from "../../assets/images/Project1ideationscreenVerteilungs6.png";
+import Project1ideationlyout1 from "../../assets/images/Project1ideationlyout1.png";
+import Project1ideationlyout2 from "../../assets/images/Project1ideationlyout2.png";
+import Project1ideationlyout3 from "../../assets/images/Project1ideationlyout3.png";
+import Project1ideationcolortest1 from "../../assets/images/Project1ideationcolortest1.png";
+import Project1ideationcolortest2 from "../../assets/images/Project1ideationcolortest2.png";
+import Project1ideationcolortest3 from "../../assets/images/Project1ideationcolortest3.png";
+import Project1ideationcolortest4 from "../../assets/images/Project1ideationcolortest4.png";
+import Project1ideationcolortest5 from "../../assets/images/Project1ideationcolortest5.png";
+import Project1ideationcolortest6 from "../../assets/images/Project1ideationcolortest6.png";
 
 interface imageItemsInterface {
   id: number;
@@ -132,31 +132,29 @@ const colorTestItems = ref<imageItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .ideation-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-ideation-text-color !important;
-  border-bottom: 3px solid $project1-ideation-text-color !important;
+  color: #528ca2 !important;
+  border-bottom: 3px solid #528ca2 !important;
 }
 
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-subtitle {
@@ -164,7 +162,7 @@ const colorTestItems = ref<imageItemsInterface[]>([
   font-weight: 600 !important;
   margin-top: 70px;
   padding-bottom: 6px;
-  color: $project1-ideation-Layout-header;
-  border-bottom: 1px solid $project1-ideation-Layout-header;
+  color: rgba(27, 27, 27, 0.6);
+  border-bottom: 1px solid rgba(27, 27, 27, 0.6);
 }
 </style>

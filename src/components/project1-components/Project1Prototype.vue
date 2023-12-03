@@ -81,24 +81,22 @@ const userflowItemsDark = ref<imageItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .prototype-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project1-discover-text-color !important;
-  border-bottom: 3px solid $project1-discover-text-color !important;
+  color: #528CA2 !important;
+  border-bottom: 3px solid #528CA2 !important;
 }
 
 .user-flow-image {
   padding-top: 78px;
   padding-bottom: 78px;
   margin-bottom: 92px;
-  background-color: $project1-design-user-flow-background-color;
+  background-color: #528ca278;
 }
 </style>

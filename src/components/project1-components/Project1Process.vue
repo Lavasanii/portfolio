@@ -22,11 +22,11 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import processProject1_01 from "../../assets/icons/processProject1_01.svg"
-import processProject1_02 from "../../assets/icons/processProject1_02.svg"
-import processProject1_03 from "../../assets/icons/processProject1_03.svg"
-import processProject1_04 from "../../assets/icons/processProject1_04.svg"
-import processProject1_05 from "../../assets/icons/processProject1_05.svg"
+import processProject1_01 from "../../assets/icons/processProject1_01.svg";
+import processProject1_02 from "../../assets/icons/processProject1_02.svg";
+import processProject1_03 from "../../assets/icons/processProject1_03.svg";
+import processProject1_04 from "../../assets/icons/processProject1_04.svg";
+import processProject1_05 from "../../assets/icons/processProject1_05.svg";
 
 interface processItemsInterface {
   id: number;
@@ -41,7 +41,6 @@ const processItems = ref<processItemsInterface[]>([
     title: "Discover",
     text: "Generate and gather ideas plus look at other ideas",
     imgLink: processProject1_01,
-    
   },
   {
     id: 1,
@@ -71,10 +70,8 @@ const processItems = ref<processItemsInterface[]>([
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {

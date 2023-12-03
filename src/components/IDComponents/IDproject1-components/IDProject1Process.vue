@@ -22,11 +22,11 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import AnalyseID from"../../../assets/icons/IDProjects_Icons/AnalyseID.png"
-import KonzeptID from"../../../assets/icons/IDProjects_Icons/KonzeptID.png"
-import DesignID from "../../../assets/icons/IDProjects_Icons/DesignID.png"
-import DesignOP from "../../../assets/icons/IDProjects_Icons/DesignOP.png"
-import DetailOP from "../../../assets/icons/IDProjects_Icons/DetailOP.png"
+import AnalyseID from "../../../assets/icons/IDProjects_Icons/AnalyseID.png";
+import KonzeptID from "../../../assets/icons/IDProjects_Icons/KonzeptID.png";
+import DesignID from "../../../assets/icons/IDProjects_Icons/DesignID.png";
+import DesignOP from "../../../assets/icons/IDProjects_Icons/DesignOP.png";
+import DetailOP from "../../../assets/icons/IDProjects_Icons/DetailOP.png";
 
 interface IDprocessItemsInterface {
   id: number;
@@ -40,9 +40,8 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     id: 0,
     title: "RESEARCH & ANALYSE",
     text: "Research, Identifying potential, Defining tasks",
-    imgLink:AnalyseID,
-    
-   },
+    imgLink: AnalyseID,
+  },
   {
     id: 1,
     title: "CONCEPT",
@@ -53,7 +52,7 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     id: 2,
     title: "DESIGN",
     text: "Design specification, CAD",
-    imgLink: DesignID ,
+    imgLink: DesignID,
   },
   {
     id: 3,
@@ -67,15 +66,13 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     text: "Series production, Pilot series, Presentation",
     imgLink: DetailOP,
   },
-  
 ]);
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
 
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {

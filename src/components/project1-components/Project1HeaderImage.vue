@@ -13,10 +13,8 @@ import project1 from "../../assets/images/project1.png";
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 .section1-header-color {
-  background-color: $project1-header-image-background-color !important;
+  background-color: #dbdadb !important;
   width: 100%;
   height: 450px;
 }

@@ -24,10 +24,10 @@
     <source :src="CatchEatVideo" type="video/mp4" />
   </video>
 </template>
-  
+
 <script setup lang="ts">
 import { ref } from "vue";
-import Project2Header from "../components/project2-components/Project2HeaderImage.vue"
+import Project2Header from "../components/project2-components/Project2HeaderImage.vue";
 import Project2Process from "../components/project2-components/Project2Process.vue";
 import Project2Discover from "../components/project2-components/Project2Discover.vue";
 import Project2Define from "../components/project2-components/Project2Define.vue";
@@ -81,16 +81,12 @@ const section1Items = ref<sectionsInterfaces[]>([
     text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
   },
 ]);
-
 </script>
-  
+
 <style lang="scss" scoped>
-@import "../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
-
 
 .overview-text {
   margin-top: 90px;
@@ -103,14 +99,14 @@ const section1Items = ref<sectionsInterfaces[]>([
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -130,5 +126,4 @@ const section1Items = ref<sectionsInterfaces[]>([
     width: 1000px;
   }
 }
-
 </style>

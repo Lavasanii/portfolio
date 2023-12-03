@@ -28,7 +28,6 @@ import avatar from "../../assets//images/avatar.png";
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
 
 .h-background-avatar {
   width: 100%;

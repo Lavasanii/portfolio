@@ -22,11 +22,10 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import MaterialEinsparen from"../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/MaterialEinsparen.png"
-import Sicher from"../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/Sicher.png"
-import Function from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/Funktion.png"
-import SchmalesDesign from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/SchmalesDesign.png"
-
+import MaterialEinsparen from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/MaterialEinsparen.png";
+import Sicher from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/Sicher.png";
+import Function from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/Funktion.png";
+import SchmalesDesign from "../../../assets/icons/IDProjects_Icons/IDProject2-Icon-Inbus/SchmalesDesign.png";
 
 interface IDprocessItemsInterface {
   id: number;
@@ -40,9 +39,8 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     id: 0,
     title: "SAVE MATERIAL",
     text: "Use as few materials as possible",
-    imgLink:MaterialEinsparen,
-    
-   },
+    imgLink: MaterialEinsparen,
+  },
   {
     id: 1,
     title: "SAFE",
@@ -61,15 +59,12 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     text: "The end product should be as concise as possible.",
     imgLink: SchmalesDesign,
   },
-  
 ]);
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {
@@ -77,5 +72,4 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
   margin-bottom: 21px;
   font-weight: 700;
 }
-
 </style>

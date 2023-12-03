@@ -22,11 +22,10 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import HiddenDisplay from"../../../assets/icons/IDProjects_Icons/DeIdentityBo/HiddenDisplay.png"
-import TempurGlass from"../../../assets/icons/IDProjects_Icons/DeIdentityBo/TempurGlass.png"
-import Smart from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/Smart.png"
-import CorporateIdentity from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/CorporateIdentity.png"
-
+import HiddenDisplay from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/HiddenDisplay.png";
+import TempurGlass from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/TempurGlass.png";
+import Smart from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/Smart.png";
+import CorporateIdentity from "../../../assets/icons/IDProjects_Icons/DeIdentityBo/CorporateIdentity.png";
 
 interface IDprocessItemsInterface {
   id: number;
@@ -40,9 +39,8 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     id: 0,
     title: "HIDDEN DISPLAY",
     text: "Use of hidden display technology",
-    imgLink:HiddenDisplay,
-    
-   },
+    imgLink: HiddenDisplay,
+  },
   {
     id: 1,
     title: "TEMPUR GLASS",
@@ -61,15 +59,12 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
     text: "Design language and product strategy from Bodum",
     imgLink: CorporateIdentity,
   },
-  
 ]);
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .process-title {
@@ -77,5 +72,4 @@ const IDprocessItems = ref<IDprocessItemsInterface[]>([
   margin-bottom: 21px;
   font-weight: 700;
 }
-
 </style>

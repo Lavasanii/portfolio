@@ -55,31 +55,29 @@ import UserFlow from "../../assets/images/Project2/UserFlow.svg";
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .discover-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project2-discover-text-color !important;
-  border-bottom: 3px solid $project2-discover-text-color !important;
+  color: #496b34bf !important;
+  border-bottom: 3px solid #496b34bf !important;
 }
 
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .discover-process-image {
@@ -87,13 +85,13 @@ import UserFlow from "../../assets/images/Project2/UserFlow.svg";
   padding-bottom: 78px;
   margin-top: 36px;
   margin-bottom: 92px;
-  // background-color: $project1-discover-process-background-color;
+  // background-color: rgba(82, 140, 162, 0.47);
 }
 
 .sections-subtitle {
   font-size: 16px !important;
   font-weight: 600 !important;
   padding-bottom: 6px;
-  border-bottom: 1px solid $project1-discover-process-background-color;
+  border-bottom: 1px solid rgba(82, 140, 162, 0.47);
 }
 </style>

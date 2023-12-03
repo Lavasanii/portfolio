@@ -17,13 +17,24 @@
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems1" :key="ul.id">
-          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+        <div
+          class="col-4 text-center my-4"
+          v-for="ul in GalaxyPlusItems1"
+          :key="ul.id"
+        >
+          <img
+            v-lazy="ul.imgSrc"
+            :alt="ul.name"
+            style="width: 332px; height: 718.3px"
+          />
         </div>
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 800px; margin-bottom: 170px; margin-top: 220px">
+  <div
+    class="container"
+    style="max-width: 800px; margin-bottom: 170px; margin-top: 220px"
+  >
     <div class="sections-title">Profile and Filter Options</div>
     <div class="sections-texts">
       Here, the user lands in the profile. The person can change and save the
@@ -34,42 +45,73 @@
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems2" :key="ul.id">
-          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+        <div
+          class="col-4 text-center my-4"
+          v-for="ul in GalaxyPlusItems2"
+          :key="ul.id"
+        >
+          <img
+            v-lazy="ul.imgSrc"
+            :alt="ul.name"
+            style="width: 332px; height: 718.3px"
+          />
         </div>
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 800px; margin-bottom: 170px; margin-top: 220px">
+  <div
+    class="container"
+    style="max-width: 800px; margin-bottom: 170px; margin-top: 220px"
+  >
     <div class="sections-title">Pick and Combine Ingredients</div>
     <div class="sections-texts">
-      Users have the option of combining the ingredients themselves via the app and
-      putting together the meal themselves from the start. They can then find out
-      which restaurant is ready to prepare their individual order. In this case,
-      only three main dishes are available for combination..
+      Users have the option of combining the ingredients themselves via the app
+      and putting together the meal themselves from the start. They can then
+      find out which restaurant is ready to prepare their individual order. In
+      this case, only three main dishes are available for combination..
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems3" :key="ul.id">
-          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+        <div
+          class="col-4 text-center my-4"
+          v-for="ul in GalaxyPlusItems3"
+          :key="ul.id"
+        >
+          <img
+            v-lazy="ul.imgSrc"
+            :alt="ul.name"
+            style="width: 332px; height: 718.3px"
+          />
         </div>
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 800px; margin-bottom: 170px; margin-top: 220px">
+  <div
+    class="container"
+    style="max-width: 800px; margin-bottom: 170px; margin-top: 220px"
+  >
     <div class="sections-title">Select Restaurant and Navigate</div>
     <div class="sections-texts">
-      After the compilation, the user can find out which restaurant is ready to prepare
-      the food. The price and distance are displayed. Google Maps is used for navigation.
+      After the compilation, the user can find out which restaurant is ready to
+      prepare the food. The price and distance are displayed. Google Maps is
+      used for navigation.
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div class="col-4 text-center my-4" v-for="ul in GalaxyPlusItems4" :key="ul.id">
-          <img v-lazy="ul.imgSrc" :alt="ul.name" style="width: 332px; height: 718.3px" />
+        <div
+          class="col-4 text-center my-4"
+          v-for="ul in GalaxyPlusItems4"
+          :key="ul.id"
+        >
+          <img
+            v-lazy="ul.imgSrc"
+            :alt="ul.name"
+            style="width: 332px; height: 718.3px"
+          />
         </div>
       </div>
     </div>
@@ -100,7 +142,7 @@ import RouteBrechnet from "../../assets/images/Project2/MockupExport/RouteBrechn
 interface imageItemsInterface {
   id: number;
   name: string;
-  imgSrc: string; 
+  imgSrc: string;
 }
 
 const GalaxyPlusItems1 = ref<imageItemsInterface[]>([
@@ -164,7 +206,6 @@ const GalaxyPlusItems2 = ref<imageItemsInterface[]>([
   },
 ]);
 
-
 const GalaxyPlusItems3 = ref<imageItemsInterface[]>([
   {
     id: 11,
@@ -188,42 +229,36 @@ const GalaxyPlusItems3 = ref<imageItemsInterface[]>([
   },
 ]);
 
-
 const GalaxyPlusItems4 = ref<imageItemsInterface[]>([
   {
     id: 15,
     name: "Map0",
     imgSrc: Map0,
-  
   },
   {
     id: 16,
     name: "Map1",
     imgSrc: Map1,
-   
   },
   {
     id: 17,
     name: "RouteBrechnet",
     imgSrc: RouteBrechnet,
-  
   },
 ]);
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/theme.scss";
-
 * {
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .prototype-text {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: $project2-discover-text-color !important;
-  border-bottom: 3px solid $project2-discover-text-color !important;
+  color: #496b34bf !important;
+  border-bottom: 3px solid #496b34bf !important;
 }
 
 .user-flow-image {
@@ -238,13 +273,13 @@ const GalaxyPlusItems4 = ref<imageItemsInterface[]>([
 .sections-title {
   font-weight: 600;
   font-size: 22px;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 
 .sections-texts {
   margin-top: 36px;
   font-size: 18px;
   font-weight: 400;
-  color: $project1-text-color !important;
+  color: #000800cc !important;
 }
 </style>
