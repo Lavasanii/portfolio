@@ -56,7 +56,7 @@ const navItems = ref<navItemsInterface[]>([
   },
   {
     id: 3,
-    name: "Code",
+    name: "<Code>",
     link: "/CodingProjectsVue",
     active: true,
   },

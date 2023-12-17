@@ -1,7 +1,7 @@
 <template>
   <CodingHeaderImage></CodingHeaderImage>
   <div class="container" style="max-width: 800px">
-    <div class="h2 mt-5 text-center">Coding</div>
+    <div class="h2 mt-5 text-center">Coding Projects</div>
     <!-- <div class="h6 text-center" style="font-weight: 300">
       <strong>Duration of the project: </strong> 12 weeks |
       <strong>prototyping Type: </strong>individual work
