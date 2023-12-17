@@ -52,6 +52,7 @@ const router = createRouter({
       name: "CodingProjectsVue",
       component: CodingProjectsVue
     }
+    
   ],
   scrollBehavior() {
     // alwasy Scroll to top

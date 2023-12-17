@@ -20,23 +20,25 @@
 
   <div class="container" style="max-width: 800px">
     <div class="row justify-content-center mt-5">
-      <div
-        class="margin-between-sections"
-        v-for="Item in ID_Liste"
-        :key="Item.id"
-      >
+      <div class="margin-between-sections" v-for="Item in ID_Liste" :key="Item.id">
         <div class="sections-title">{{ Item.title }}</div>
         <div class="sections-texts"><span v-html="Item.text"></span></div>
       </div>
+      
     </div>
   </div>
+  <div id="app">
+        <GridCal></GridCal>
+      </div>
 
+  
 </template>
+
 
 <script setup lang="ts">
 import { ref } from "vue";
 import CodingHeaderImage from "../components/Coding/CodingHeaderImage.vue";
-
+import GridCal from "../components/Coding/GridCal.vue";
 
 interface sectionsInterfaces {
   id: number;
@@ -53,32 +55,8 @@ const section1Items = ref<sectionsInterfaces[]>([
     <br />
     `,
   },
-  {
-    id: 1,
-    title: "The Process",
-    text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
-  },
 ]);
 
-interface sections1Interfaces {
-  id: number;
-  title: string;
-  text: string;
-}
-
-const ID_Liste = ref<sections1Interfaces[]>([
-  {
-    id: 0,
-    title: "Problems",
-    text: `<ul>
-    <li> <span style="font-weight:600;"> Complex opening mechanism </span> </li>
-    <li> <span style="font-weight:600;"> All screws come loose when the box is opened using Allen keys</span> </li>
-    <li> <span style="font-weight:600;"> The box may break if dropped due to its fragility</span> </li>
-    <li> <span style="font-weight:600;"> The Allen keys are not secure </span> </li>
-    <li> <span style="font-weight:600;"> The box is excessively bulky and does not meet aesthetic standards</span> </li>
-  </ul> `,
-  },
-]);
 </script>
 
 <style lang="scss" scoped>
