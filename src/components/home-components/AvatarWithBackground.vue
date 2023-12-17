@@ -34,7 +34,7 @@ import avatar from "../../assets//images/avatar.png";
   height: auto;
   background: linear-gradient(
     158deg,
-    rgb(130, 110, 110) 0%,
+    rgb(252, 252, 252) 0%,
     rgba(46, 85, 82, 0.24) 48%,
     rgba(226, 174, 93, 1) 100%
   );

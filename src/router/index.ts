@@ -6,6 +6,7 @@ import Project2 from "../views/Project2.vue";
 import IDHome from "../views/IDHome.vue";
 import IDProject1Bodum from "../views/IDProject1Bodum.vue";
 import IDProject2ImbusVue from "../views/IDProject2Imbus.vue";
+import CodingProjectsVue from "../views/CodingProjects.vue";
 
 
 const router = createRouter({
@@ -41,10 +42,15 @@ const router = createRouter({
       name: "IDProject1Bodum",
       component: IDProject1Bodum,
     },
-    { 
+    {
       path: "/IDProject2Imbus",
       name: "IDProject2Imbus",
       component: IDProject2ImbusVue
+    },
+    {
+      path: "/CodingProjectsVue",
+      name: "CodingProjectsVue",
+      component: CodingProjectsVue
     }
   ],
   scrollBehavior() {
