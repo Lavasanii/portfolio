@@ -18,11 +18,24 @@
 </template>
   
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref,} from 'vue';
 import moment from 'moment';
 import { FilterMatchMode } from 'primevue/api';
 
-const products = ref([]);
+const products = ref([
+
+{
+        name: 'John Doe',
+        email: 'john@example.com',
+        birthdate: '1990-05-15' // Beispielgeburtstag im ISO-Format (YYYY-MM-DD)
+    },
+    {
+        name: 'Jane Smith',
+        email: 'jane@example.com',
+        birthdate: '1985-10-22' // Beispielgeburtstag im ISO-Format (YYYY-MM-DD)
+    },
+    // Füge weitere Daten hinzu...
+]);
 
 const filters = ref();
 
@@ -34,29 +47,25 @@ const initFilters = () => {
 };
 initFilters();
 
-onMounted(async () => {
-    try {
-        // Get Data From Backend
-        const response = await fetch('http://127.0.0.1:5000/');
-        // Get JSON Object
-        const fetchedData = await response.json();
 
-        // Calculate person's age - Json date contains only person's birthday
-        // Using Moment.js
-        var today = moment()
-        fetchedData.forEach(person => {
-            let pDate = moment(person.birthdate)
-            let diffyear = today.year() - pDate.year()
-            person.age = diffyear;
-        })
+// Berechne das Alter basierend auf dem Geburtsdatum
+// Mit Moment.js
+const calculateAge = () => {
+    const today = moment();
+    products.value.forEach(person => {
+        const pDate = moment(person.birthdate);
+        const diffyear = today.year() - pDate.year();
+        person.age = diffyear;
+    });
 
-        products.value = fetchedData;
-    } catch (error) {
-        console.error('Fetch error:', error);
-    }
-});
+};
+calculateAge();
 
 </script>
+
+
+
+
 
 <style>
 .container {
