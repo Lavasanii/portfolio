@@ -21,21 +21,11 @@
 import { ref,} from 'vue';
 import moment from 'moment';
 import { FilterMatchMode } from 'primevue/api';
+import Liste from '../../assets/Liste.json'
 
-const products = ref([
+const products = ref(Liste);
 
-{
-        name: 'John Doe',
-        email: 'john@example.com',
-        birthdate: '1990-05-15' // Beispielgeburtstag im ISO-Format (YYYY-MM-DD)
-    },
-    {
-        name: 'Jane Smith',
-        email: 'jane@example.com',
-        birthdate: '1985-10-22' // Beispielgeburtstag im ISO-Format (YYYY-MM-DD)
-    },
-    // Füge weitere Daten hinzu...
-]);
+// const products = ref([ ]);
 
 const filters = ref();
 

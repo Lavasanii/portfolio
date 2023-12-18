@@ -9,16 +9,21 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
+          
           <li class="nav-item" v-for="n in navItems" :key="n.id">
+            
             <router-link v-if="n.active" class="nav-link nav-items-color" :to="n.link" :class="{
               'industrial-design-button': n.name === 'Industrial Design',
             }">
               {{ n.name }}
             </router-link>
+            
             <div v-else class="nav-link nav-deactive-items-color">
               {{ n.name }}
             </div>
+          
           </li>
+        
         </ul>
       </div>
     </div>
