@@ -40,15 +40,40 @@ initFilters();
 
 // Berechne das Alter basierend auf dem Geburtsdatum
 // Mit Moment.js
+
+interface Person {
+    birthdate: string;
+    age?: number;
+    // Weitere Eigenschaften einer Person können hier hinzugefügt werden
+}
+
+// const person = ref<Person[]>(Liste);
+
+// const calculateAge = () => {
+    
+
+//     const today = moment();
+//     products.value.forEach(Person => {
+//         const pDate = moment(Person.birthdate);
+//         const diffyear = today.year() - pDate.year();
+//         Person.age = diffyear;
+
+//     });
+
+//     If(_person.age)
+//  { person.age = diffyear }
+
+const personList = ref<Person[]>(Liste);
+
 const calculateAge = () => {
     const today = moment();
-    products.value.forEach(person => {
+    personList.value.forEach((person) => {
         const pDate = moment(person.birthdate);
-        const diffyear = today.year() - pDate.year();
-        person.age = diffyear;
+        const diffYears = today.diff(pDate, 'years');
+        person.age = diffYears;
     });
-
 };
+
 calculateAge();
 
 </script>

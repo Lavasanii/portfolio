@@ -19,15 +19,15 @@
   <IDProject2Process class="margin-between-sections"></IDProject2Process>
 
   <div class="container" style="max-width: 800px">
-    <div class="row justify-content-center mt-5">
+    <!-- <div class="row justify-content-center mt-5">
       <div class="margin-between-sections" v-for="Item in ID_Liste" :key="Item.id">
         <div class="sections-title">{{ Item.title }}</div>
         <div class="sections-texts"><span v-html="Item.text"></span></div>
       </div>
 
-    </div>
+    </div> -->
   </div>
-  <div id="app">
+  <div id="app" class="mt-5">
     <GridCal></GridCal>
   </div>
 </template>

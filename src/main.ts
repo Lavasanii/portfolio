@@ -11,10 +11,12 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import InputText from 'primevue/inputtext';
 
+
 const app = createApp(App).use(router).use(VueLazyLoad, {
   loading: "../src/assets/ImgLazy/onLoading.png",
   error: "../src/assets/ImgLazy/onError.png",
-});
+}
+);
 
 app.use(PrimeVue);
 app.component('Column', Column);
