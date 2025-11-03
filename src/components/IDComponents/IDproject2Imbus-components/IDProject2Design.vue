@@ -311,7 +311,7 @@ import ModelPrintclose from "../../../assets/images/IDimages/Inbus/Modell_Making
 
 import InbusOneShot from "../../../assets/images/IDimages/Inbus/Renderings/InbusOneShot.png";
 import InbusFaded from "../../../assets/images/IDimages/Inbus/Renderings/InbusFaded.png";
-import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/INbusPlastik.png";
+import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/InbusPlastik.png";
 </script>
 
 <style lang="scss" scoped>
