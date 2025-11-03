@@ -169,7 +169,7 @@ import ButtonsP2 from "../../assets/icons/Project2-Icons/ButtonsP2.svg";
 import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
 import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
 import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
-
+  
 interface imageItemsInterface {
   id: number;
   name: string;
