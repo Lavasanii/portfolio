@@ -289,9 +289,6 @@ import Problems from "../../../assets/images/IDimages/Inbus/ProblemINBUS.svg";
 
 //Brainstorming
 
-// import Skizze1 from "../../../assets/images/IDimages/Inbus/Brainstorming/Skizze1.svg";
-// import Skizze2 from "../../../assets/images/IDimages/Inbus/Brainstorming/Skizze2.svg";
-// import Skizze3 from "../../../assets/images/IDimages/Inbus/Brainstorming/Skizze3.svg";
 import Brainstorming from "../../../assets/images/IDimages/Inbus/Brainstorming/Brainstorming.png";
 
 //Modell
