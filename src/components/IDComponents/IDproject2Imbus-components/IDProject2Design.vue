@@ -285,7 +285,7 @@ import IDP2DesignGoal from "./IDP2DesignGoal.vue";
 
 //Problem
 
-import Problems from "../../../assets/images/IDimages/Inbus/ProblemINBUS.svg";
+import Problems from "../../../assets/images/IDimages/Inbus/ProblemINBUS.png";
 
 //Brainstorming
 
