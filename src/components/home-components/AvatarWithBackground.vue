@@ -6,8 +6,9 @@
           <div class="text-container mt-5">
             <div class="h1 section1-text-title-color">Who am i ?</div>
             <p class="h-text-color mt-5" style="font-size: 18px !important">
-              Passionate UX/UI designer with a background in industrial design
-              and a special interest in IoT products.
+              UX/UI designer with a strong background in industrial design and an eye for functional aesthetics.
+              Experience in designing digital interfaces, prototyping, and front-end implementation with Figma and Vue.js. Analytical thinker,
+              team player, and passionate about combining design and technology.
             </p>
           </div>
         </div>
