@@ -46,7 +46,7 @@ const projectItems = ref<projectItemsInterface[]>([
     id: 2,
     textinImg: "School competition voting platform-Allreco GmbH",
     imgSrc: project3Image,
-    link: "/rubrik-project",
+    link: "/voting-project",
   },
   {
     id: 3,

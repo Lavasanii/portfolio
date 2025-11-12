@@ -7,6 +7,7 @@ import IDHome from "../views/IDHome.vue";
 import IDProject1Bodum from "../views/IDProject1Bodum.vue";
 import IDProject2ImbusVue from "../views/IDProject2Imbus.vue";
 import CodingProjectsVue from "../views/CodingProjects.vue";
+import Project3 from "../views/Project3.vue";
 
 
 const router = createRouter({
@@ -26,6 +27,11 @@ const router = createRouter({
       path: "/catcheat-project",
       name: "Project2",
       component: Project2,
+    },
+     {
+      path: "/voting-project",
+      name: "Project3",
+      component: Project3,
     },
     {
       path: "/aboutme",
