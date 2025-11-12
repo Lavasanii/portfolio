@@ -40,6 +40,18 @@ const projectItems = ref<projectItemsInterface[]>([
     imgSrc: project2Image,
     link: "/catcheat-project",
   },
+  {
+    id: 2,
+    textinImg: "A code - learning platform - Rubrik's Code",
+    imgSrc: project1Image,
+    link: "/rubrik-project",
+  },
+  {
+    id: 3,
+    textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
+    imgSrc: project2Image,
+    link: "/catcheat-project",
+  },
 ]);
 </script>
 <style lang="scss" scoped>
