@@ -4,7 +4,7 @@
     <div class="scroller"></div>
   </div>
   <div class="container mb-5">
-    <p class="h3">Projects</p>
+    <p class="h3 ">Projects</p>
   </div>
   <Projects></Projects>
 </template>

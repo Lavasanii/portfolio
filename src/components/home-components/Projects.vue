@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-6" v-for="p in projectItems">
+      <div class="col-sm-12 col-md-6 py-3 px-3" v-for="p in projectItems">
         <router-link :to="p.link">
           <div class="hover-effect">
             <img v-lazy="p.imgSrc" lazy="loaded" alt="Bild" class="img-fluid" />
