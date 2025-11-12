@@ -19,6 +19,8 @@
 import { ref } from "vue";
 import project1Image from "../../assets/images/project1.png";
 import project2Image from "../../assets/images/Project2/Project2MockUp.png";
+import project3Image from "../../assets/images/Project3/P3wettbewerb.png";
+
 
 interface projectItemsInterface {
   id: number;
@@ -42,8 +44,8 @@ const projectItems = ref<projectItemsInterface[]>([
   },
   {
     id: 2,
-    textinImg: "A code - learning platform - Rubrik's Code",
-    imgSrc: project1Image,
+    textinImg: "School competition voting platform-Allreco GmbH",
+    imgSrc: project3Image,
     link: "/rubrik-project",
   },
   {
