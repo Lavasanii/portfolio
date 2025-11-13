@@ -4,10 +4,9 @@
     <div class="h2 mt-5 text-center">
       School competition voting platform
     </div>
-   <div class="text-start mt-5" style="font-weight: 300; margin-left: 6vw;">
-      <p><strong>company: </strong> Allreco GmbH </p>
-      <p><strong>Role: </strong>Frontend Developer & UX Designer </p>
-      <p><strong>Tools & Technologies: </strong>Vue.js · JavaScript · Webflow · Figma </p>
+ <div class="h6 text-center" style="font-weight: 300">
+      <strong>Company: </strong> Allreco GmbH |
+      <strong>prototyping Type: </strong>Internal Company Project
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
@@ -29,13 +28,12 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Project3Header from "../components/project3-components/Project3HeaderImage.vue";
-import Project3Process from "../components/project2-components/Project2Process.vue";
-import Project3Discover from "../components/project2-components/Project2Discover.vue";
-import Project3Define from "../components/project2-components/Project2Define.vue";
-import Project3Ideation from "../components/project2-components/Project2Ideation.vue";
-import Project3Design from "../components/project2-components/Project2Design.vue";
-import Project3Prototype from "../components/project2-components/Project2Prototype.vue";
-import CatchEatVideo from "../assets/videos/CatchEatVideo.mp4";
+import Project3Process from "../components/project3-components/Project3Process.vue";
+import Project3Discover from "../components/project3-components/Project3Discover.vue";
+import Project3Define from "../components/project3-components/Project3Define.vue";
+import Project3Ideation from "../components/project3-components/Project3Ideation.vue";
+import Project3Design from "../components/project3-components/Project3Design.vue";
+import Project3Prototype from "../components/project3-components/Project3Prototype.vue";
 
 interface sectionsInterfaces {
   id: number;
@@ -46,38 +44,26 @@ const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 0,
     title: "Project background",
-    text: `<p>In my environment, I observe many programmers who spend most of their working day in front of their laptop or PC and hardly move. They usually order their food online and have it delivered. This pattern repeats itself every day, five days a week. This inactivity can lead to health problems such as back pain and stomach problems, and their eyes suffer as well.</p>
-    <p>That's why I came up with the idea of an app that addresses this problem. The app allows users to order food and pick it up in person. This way, they could briefly get fresh air, exercise, and save on delivery time.</p>
-    <p>The app offers a variety of healthy meals from local restaurants. Users can easily place orders through the app, adjust the pickup time to fit their break, and enjoy high-quality food. Rewards could further motivate them to maintain healthy habits.</p>
-    <p>This app would not only improve physical health, but also quality of life. By addressing the challenges of the modern workday, it promotes a more balanced lifestyle.</p>`,
+    text: `<p>Each year, Allreco GmbH organizes a “Recycling & Upcycling” competition for schools to inspire creativity and environmental awareness. Students are encouraged to give old objects a new purpose through creative ideas and craftsmanship — turning waste into useful new items.</p>
+    <p>As part of this initiative, I developed an interactive voting platform that allowed visitors to vote for their favorite school projects while increasing Allrecos website engagement and visibility. Each user could vote only once per day, ensuring fair participation..</p>`,
   },
   {
     id: 1,
-    title: "Problem",
-    text: `<ul>
-    <li> <span style="font-weight:600;"> Lack of movement: </span> People who spend long hours in front of computers, such as programmers, researchers, designers, gamers, film editors, etc., often don't move enough while working, which can lead to back pain and eye strain.</li>
-    <li> <span style="font-weight:600;"> Eating habits: </span> This group often has unhealthy eating habits, ordering greasy meals and paying little attention to quality.</li>
-    <li> <span style="font-weight:600;"> Fresh air and relaxation: </span> While working, many people feel stressed and tired because of a lack of oxygen to the brain. Fresh air is essential for relaxation.</li>
-    <li> <span style="font-weight:600;"> Unnecessary waste production:</span> Orders generate a lot of packaging waste and contribute to environmental pollution. 
-  </ul> `,
+    title: "Challenge",
+    text: "To guarantee fair voting, users needed to be restricted to one vote per day. I implemented an IP-based limitation system using JavaScript. The frontend was built in Vue.js and seamlessly integrated into the existing Webflow site via an iFrame.",
   },
   {
     id: 2,
-    title: "The Goal",
-    text: "Designing an app that encourages people to move during their work breaks by personally picking up their ordered meals. This helps break the sedentary work style and promotes physical activity.",
+    title: "Role",
+    text: "Frontend Developer & UX Designer",
   },
   {
     id: 3,
-    title: "Responsibilities",
-    text: "User reasearch, Wire friming and visual design",
+    title: "Tools & Technologies",
+    text: "Vue.js · JavaScript · Webflow · Figma",
   },
   {
     id: 4,
-    title: "Tools",
-    text: "Figma, Photoshop , Illustrator ",
-  },
-  {
-    id: 5,
     title: "The Process",
     text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
   },

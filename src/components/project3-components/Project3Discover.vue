@@ -2,24 +2,23 @@
   <div class="container" style="max-width: 800px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
-        <div class="display-6 discover-text">Discover</div>
+        <div class="display-6 discover-text">Features & Logic</div>
       </div>
     </div>
   </div>
   <div class="container" style="max-width: 800px">
     <div class="sections-title">User reaserch</div>
     <div class="sections-texts">
-      I conducted three user interviews to validate our assumptions. The
-      predominant feedback from these interviews highlighted that the website
-      appeared overly chaotic and overwhelming. The individuals we interviewed
-      corroborated our initial hypotheses.
+      Before this project, the school competition was fully analog — schools submitted photos of their recycling and upcycling models by email or post.
+      The voting process was handled manually, which made participation and result tracking complicated.
+  Together with the Allreco marketing team, we analyzed this workflow and identified opportunities to digitize the process and make it accessible online.
       <div class="my-4 sections-subtitle text-uppercase">Key Findings</div>
       <ul>
-        <li>DarkTheme app.</li>
-        <li>No minimum order.</li>
-        <li>A combination of ingredients.</li>
-        <li>Something to save time.</li>
-        <li>Filters for allergies and prohibited foods.</li>
+        <li>The analog submission process was time-consuming and hard to manage</li>
+        <li>Schools and families wanted a simple, visual way to view and vote for projects</li>
+        <li>Transparency was key — visible vote counts increased motivation and trust</li>
+        <li>Limiting voting to one per day ensured fairness and credibility</li>
+        <li>A digital platform improved accessibility and audience reach significantly</li>
       </ul>
     </div>
     <div class="sections-title" style="margin-top: 92px">User flow</div>
