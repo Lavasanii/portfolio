@@ -18,7 +18,7 @@ import VotingBackground from "../../assets/images/Project3/P3wettbewerbBackgroun
 
 <style lang="scss" scoped>
 .section1-header-color {
-  background-color: #496b34bf !important;
+ background: linear-gradient(to bottom, #dbdadb, #414141) !important;
   width: 100%;
   height: 450px;
 }

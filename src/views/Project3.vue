@@ -2,11 +2,12 @@
   <Project3Header></Project3Header>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      Saeid Test
+      School competition voting platform
     </div>
-    <div class="h6 text-center" style="font-weight: 300">
-      <strong>Duration of the project: </strong> 2 weeks |
-      <strong>prototyping Type: </strong>individual work
+   <div class="text-start mt-5" style="font-weight: 300; margin-left: 6vw;">
+      <p><strong>company: </strong> Allreco GmbH </p>
+      <p><strong>Role: </strong>Frontend Developer & UX Designer </p>
+      <p><strong>Tools & Technologies: </strong>Vue.js · JavaScript · Webflow · Figma </p>
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
