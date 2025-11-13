@@ -16,13 +16,8 @@
   </div>
   <Project3Process class="margin-between-sections"></Project3Process>
   <Project3Discover></Project3Discover>
-  <Project3Define></Project3Define>
-  <Project3Ideation></Project3Ideation>
   <Project3Design></Project3Design>
   <Project3Prototype></Project3Prototype>
-  <video class="mx-auto d-block videoWidth" controls>
-    <source :src="CatchEatVideo" type="video/mp4" />
-  </video>
 </template>
 
 <script setup lang="ts">
@@ -30,8 +25,6 @@ import { ref } from "vue";
 import Project3Header from "../components/project3-components/Project3HeaderImage.vue";
 import Project3Process from "../components/project3-components/Project3Process.vue";
 import Project3Discover from "../components/project3-components/Project3Discover.vue";
-import Project3Define from "../components/project3-components/Project3Define.vue";
-import Project3Ideation from "../components/project3-components/Project3Ideation.vue";
 import Project3Design from "../components/project3-components/Project3Design.vue";
 import Project3Prototype from "../components/project3-components/Project3Prototype.vue";
 

@@ -11,7 +11,7 @@
     <div class="sections-texts">
       Before this project, the school competition was fully analog — schools submitted photos of their recycling and upcycling models by email or post.
       The voting process was handled manually, which made participation and result tracking complicated.
-  Together with the Allreco marketing team, we analyzed this workflow and identified opportunities to digitize the process and make it accessible online.
+      Together with the Allreco marketing team, we analyzed this workflow and identified opportunities to digitize the process and make it accessible online.
       <div class="my-4 sections-subtitle text-uppercase">Key Findings</div>
       <ul>
         <li>The analog submission process was time-consuming and hard to manage</li>
@@ -24,19 +24,11 @@
     <div class="sections-title" style="margin-top: 92px">User flow</div>
     <div class="sections-texts">
       <p>
-        As the saying goes, a good start is half the battle. Before delving into
-        the user interface design, I made sure to refine the features and user
-        interaction flow.
-      </p>
-      <p>
-        The following feature flowcharts illustrate the content strategy and
-        user journey within the app. Filtering features allow users to customize
-        their desired food combinations. Login functionality helps users create
-        a personalized profile and associate it with their preferences. The
-        creation of these flowcharts serves as a foundation for streamlining
-        developer tasks and ultimately creating high-fidelity designs. They also
-        facilitate the early identification of potential problems in the
-        product, contributing to a fast and efficient troubleshooting process.
+       Visitors start on the Allreco website and access the “Future Award” section. 
+       From there, they are redirected to the voting website, where they can browse through 16 project entries. 
+       Each project shows a preview with an image and title. By clicking on a project, users can view more details, 
+       including a description and three additional images. After reviewing the projects, they can cast their vote 
+       and receive a confirmation message before returning to the Allreco website.
       </p>
     </div>
   </div>
@@ -50,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import UserFlow from "../../assets/images/Project2/UserFlow.svg";
+import UserFlow from "../../assets/images/project3/VotingUserFlow.png";
 </script>
 
 <style lang="scss" scoped>

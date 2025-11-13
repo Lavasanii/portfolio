@@ -2,7 +2,7 @@
   <div class="container" style="max-width: 800px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
-        <div class="display-6 discover-text">Design</div>
+        <div class="display-6 discover-text"> Ideation & Design </div>
       </div>
     </div>
     <div class="moodboard-header">moodboard</div>
