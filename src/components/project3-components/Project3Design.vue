@@ -5,7 +5,6 @@
         <div class="display-6 discover-text"> Ideation & Design </div>
       </div>
     </div>
-    <div class="moodboard-header">moodboard</div>
     <div class="row justify-content-center my-5">
       <div class="col text-center">
         <img v-lazy="MoodboardProject2" alt="Bild" class="img-fluid" />
