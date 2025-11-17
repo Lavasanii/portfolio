@@ -24,8 +24,13 @@
 import { ref } from "vue";
 import Project3Header from "../components/project3-components/Project3HeaderImage.vue";
 import Project3Process from "../components/project3-components/Project3Process.vue";
-import Project3Discover from "../components/project3-components/Project3Discover.vue";
-import Project3Design from "../components/project3-components/Project3Design.vue";
+
+// Discover to Feature&Logic3
+import Project3Discover from "../components/project3-components/Feature&Logic3.vue";
+// Ideation&Design3
+import Project3Design from "../components/project3-components/Ideation&Design3.vue";
+
+
 import Project3Prototype from "../components/project3-components/Project3Prototype.vue";
 
 interface sectionsInterfaces {
