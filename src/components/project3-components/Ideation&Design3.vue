@@ -6,6 +6,42 @@
       </div>
     </div>
     <div class="row justify-content-center my-5">
+        <div class="sections-title">Design goals</div>
+
+      <div class="sections-texts-P3">
+      1. Digitize an analog competition
+      <ul>
+        <li>Transform the previously analog submission and voting process into a fully digital, user-friendly online experience.</li>
+      </ul>
+      </div>
+     
+       <div class="sections-texts-P3">
+      2. Increase transparency and engagement
+      <ul>
+        <li>Display vote counts publicly to motivate participation and build trust among students, families, and schools.</li>
+      </ul>
+      </div>
+      
+      <div class="sections-texts-P3">
+      3. Ensure a fair voting experience
+      <ul>
+        <li>Implement a one-vote-per-day system using IP-based restrictions to avoid repeated voting and guarantee fairness.</li>
+      </ul>
+      </div>
+      
+      <div class="sections-texts-P3">
+      4. Simplify project exploration
+      <ul>
+        <li>Present each school project with a clear layout: one main image plus a responsive carousel of detail images.</li>
+      </ul>
+      </div>
+      
+      <div class="sections-texts-P3">
+      5. Automate competition workflow
+      <ul>  
+        <li>Enable automatic sorting by highest votes and disable voting after the deadline, leaving only the gallery and descriptions visible.</li>
+      </ul>
+      </div> 
       <div class="col text-center">
         <img v-lazy="MoodboardProject2" alt="Bild" class="img-fluid" />
       </div>
@@ -151,8 +187,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import MoodboardProject2 from "../../assets/images/Project2/MoodboardProject2.svg";
-import Project2designColors from "../../assets/images/Project2/Project2designColors.svg";
+import MoodboardProject2 from "../../assets/images/Project3/P3Ideation.png";
+import Project2designColors from "../../assets/images/Project3/Project3designColors.png";
 import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
 import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
 import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
@@ -230,8 +266,8 @@ const iconslistItems = ref<imageItemsInterface[]>([
   color: #000800cc !important;
 }
 
-.sections-texts {
-  margin-top: 36px;
+.sections-texts-P3 {
+  margin-top: 18px;
   font-size: 18px;
   font-weight: 400;
   color: #000800cc !important;
