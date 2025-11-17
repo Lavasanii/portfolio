@@ -72,9 +72,8 @@
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
-        <strong>Mobil Grid</strong>
-        <br />Width : Auto <br />Columns : 12 <br />Margin : 70 Px <br />Gutter
-        : 70 Px
+        <strong>Desktop Total</strong>
+        <br />Width : 1279 px <br />Columns : 10 <br />Margin : 100 Px <br />Gutter: 40 Px
       </div>
     </div>
     <div class="sections-subtitle text-uppercase">typography</div>
@@ -90,12 +89,12 @@
           </div>
         </div>
         <div class="col-4">
-          <div style="font-size: 26px; font-weight: 700">Inter Bold</div>
-          <div style="font-size: 18px; font-weight: 700">Inter Bold</div>
+          <div style="font-size: 26px; font-weight: 700">Wemino Regular</div>
+          <div style="font-size: 18px; font-weight: 700">Verdana Bold</div>
         </div>
         <div class="col-1">
-          <div style="font-size: 26px; font-weight: 700">26px</div>
-          <div style="font-size: 18px; font-weight: 700">18px</div>
+          <div style="font-size: 26px; font-weight: 700">80px</div>
+          <div style="font-size: 18px; font-weight: 700">27px</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start mb-3">
@@ -189,14 +188,14 @@
 import { ref } from "vue";
 import MoodboardProject2 from "../../assets/images/Project3/P3Ideation.png";
 import Project2designColors from "../../assets/images/Project3/Project3designColors.png";
-import Project2designGrids from "../../assets/images/Project2/GridSystemMobil.svg";
+import Project2designGrids from "../../assets/images/Project3/Project3designGrids3.png";
 import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
 import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
 import LunchIconP2 from "../../assets/icons/Project2-Icons/LunchIconP2.svg";
 import zoomIconP2 from "../../assets/icons/Project2-Icons/zoomIconP2.svg";
 import personIconP2 from "../../assets/icons/Project2-Icons/personIconP2.svg";
 import LocationIconP2 from "../../assets/icons/Project2-Icons/LocationIconP2.svg";
-import Typografy2p1 from "../../assets/icons/Project2-Icons/Typografy2p1.svg";
+import Typografy2p1 from "../../assets/icons/Project3-Icons/Typografy3p1.png";
 import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
 import Typografy2p3 from "../../assets/icons/Project2-Icons/Typografy2p3.svg";
 import Typografy2p4 from "../../assets/icons/Project2-Icons/Typografy2p4.svg";
