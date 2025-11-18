@@ -102,16 +102,16 @@
           <img v-lazy="Typografy2p2" class="img-fluid" />
         </div>
         <div class="col-4">
-          <div style="font-size: 20px; font-weight: 600">Heading Photo</div>
-          <div style="font-size: 13px; font-weight: 600">Menu</div>
+          <div style="font-size: 20px; font-weight: 600">Button</div>
+          <div style="font-size: 20px; font-weight: 400">Body</div>
         </div>
         <div class="col-4">
-          <div style="font-size: 20px; font-weight: 600">Inter Bold</div>
-          <div style="font-size: 13px; font-weight: 600">Inter Bold</div>
+          <div style="font-size: 20px; font-weight: 600">Verdana Bold</div>
+          <div style="font-size: 20px; font-weight: 400">Verdana Regular</div>
         </div>
         <div class="col-1">
-          <div style="font-size: 20px; font-weight: 600">20px</div>
-          <div style="font-size: 13px; font-weight: 600">13px</div>
+          <div style="font-size: 20px; font-weight: 600">14px</div>
+          <div style="font-size: 20px; font-weight: 400">14px</div>
         </div>
       </div>
       <div class="row align-items-center justify-content-start mb-3">
@@ -119,32 +119,14 @@
           <img v-lazy="Typografy2p3" class="img-fluid" />
         </div>
         <div class="col-4">
-          <div style="font-size: 20px; font-weight: 500">Button</div>
+          <div style="font-size: 20px; font-weight: 500">Image Description</div>
           <div style="font-size: 16px; font-weight: 500">Caption Text</div>
         </div>
         <div class="col-4">
-          <div style="font-size: 20px; font-weight: 500">Inter Medium</div>
-          <div style="font-size: 16px; font-weight: 500">Inter Medium</div>
+          <div style="font-size: 18px; font-weight: 500">Verdana Regular</div>
+          <div style="font-size: 16px; font-weight: 500">Verdana Regular</div>
         </div>
-        <div class="col-1">
-          <div style="font-size: 20px; font-weight: 500">20px</div>
-          <div style="font-size: 16px; font-weight: 500">16px</div>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-start">
-        <div class="col-3">
-          <img v-lazy="Typografy2p4" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <div style="font-size: 16px; font-weight: 400">Body</div>
-        </div>
-        <div class="col-4">
-          <div style="font-size: 16px; font-weight: 400">Inter Regular</div>
-        </div>
-        <div class="col-1">
-          <div style="font-size: 16px; font-weight: 400">16px</div>
-        </div>
-      </div>
+       </div>
     </div>
     <div class="sections-subtitle text-uppercase">Icons</div>
     <div class="row justify-content-center">
@@ -160,26 +142,19 @@
         />
       </div>
     </div>
-    <div class="sections-subtitle text-uppercase">Illustration</div>
-    <div class="row justify-content-center align-items-center mt-5">
-      <div class="col-4">
-        <img v-lazy="Illustration2P1" alt="Illustration2P1" class="img-fluid" />
-      </div>
-      <div class="col-4">
-        <img v-lazy="Illustration2P2" alt="Illustration2P2" class="img-fluid" />
-      </div>
-      <div class="col-4">
-        <img v-lazy="Illustration2P3" alt="Illustration2P3" class="img-fluid" />
-      </div>
-    </div>
     <div class="col text-center mt-4 mb-5">
-      The usage of animated icons helps to make the page more interactive.
+    The yellow icons stand out clearly on the grey background, creating strong contrast and good visibility. 
+    This makes the icons easy to recognize and supports accessibility.
     </div>
     <div class="sections-subtitle text-uppercase">Buttons</div>
     <div class="row justify-content-center">
       <div class="cal-12 d-flex align-items-end justify-content-center">
         <img v-lazy="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
       </div>
+    </div>
+    <div class="col text-center mt-4 mb-5">
+    Active buttons use bright yellow for clear visibility, while greyed-out buttons indicate that voting is disabled.
+    This helps users quickly understand what actions are available.
     </div>
   </div>
 </template>
@@ -189,20 +164,13 @@ import { ref } from "vue";
 import MoodboardProject2 from "../../assets/images/Project3/P3Ideation.png";
 import Project2designColors from "../../assets/images/Project3/Project3designColors.png";
 import Project2designGrids from "../../assets/images/Project3/Project3designGrids3.png";
-import homeIconP2 from "../../assets/icons/Project2-Icons/homeIconP2.svg";
-import arrowIconP2 from "../../assets/icons/Project2-Icons/arrowIconP2.svg";
-import LunchIconP2 from "../../assets/icons/Project2-Icons/LunchIconP2.svg";
-import zoomIconP2 from "../../assets/icons/Project2-Icons/zoomIconP2.svg";
-import personIconP2 from "../../assets/icons/Project2-Icons/personIconP2.svg";
-import LocationIconP2 from "../../assets/icons/Project2-Icons/LocationIconP2.svg";
+import homeIconP2 from "../../assets/icons/Project3-Icons/InstagramP3.png";
+import arrowIconP2 from "../../assets/icons/Project3-Icons/LinkedInP3.png";
+import LunchIconP2 from "../../assets/icons/Project3-Icons/YoutubeP3.png";
 import Typografy2p1 from "../../assets/icons/Project3-Icons/Typografy3p1.png";
-import Typografy2p2 from "../../assets/icons/Project2-Icons/Typografy2p2.svg";
-import Typografy2p3 from "../../assets/icons/Project2-Icons/Typografy2p3.svg";
-import Typografy2p4 from "../../assets/icons/Project2-Icons/Typografy2p4.svg";
-import ButtonsP2 from "../../assets/icons/Project2-Icons/ButtonsP2.svg";
-import Illustration2P1 from "../../assets/Illustration/Project2/Illustration2P1.svg";
-import Illustration2P2 from "../../assets/Illustration/Project2/Illustration2P2.svg";
-import Illustration2P3 from "../../assets/Illustration/Project2/Illustration2P3.svg";
+import Typografy2p2 from "../../assets/icons/Project3-Icons/Typografy3p2.png";
+import Typografy2p3 from "../../assets/icons/Project3-Icons/Typografy3p3.png";
+import ButtonsP2 from "../../assets/icons/Project3-Icons/BottunsP3.png";
   
 interface imageItemsInterface {
   id: number;
@@ -225,21 +193,6 @@ const iconslistItems = ref<imageItemsInterface[]>([
     id: 2,
     name: "LunchIconP2",
     imgSrc: LunchIconP2,
-  },
-  {
-    id: 3,
-    name: "zoomIconP2",
-    imgSrc: zoomIconP2,
-  },
-  {
-    id: 4,
-    name: "personIconP2",
-    imgSrc: personIconP2,
-  },
-  {
-    id: 5,
-    name: "LocationIconP2",
-    imgSrc: LocationIconP2,
   },
 ]);
 </script>
