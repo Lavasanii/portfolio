@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import avatar from "../../assets//images/avatar.png";
+import avatar from "../../assets//images/Avatar1.png";
 </script>
 
 <style lang="scss" scoped>
