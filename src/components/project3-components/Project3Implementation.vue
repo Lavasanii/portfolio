@@ -2,16 +2,14 @@
   <div class="container mb-5" style="max-width: 800px; margin-bottom: 170px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
-        <div class="display-6 prototype-text">Prototype</div>
+        <div class="display-6 prototype-text">Implementation & Delivery</div>
       </div>
     </div>
-    <div class="sections-title">Splash and Onboarding</div>
+    <div class="sections-title">Final Implementation & Delivery</div>
     <div class="sections-texts">
-      When users start the app, they will be guided through a sign-in or sign-up
-      and onboarding process before proceeding to their default screen, the
-      profile screen, which allows users to choose their preferred food filters.
-      They also have the option to combine ingredients and find the best prices
-      for their food. They can then arrange to pick up the food.
+     The voting platform was fully implemented using Vue.js and JavaScript and then integrated into the Allreco website via an iFrame.
+     To ensure fair voting, I developed backend logic using Supabase, where each vote is linked to a hashed IP address stored in a dedicated table. 
+     Because most users have dynamic IPs that refresh every 12–24 hours, the system naturally allows one vote per user per day.
     </div>
   </div>
   <div class="container-fluid">
@@ -120,7 +118,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import GalaxyPlus0 from "../../assets/images/Project2/MockupExport/GalaxyPlus0.svg";
+import supbaseP3 from "../../assets/images/Project2/MockupExport/GalaxyPlus0.svg";
 import GalaxyPlus1 from "../../assets/images/Project2/MockupExport/GalaxyPlus1.svg";
 import GalaxyPlus2 from "../../assets/images/Project2/MockupExport/GalaxyPlus2.svg";
 import GalaxyPlus3 from "../../assets/images/Project2/MockupExport/GalaxyPlus3.svg";
@@ -144,39 +142,6 @@ interface imageItemsInterface {
   name: string;
   imgSrc: string;
 }
-
-const GalaxyPlusItems1 = ref<imageItemsInterface[]>([
-  {
-    id: 0,
-    name: "GalaxyPlus0",
-    imgSrc: GalaxyPlus0,
-  },
-  {
-    id: 1,
-    name: "GalaxyPlus1",
-    imgSrc: GalaxyPlus1,
-  },
-  {
-    id: 2,
-    name: "GalaxyPlus2",
-    imgSrc: GalaxyPlus2,
-  },
-  {
-    id: 3,
-    name: "GalaxyPlus3",
-    imgSrc: GalaxyPlus3,
-  },
-  {
-    id: 4,
-    name: "GalaxyPlus4",
-    imgSrc: GalaxyPlus4,
-  },
-  {
-    id: 5,
-    name: "GalaxyPlus5",
-    imgSrc: GalaxyPlus5,
-  },
-]);
 
 const GalaxyPlusItems2 = ref<imageItemsInterface[]>([
   {

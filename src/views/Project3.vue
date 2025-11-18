@@ -17,10 +17,13 @@
   <Project3Process class="margin-between-sections"></Project3Process>
   <Project3Discover></Project3Discover>
   <Project3Design></Project3Design>
-  <Project3Prototype></Project3Prototype>
+  <Project3Implementation></Project3Implementation>
 </template>
 
+
 <script setup lang="ts">
+
+// Projektteile
 import { ref } from "vue";
 import Project3Header from "../components/project3-components/Project3HeaderImage.vue";
 import Project3Process from "../components/project3-components/Project3Process.vue";
@@ -31,7 +34,7 @@ import Project3Discover from "../components/project3-components/Feature&Logic3.v
 import Project3Design from "../components/project3-components/Ideation&Design3.vue";
 
 
-import Project3Prototype from "../components/project3-components/Project3Prototype.vue";
+import Project3Implementation from "../components/project3-components/Project3Implementation.vue";
 
 interface sectionsInterfaces {
   id: number;
