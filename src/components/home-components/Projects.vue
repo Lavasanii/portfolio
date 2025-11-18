@@ -20,6 +20,7 @@ import { ref } from "vue";
 import project1Image from "../../assets/images/project1.png";
 import project2Image from "../../assets/images/Project2/Project2MockUp.png";
 import project3Image from "../../assets/images/Project3/P3wettbewerb.png";
+//import project4Image from "../../assets/images/Project3/P3wettbewerb.png";
 
 
 interface projectItemsInterface {
@@ -48,12 +49,12 @@ const projectItems = ref<projectItemsInterface[]>([
     imgSrc: project3Image,
     link: "/voting-project",
   },
-  {
-    id: 3,
-    textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
-    imgSrc: project2Image,
-    link: "/catcheat-project",
-  },
+  // {
+  //   id: 3,
+  //   textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
+  //   imgSrc: "",
+  //   link: "/",
+  // },
 ]);
 </script>
 <style lang="scss" scoped>
