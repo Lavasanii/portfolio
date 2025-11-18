@@ -1,40 +1,42 @@
 <template>
   <div class="container">
-    <div class="row justify-content-start" style="margin-top: 40px">
-      <div class="col-6 d-flex align-items-center">
-        <p class="mt-6">
-          Ich zeichne mich durch eine außergewöhnliche Lernbereitschaft aus und bin stets motiviert, Neues zu erlernen.
-          Meine größte Stärke liegt in meiner intrinsischen Motivation, kontinuierlich neues Wissen zu erwerben.
-          Ich habe die Fähigkeit, wichtige Themen zu identifizieren, die einen echten Mehrwert bieten, und kann mich
-          selbstständig in diese Themen vertiefen, bis ich in der Lage bin, innovative Ideen zu entwickeln und umzusetzen.
-          Eine meiner herausragenden Fähigkeiten besteht darin, wichtige Themen zu identifizieren, die einen Mehrwert
-          bieten können,
-          und dann die erforderlichen Schritte zu unternehmen, um dieses Wissen zu erlangen und Ideen in die Tat
-          umzusetzen.
-          Mein Ansatz erinnert mich an meine Erfahrungen im Industrie-Design-Studium, bei dem ich gelernt habe, dass der
-          Ausgangspunkt immer die Schmerzpunkte sind. Von dort aus generiere ich verschiedene Ideen und arbeite hart
-          daran, das erforderliche theoretische Wissen zu erlangen, um diese Ideen erfolgreich umzusetzen. Ich habe immer den
-          Drang, mich in unbekannte Themenbereiche zu vertiefen und mich selbst herauszufordern. Ich bin davon überzeugt, dass
-          diese Eigenschaften mir nicht nur helfen, effektiv in neuen Aufgabenfeldern zu arbeiten, sondern auch dazu beitragen,
-          innovative Lösungen für komplexe Herausforderungen zu entwickeln. Ich arbeite an meiner Website bzw. meinem Portfolio und
-          parallel dazu lerne ich, wie ich dies umsetzen kann. Dabei nutze ich Vue.js, um nicht nur das Design meines
-          Portfolios selbst zu gestalten, sondern auch die Website selbst zu realisieren und zu entwickeln.
-        </p>
+    <div class="row justify-content-lift" style="margin-top: 40px">
+      <div class="col-12 text-start mb-5">
+        <img :src="saeidImageAboutme" :alt="saeidImageAboutme" class="rounded img-fluid" style="max-width: 100%; width: 800px;" />
       </div>
       <div class="col-6">
-        <img :src="saeidImageAboutme" :alt="saeidImageAboutme" class="rounded mx-auto d-block" width="500" />
-      </div>
-      <div class="row-2">
-        <a href="https://slavasani.com/Lebenslauf_Saeid_Farajollahlavasani.pdf" target="_blank">
-          <button class="orange-button">Download CV</button>
-        </a>
+        <p class="mt-4 text-start">
+         Over the past years, I have significantly expanded my technical capabilities through hands-on practice and the rapid evolution
+         of AI-assisted development.Today, I can not only design user interfaces but also implement them using modern frontend technologies such as
+        Vue.js, JavaScript, Webflow, and Supabase.
+        </p>
+        <p class="mt-4 text-start">
+         I naturally identify meaningful problems, dive into new topics independently,
+         and learn quickly until I can turn ideas into functional, well-designed solutions.
+         This approach comes from my industrial design background, where every project started with 
+         understanding real pain points before generating ideas and building working prototypes.
+        </p>
+           <p class="mt-4 text-start">
+         I enjoy operating in the space between design and engineering—collaborating with both teams or delivering end-to-end solutions myself.
+         This makes me a versatile hybrid profile, often described as a “unicorn” who brings together UX, UI, 
+         prototyping, and frontend implementation in one role.
+        </p>
+           <p class="mt-4 text-start">
+         Currently, I am designing and developing my own portfolio with Vue.js, applying the same process 
+         I use in professional projects: clear UX structure, a strong visual identity, and clean, maintainable implementation.
+        </p>
+        <div class="mt-4">
+          <a href="https://slavasani.com/Lebenslauf_Saeid_Farajollahlavasani.pdf" target="_blank">
+            <button class="orange-button">Download CV</button>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import saeidImageAboutme from "../../src/assets/images/AboutMe/Me.png";
+import saeidImageAboutme from "../../src/assets/images/AboutMe/AboutMe.jpeg";
 
 </script>
 
@@ -45,6 +47,7 @@ import saeidImageAboutme from "../../src/assets/images/AboutMe/Me.png";
   height: 45px;
   border-radius: 7px;
   border: none;
+  margin-top: 25px;
 }
 
 //div {
