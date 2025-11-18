@@ -15,15 +15,11 @@
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
-        <div
-          class="col-4 text-center my-4"
-          v-for="ul in GalaxyPlusItems1"
-          :key="ul.id"
-        >
+        <div class="col-12 text-center my-4">
           <img
-            v-lazy="ul.imgSrc"
-            :alt="ul.name"
-            style="width: 332px; height: 718.3px"
+            v-lazy="supabaseP3"
+            alt="Supabase Implementation"
+            style="max-width: 100%; height: auto"
           />
         </div>
       </div>
@@ -118,12 +114,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import supbaseP3 from "../../assets/images/Project2/MockupExport/GalaxyPlus0.svg";
-import GalaxyPlus1 from "../../assets/images/Project2/MockupExport/GalaxyPlus1.svg";
-import GalaxyPlus2 from "../../assets/images/Project2/MockupExport/GalaxyPlus2.svg";
-import GalaxyPlus3 from "../../assets/images/Project2/MockupExport/GalaxyPlus3.svg";
-import GalaxyPlus4 from "../../assets/images/Project2/MockupExport/GalaxyPlus4.svg";
-import GalaxyPlus5 from "../../assets/images/Project2/MockupExport/GalaxyPlus5.svg";
+import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
 import GalaxyPlus6 from "../../assets/images/Project2/MockupExport/GalaxyPlus6.svg";
 import GalaxyPlus7 from "../../assets/images/Project2/MockupExport/GalaxyPlus7.svg";
 import GalaxyPlus8 from "../../assets/images/Project2/MockupExport/GalaxyPlus8.svg";
