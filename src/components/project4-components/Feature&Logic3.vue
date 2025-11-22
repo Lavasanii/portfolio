@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import UserFlow from "../../assets/images/project3/VotingUserFlow.png";
+import UserFlow from "../../assets/images/Project3/VotingUserFlow.png";
 </script>
 
 <style lang="scss" scoped>
