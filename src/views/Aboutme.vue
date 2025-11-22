@@ -6,24 +6,30 @@
       </div>
       <div class="col-6">
         <p class="mt-4 text-start">
-         Over the past years, I have significantly expanded my technical capabilities through hands-on practice and the rapid evolution
-         of AI-assisted development.Today, I can not only design user interfaces but also implement them using modern frontend technologies such as
-        Vue.js, JavaScript, Webflow, and Supabase.
+        Over the past few years, I've expanded my technical skill set 
+        through hands-on experience and the rapid evolution of modern development tools. Today,
+        I can not only design user-friendly interfaces but also implement them using modern frontend technologies 
+        like Vue.js, JavaScript, Webflow, and Supabase.
         </p>
         <p class="mt-4 text-start">
-         I naturally identify meaningful problems, dive into new topics independently,
-         and learn quickly until I can turn ideas into functional, well-designed solutions.
-         This approach comes from my industrial design background, where every project started with 
-         understanding real pain points before generating ideas and building working prototypes.
+        My strength lies in quickly identifying meaningful problems, diving into new topics, 
+        and turning ideas into functional solutions—much like I did in my industrial design background.
+        There, every project started with a deep understanding of user needs before generating ideas 
+        and building working prototypes.
         </p>
            <p class="mt-4 text-start">
-         I enjoy operating in the space between design and engineering—collaborating with both teams or delivering end-to-end solutions myself.
-         This makes me a versatile hybrid profile, often described as a “unicorn” who brings together UX, UI, 
-         prototyping, and frontend implementation in one role.
+        I thrive in the space between design and engineering—whether collaborating with design or
+        dev teams or delivering end-to-end solutions myself. This versatility has earned me the 
+        reputation of a "unicorn," someone who integrates UX, UI, prototyping, and frontend 
+        implementation into one seamless role.
         </p>
            <p class="mt-4 text-start">
          Currently, I am designing and developing my own portfolio with Vue.js, applying the same process 
          I use in professional projects: clear UX structure, a strong visual identity, and clean, maintainable implementation.
+        </p>
+            <p class="mt-4 text-start">
+        Through continuous learning and applying new technologies,
+        I am always expanding my skill set and enhancing the solutions I can offer.
         </p>
         <div class="mt-4">
           <a href="https://slavasani.com/Lebenslauf_Saeid_Farajollahlavasani.pdf" target="_blank">
