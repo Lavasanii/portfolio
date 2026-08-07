@@ -1,5 +1,5 @@
 <template>
-  <Project3Header></Project3Header>
+  <Project4Header></Project4Header>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
       School competition voting platform
@@ -14,9 +14,9 @@
       <div class="sections-texts"><span v-html="s.text"></span></div>
     </div>
   </div>
-  <Project3Process class="margin-between-sections"></Project3Process>
-  <Project3Discover></Project3Discover>
-  <Project3Design></Project3Design>
+  <Project4Process class="margin-between-sections"></Project4Process>
+  <Project4Discover></Project4Discover>
+  <Project4Design></Project4Design>
   <Project3Implementation></Project3Implementation>
 </template>
 
@@ -25,16 +25,16 @@
 
 // Projektteile
 import { ref } from "vue";
-import Project3Header from "../components/project3-components/Project3HeaderImage.vue";
-import Project3Process from "../components/project3-components/Project3Process.vue";
+import Project4Header from "../components/project4-components/Project4HeaderImage.vue";
+import Project4Process from "../components/project4-components/Project4Process.vue";
 
 // Discover to Feature&Logic3
-import Project3Discover from "../components/project3-components/Feature&Logic3.vue";
+import Project4Discover from "../components/project4-components/Feature&Logic4.vue";
 // Ideation&Design3
-import Project3Design from "../components/project3-components/Ideation&Design3.vue";
+import Project4Design from "../components/project4-components/Ideation&Design4.vue";
 
 
-import Project3Implementation from "../components/project3-components/Project3Implementation.vue";
+import Project3Implementation from "../components/project4-components/Project4Implementation.vue";
 
 interface sectionsInterfaces {
   id: number;
