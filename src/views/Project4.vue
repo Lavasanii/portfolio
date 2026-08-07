@@ -2,7 +2,7 @@
   <Project4Header></Project4Header>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      School competition voting platform
+      Landig page
     </div>
  <div class="h6 text-center" style="font-weight: 300">
       <strong>Company: </strong> Allreco GmbH |
