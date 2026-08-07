@@ -5,7 +5,7 @@
         <img
           v-lazy="VotingBackground"
           class="img-Proj2"
-          style="max-height: 350px"
+          style="max-height: 395px"
         />
       </div>
     </div>
@@ -13,12 +13,12 @@
 </template>
 
 <script setup lang="ts">
-import VotingBackground from "../../assets/images/Project3/P3wettbewerbBackground.png";
+import VotingBackground from "../../assets/images/Project4/P4landingpage.webp";
 </script>
 
 <style lang="scss" scoped>
 .section1-header-color {
- background: linear-gradient(to bottom, #dbdadb, #414141) !important;
+ background: linear-gradient(to bottom, #E17C2F, #E17C2F) !important;
   width: 100%;
   height: 450px;
 }

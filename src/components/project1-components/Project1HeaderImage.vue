@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import project1 from "../../assets/images/project1.png";
+import project1 from "../../assets/images/project1.webp";
 </script>
 
 <style lang="scss" scoped>
