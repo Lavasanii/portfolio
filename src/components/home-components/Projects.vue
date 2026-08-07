@@ -17,10 +17,10 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import project1Image from "../../assets/images/project1.png";
+import project1Image from "../../assets/images/project1.webp";
 import project2Image from "../../assets/images/Project2/Project2MockUp.webp";
-import project3Image from "../../assets/images/Project3/P3wettbewerb.png";
-import project4Image from "../../assets/images/Project4/P4landingpage.png";
+import project3Image from "../../assets/images/Project3/P3wettbewerb.webp";
+import project4Image from "../../assets/images/Project4/P4landingpage.webp";
 
 
 interface projectItemsInterface {
