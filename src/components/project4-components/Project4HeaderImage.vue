@@ -5,7 +5,7 @@
         <img
           v-lazy="VotingBackground"
           class="img-Proj2"
-          style="max-height: 395px"
+          style="max-height: 450px"
         />
       </div>
     </div>
@@ -23,6 +23,6 @@ import VotingBackground from "../../assets/images/Project4/P4landingpage.webp";
   height: 450px;
 }
 .img-Proj2 {
-  margin-top: 51px;
+  margin-top: 0px;
 }
 </style>
