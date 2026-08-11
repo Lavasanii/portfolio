@@ -2,11 +2,11 @@
   <Project4Header></Project4Header>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      Landig page
+      Allreco Landing Page – Brand Identity & Product Overview
     </div>
  <div class="h6 text-center" style="font-weight: 300">
-      <strong>Company: </strong> Allreco GmbH |
-      <strong>prototyping Type: </strong>Internal Company Project
+      <strong>Company: </strong> Allreco GmbH |  <strong>Role: </strong> UX/UI Design, Icon & Illustration Design (Independently) |
+      <strong>prototyping Type: </strong>Internal Company Project , Completed project for Allreco GmbH, now live, implemented as the sole designer responsible
     </div>
     <div class="h3 overview-text text-uppercase">Overview</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
@@ -44,9 +44,8 @@ interface sectionsInterfaces {
 const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 0,
-    title: "Project background",
-    text: `<p>Each year, Allreco GmbH organizes a “Recycling & Upcycling” competition for schools to inspire creativity and environmental awareness. Students are encouraged to give old objects a new purpose through creative ideas and craftsmanship — turning waste into useful new items.</p>
-    <p>As part of this initiative, I developed an interactive voting platform that allowed visitors to vote for their favorite school projects while increasing Allrecos website engagement and visibility. Each user could vote only once per day, ensuring fair participation..</p>`,
+    title: "Initial Situation",
+    text: `<p>Allreco is often associated exclusively with the manufacture and sale of recycling machinery. In fact, the company offers a much broader range of services—from individual machines to complete plant projects (from concept to implementation) to after-sales service. The company’s previous public image did not clearly reflect this breadth. The goal was to create a new landing page that conveys the full range of services at a glance—without appearing long or cluttered.</p>`,
   },
   {
     id: 1,
