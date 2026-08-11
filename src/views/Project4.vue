@@ -2,13 +2,13 @@
   <Project4Header></Project4Header>
   <div class="container" style="max-width: 800px">
     <div class="h2 mt-5 text-center">
-      Allreco Landing Page – Brand Identity & Product Overview
+      Allreco Landing Page – Markenauftritt & Produktübersicht
     </div>
  <div class="h6 text-center" style="font-weight: 300">
-      <strong>Company: </strong> Allreco GmbH |  <strong>Role: </strong> UX/UI Design, Icon & Illustration Design (Independently) |
-      <strong>prototyping Type: </strong>Internal Company Project , Completed project for Allreco GmbH, now live, implemented as the sole designer responsible
+      <strong>Unternehmen: </strong> Allreco GmbH |  <strong>Rolle: </strong> UX/UI Design, Icon- & Illustrationsdesign |
+      <strong>Kontext: </strong>Fertiggestelltes, live geschaltetes Projekt für Allreco GmbH, als alleinig zuständiger Designer umgesetzt
     </div>
-    <div class="h3 overview-text text-uppercase">Overview</div>
+    <div class="h3 overview-text text-uppercase">Übersicht</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
       <div class="sections-title">{{ s.title }}</div>
       <div class="sections-texts"><span v-html="s.text"></span></div>
