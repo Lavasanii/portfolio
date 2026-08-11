@@ -33,25 +33,25 @@ interface projectItemsInterface {
 const projectItems = ref<projectItemsInterface[]>([
   {
     id: 0,
-    textinImg: "A code - learning platform - Rubrik's Code",
+    textinImg: "A code - learning platform - Rubrik's Code -EN",
     imgSrc: project1Image,
     link: "/rubrik-project",
   },
   {
     id: 1,
-    textinImg: "An app for healthier breaks and nourishing meals - CatchEat",
+    textinImg: "An app for healthier breaks and nourishing meals - CatchEat -EN",
     imgSrc: project2Image,
     link: "/catcheat-project",
   },
   {
     id: 2,
-    textinImg: "School competition voting platform-Allreco GmbH",
+    textinImg: "School competition voting platform-Allreco GmbH -EN",
     imgSrc: project3Image,
     link: "/voting-project",
   },
     {
     id: 3,
-    textinImg: "Landing Page Design-Allreco GmbH ",
+    textinImg: "Landing Page Design-Allreco GmbH -DE",
     imgSrc: project4Image,
     link: "/landingpage-project",
    },
