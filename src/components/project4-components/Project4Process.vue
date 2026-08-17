@@ -39,31 +39,31 @@ const processItems = ref<processItemsInterface[]>([
   {
     id: 0,
     title: "Discover",
-    text: "Generate and gather ideas plus look at other ideas",
+    text: "Stakeholder-Feedback aufgenommen: veraltete Karussell-Seite wirkte wenig einladend",
     imgLink: Descover2icon,
   },
   {
     id: 1,
     title: "Define",
-    text: "Contarct point of view based on user need",
+    text: "Ziel: kompakte Fullscreen-Seite mit allen drei Kernleistungen",
     imgLink: Define2icon,
   },
   {
     id: 2,
     title: "Ideation",
-    text: "Brainstorming and come up with creative solutions",
+    text: "Vier Stufen getestet: Text → Bild → Video → Video mit rotierendem Text",
     imgLink: Ideation2icon,
   },
   {
     id: 3,
     title: "Design",
-    text: "Develop ideation designs",
+    text: "Video-Hero mit Text-Rotator (eigener Code), Icon-System, Markenfarben Orange/Grau",
     imgLink: Design2icon,
   },
   {
     id: 4,
     title: "Prototype",
-    text: "Build a Prototype",
+    text: "Responsives Layout für Desktop, Tablet und Mobile",
     imgLink: Prototype2icon,
   },
 ]);

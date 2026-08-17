@@ -5,7 +5,7 @@
       Allreco Landing Page – Markenauftritt & Produktübersicht
     </div>
  <div class="h6 text-center" style="font-weight: 300">
-      <strong>Unternehmen: </strong> Allreco GmbH |  <strong>Rolle: </strong> UX/UI Design, Icon- & Illustrationsdesign |
+      <strong>Unternehmen: </strong> Allreco GmbH |  <strong>Rolle: </strong> UX/UI Design, Icon- & Illustrationsdesign sowie ergänzende Frontend-Entwicklung (JavaScript/HTML/CSS) |
       <strong>Kontext: </strong>Fertiggestelltes, live geschaltetes Projekt für Allreco GmbH, als alleinig zuständiger Designer umgesetzt
     </div>
     <div class="h3 overview-text text-uppercase">Übersicht</div>
@@ -29,7 +29,8 @@ import Project4Header from "../components/project4-components/Project4HeaderImag
 import Project4Process from "../components/project4-components/Project4Process.vue";
 
 // Discover to Feature&Logic3
-import Project4Discover from "../components/project4-components/Feature&Logic4.vue";
+//import Project4Discover from "../components/project4-components/Feature&Logic4.vue";
+
 // Ideation&Design3
 import Project4Design from "../components/project4-components/Ideation&Design4.vue";
 
@@ -44,28 +45,28 @@ interface sectionsInterfaces {
 const section1Items = ref<sectionsInterfaces[]>([
   {
     id: 0,
-    title: "Initial Situation",
-    text: `<p>Allreco is often associated exclusively with the manufacture and sale of recycling machinery. In fact, the company offers a much broader range of services—from individual machines to complete plant projects (from concept to implementation) to after-sales service. The company’s previous public image did not clearly reflect this breadth. The goal was to create a new landing page that conveys the full range of services at a glance—without appearing long or cluttered.</p>`,
+    title: "Ausgangslage",
+    text: `<p> Allreco wird häufig ausschließlich mit dem Bau und Verkauf von Recycling-Maschinen assoziiert. Tatsächlich deckt das Unternehmen ein deutlich breiteres Leistungsspektrum ab – von einzelnen Maschinen über komplette Anlagenprojekte (von der Idee bis zur Umsetzung) bis hin zum After-Sales-Service. Die bisherige Außendarstellung bildete diese Bandbreite nicht klar genug ab. Ziel war eine neue Landing Page, die das vollständige Leistungsportfolio auf einen Blick vermittelt – ohne dabei lang oder überladen zu wirken.</p>`,
   },
   {
     id: 1,
-    title: "Challenge",
-    text: "To guarantee fair voting, users needed to be restricted to one vote per day. I implemented an IP-based limitation system using JavaScript. The frontend was built in Vue.js and seamlessly integrated into the existing Webflow site via an iFrame.",
+    title: "Herausforderung",
+    text: "Die bestehende Seite war seit fünf Jahren nahezu unverändert und nutzte ein klassisches Karussell mit Produktfotos. Internes Stakeholder-Feedback (Vorgesetzter, Kolleg:innen) machte deutlich, dass die Seite wenig einladend wirkte und nicht mehr zeitgemäß war. Die Herausforderung bestand darin, einen frischeren, dynamischeren Auftritt zu entwickeln, der Aufmerksamkeit hält, das volle Leistungsspektrum von Allreco klar transportiert und dabei kompakt bleibt.",
   },
-  {
-    id: 2,
-    title: "Role",
-    text: "Frontend Developer & UX Designer",
-  },
+  //{
+  //  id: 2,
+  //  title: "Role",
+  //  text: "Frontend Developer & UX Designer",
+  //},
   {
     id: 3,
-    title: "Tools & Technologies",
-    text: "Vue.js · JavaScript · Webflow · Figma",
+    title: "Tools & Technologien",
+    text: "Webflow · JavaScript · HTML/CSS · Figma",
   },
   {
     id: 4,
-    title: "The Process",
-    text: "My process will be different in different projects and will be determined by many factors such as the project goals, business needs, complexity of the problem, time, etc. Here I'll describe my process for solving this problem.",
+    title: "Der Prozess",
+    text: "Von der Analyse des Stakeholder-Feedbacks über mehrere Iterationsstufen bis zur finalen, animierten Umsetzung – so bin ich bei diesem Projekt vorgegangen.",
   },
 ]);
 </script>
