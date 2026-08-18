@@ -154,15 +154,21 @@
         <img v-lazy="LayoutExploration2" alt="Bild" class="img-fluid" />
       </div>
     </div>
-    <div class="sections-subtitle text-uppercase">Grid</div>
-    <div class="row justify-content-center my-5">
-      <div class="col text-center">
+    <div class="sections-subtitle text-uppercase">Illustrationsprozess</div>
+    <div class="col justify-content-center my-5">
+     <div class="col text-center">
         <img
-          v-lazy="Project2designGrids"
-          alt="Bild"
-          class="img-fluid"
-          align="left"
-        />
+        v-lazy="Illustrationsprozess1"
+        alt="Bild"
+        class="img-fluid"
+      />
+      </div>
+      <div class="col text-center mt-5">
+        <img
+        v-lazy="Illustrationsprozess2"
+        alt="Bild"
+        class="img-fluid"
+       />
       </div>
       <div class="w-100"></div>
       <div class="col text-start mt-5">
@@ -258,7 +264,8 @@ import { ref } from "vue";
 import AllrecoIdeation from "../../assets/images/Project4/ausganglage.webp";
 import LayoutExploration1 from "../../assets/images/Project4/layout-exploration1.webp";
 import LayoutExploration2 from "../../assets/images/Project4/layout-exploration2.webp";
-import Project2designGrids from "../../assets/images/Project3/Project3designGrids3.png";
+import Illustrationsprozess1 from "../../assets/icons/Project4-Icons/illustrationsprozess1.webp";
+import Illustrationsprozess2 from "../../assets/icons/Project4-Icons/AfterSalesIcon.webp";
 import homeIconP2 from "../../assets/icons/Project3-Icons/InstagramP3.png";
 import arrowIconP2 from "../../assets/icons/Project3-Icons/LinkedInP3.png";
 import LunchIconP2 from "../../assets/icons/Project3-Icons/YoutubeP3.png";
