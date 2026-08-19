@@ -161,6 +161,19 @@
       <div class="w-100"></div>
     </div>
 
+    <div class="sections-subtitle text-uppercase">Finales Icon-System</div>
+    <div class="row justify-content-center">
+      <div class="cal-12 text-center">
+        <img v-lazy="FinaleIcons" alt="Finale Icons: Maschinen, Anlagen, After Sales"
+          class="img-fluid mx-3 mt-5 mb-2" />
+      </div>
+    </div>
+    <div class="col text-center mt-4 mb-5">
+      Die Icons folgen einem konsistenten Linienstil mit gleicher Strichstärke; die dezente
+      Akzentfläche im Hintergrund sorgt für visuelle Wiedererkennbarkeit, ohne die Lesbarkeit
+      der Outline-Icons zu beeinträchtigen.
+    </div>
+
     <div class="sections-subtitle text-uppercase">typography</div>
     <div class="row mt-5">
       <div class="row align-items-center justify-content-start mb-3">
@@ -226,68 +239,23 @@
         </div>
       </div>
     </div>
-    <div class="sections-subtitle text-uppercase">Icons</div>
-    <div class="row justify-content-center">
-      <div class="cal-12 text-center">
-        <img v-for="i in iconslistItems" :key="i.id" v-lazy="i.imgSrc" :alt="i.name" class="img-fluid mx-3 mt-5 mb-2"
-          width="40" height="45" />
-      </div>
-    </div>
-    <div class="col text-center mt-4 mb-5">
-      The yellow icons stand out clearly on the grey background, creating strong contrast and good visibility.
-      This makes the icons easy to recognize and supports accessibility.
-    </div>
-    <div class="sections-subtitle text-uppercase">Buttons</div>
-    <div class="row justify-content-center">
-      <div class="cal-12 d-flex align-items-end justify-content-center">
-        <img v-lazy="ButtonsP2" alt="Buttons-P2" class="img-fluid mt-5 mb-2" />
-      </div>
-    </div>
-    <div class="col text-center mt-4 mb-5">
-      Active buttons use bright yellow for clear visibility, while greyed-out buttons indicate that voting is disabled.
-      This helps users quickly understand what actions are available.
-    </div>
+
+
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
 import AllrecoIdeation from "../../assets/images/Project4/ausganglage.webp";
 import LayoutExploration1 from "../../assets/images/Project4/layout-exploration1.webp";
 import LayoutExploration2 from "../../assets/images/Project4/layout-exploration2.webp";
 import Illustrationsprozess1 from "../../assets/icons/Project4-Icons/illustrationsprozess1.webp";
 import Illustrationsprozess2 from "../../assets/icons/Project4-Icons/AfterSalesIcon.webp";
-import homeIconP2 from "../../assets/icons/Project3-Icons/InstagramP3.png";
-import arrowIconP2 from "../../assets/icons/Project3-Icons/LinkedInP3.png";
-import LunchIconP2 from "../../assets/icons/Project3-Icons/YoutubeP3.png";
+import FinaleIcons from "../../assets/icons/Project4-Icons/finale-Icons.webp";
 import Typografy4p1 from "../../assets/icons/Project4-Icons/Typografy4p1.webp";
 import Typografy4p2 from "../../assets/icons/Project4-Icons/Typografy4p2.webp";
 import Typografy4p3 from "../../assets/icons/Project4-Icons/Typografy4p3.webp";
 import ButtonsP2 from "../../assets/icons/Project3-Icons/BottunsP3.png";
 
-interface imageItemsInterface {
-  id: number;
-  name: string;
-  imgSrc: string;
-}
-
-const iconslistItems = ref<imageItemsInterface[]>([
-  {
-    id: 0,
-    name: "homeIconP2",
-    imgSrc: homeIconP2,
-  },
-  {
-    id: 1,
-    name: "arrowIconP2",
-    imgSrc: arrowIconP2,
-  },
-  {
-    id: 2,
-    name: "LunchIconP2",
-    imgSrc: LunchIconP2,
-  },
-]);
 </script>
 
 <style lang="scss" scoped>

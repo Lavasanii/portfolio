@@ -2,97 +2,83 @@
   <div class="container mb-5" style="max-width: 800px; margin-bottom: 170px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
-        <div class="display-6 prototype-text">Implementation & Delivery</div>
+        <div class="display-6 prototype-text">Umsetzung & Livegang</div>
       </div>
     </div>
-    <div class="sections-title">Final Implementation & Delivery</div>
+    <div class="sections-title">Finale Umsetzung & Livegang</div>
     <div class="sections-texts">
-     The voting platform was fully implemented using Vue.js and JavaScript and then integrated into the Allreco website via an iFrame.
-     To ensure fair voting, I developed backend logic using Supabase, where each vote is linked to a hashed IP address stored in a dedicated table.
-     Because most users have dynamic IPs that refresh every 12–24 hours, the system naturally allows one vote per user per day.
+      Die Landing Page wurde als vollflächiger Video-Hero umgesetzt, dessen Headline über einen
+      selbst entwickelten Text-Rotator automatisch zwischen mehreren Begriffen wechselt
+      (u.&nbsp;a. „Innovativ“, „Flexibel“, „Lösungsorientiert“) – per eigenem
+      JavaScript/HTML/CSS-Code direkt in die bestehende Webflow-Seite eingebunden, da sich der
+      automatische Wortwechsel allein über Webflow-Bordmittel nicht realisieren ließ.
+      Das Layout wurde vollständig responsiv für Desktop, Tablet und Mobile umgesetzt und getestet.
     </div>
     <div class="live-project-link">
-      🔗 Live Project: <a href="https://allreco.de/wettbewerb" target="_blank" rel="noopener noreferrer">allreco.de/wettbewerb</a>
+      🔗 Live-Projekt: <a href="https://www.allreco.de" target="_blank"
+        rel="noopener noreferrer">allreco.de</a>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center user-flow-image">
       <div class="row justify-content-center">
         <div class="col-12 text-center my-4">
-          <img
-            v-lazy="supabaseP3"
-            alt="Supabase Implementation"
-            style="max-width: 100%; height: auto"
-          />
+          <img v-lazy="LandingPageFinal" alt="Finale Landing Page mit Video-Hero und rotierender Headline"
+            style="max-width: 100%; height: auto" />
         </div>
       </div>
     </div>
   </div>
   <div class="container" style="max-width: 800px; margin-bottom: 170px; margin-top: 220px">
-    <div class="sections-title">Technical Steps Implemented</div>
+    <div class="sections-title">Technische Umsetzung im Detail</div>
 
-    <div class="sections-subtitle">1. Supabase Database Setup</div>
+    <div class="sections-subtitle">1. Vollflächiger Video-Hero</div>
     <div class="sections-texts">
-      A database table (votes_ip_log) was created to store:
-      <ul class="technical-list">
-        <li>hashed user IP address</li>
-        <li>project ID</li>
-        <li>timestamp</li>
-      </ul>
-      Row-Level Security (RLS) was activated to protect all stored data.
+      Ein Luftbild-Video bildet den visuellen Einstieg und füllt den gesamten Hero-Bereich aus.
+      Das Video läuft automatisch und in Schleife; eine Pause-Steuerung bleibt für Nutzer:innen
+      jederzeit zugänglich.
     </div>
 
-    <div class="sections-subtitle">2. Client-Side Privacy Protection (DSGVO)</div>
+    <div class="sections-subtitle">2. Automatischer Text-Rotator</div>
     <div class="sections-texts">
-      For privacy reasons, the IP address is never stored in plain text.
-      Before inserting the data into Supabase, the IP address is hashed client-side using SHA-256, making it impossible to identify individual users.
-    </div>
-
-    <div class="sections-subtitle">3. JavaScript Voting Logic</div>
-    <div class="sections-texts">
+      Die Headline wechselt automatisch zwischen mehreren Markeneigenschaften:
       <ul class="technical-list">
-        <li>Fetch the user's public IP (via a lightweight external IP service).</li>
-        <li>Hash the IP using SHA-256 directly in the browser.</li>
-        <li>Check Supabase to see if a hashed IP entry exists for the last 24 hours.</li>
-      </ul>
-      Decision logic:
-      <ul class="technical-list">
-        <li><strong>If no entry exists:</strong> The vote is accepted and saved in the database.</li>
-        <li><strong>If an entry exists:</strong> The vote button is automatically disabled and visually updated.</li>
+        <li>Eigener JavaScript/HTML/CSS-Code, direkt in die Webflow-Seite eingebunden</li>
+        <li>Wortwechsel u.&nbsp;a. zwischen „Innovativ“, „Flexibel“ und „Lösungsorientiert“</li>
+        <li>Notwendig, da sich der automatische Wechsel über native Webflow-Funktionen nicht umsetzen ließ</li>
       </ul>
     </div>
 
-    <div class="sections-subtitle">4. Dynamic Ranking System</div>
+    <div class="sections-subtitle">3. Scroll-Snap – getestet und bewusst verworfen</div>
+    <div class="sections-texts">
+      Zusätzlich wurde ein JavaScript-basiertes Scroll-Snap-Verhalten entwickelt, bei dem die
+      vollflächigen Abschnitte beim Scrollen automatisch einrasten sollten. Im Browser-Test
+      zeigte sich ein inkonsistentes Verhalten – insbesondere zwischen Chrome und Firefox.
+      Um ein einheitliches Nutzungserlebnis sicherzustellen, wurde die Funktion wieder
+      deaktiviert; die vollflächige Sektionsstruktur blieb davon unabhängig erhalten.
+    </div>
+
+    <div class="sections-subtitle">4. Responsives Layout</div>
     <div class="sections-texts">
       <ul class="technical-list">
-        <li>After each vote, the total votes per project were recalculated.</li>
-        <li>Projects automatically moved up or down based on their vote count.</li>
-        <li>Ranking updates happened instantly without page reload.</li>
+        <li>Umsetzung und Test für Desktop, Tablet und Mobile</li>
+        <li>Einbindung von Icons, Text-Animation und Video auf allen Breakpoints geprüft</li>
       </ul>
     </div>
 
-    <div class="sections-subtitle">5. Deadline Handling</div>
+    <div class="sections-subtitle">Ergebnis</div>
     <div class="sections-texts">
-      <ul class="technical-list">
-        <li>After the official competition end date, all voting buttons were disabled automatically.</li>
-        <li>Only project images and descriptions remained visible.</li>
-      </ul>
-    </div>
-
-    <div class="sections-subtitle">Final Delivery</div>
-    <div class="sections-texts">
-      <ul class="technical-list">
-        <li>Fully responsive user interface</li>
-        <li>Clean integration into Webflow using an iFrame</li>
-        <li>Cross-device testing (desktop, mobile, tablet)</li>
-        <li>Replacement of an entirely analog voting process with a modern digital solution</li>
-      </ul>
+      Seit dem Livegang der neuen Landing Page ist der Website-Traffic spürbar gestiegen –
+      so deutlich, dass Allreco das Hosting-Kontingent aufstocken musste, da die bisherige
+      Serverkapazität nicht mehr ausreichte. Die Seite ersetzt den seit fünf Jahren
+      unveränderten Karussell-Auftritt und vermittelt das volle Leistungsspektrum von Allreco –
+      Maschinen, Anlagen, After-Sales-Service – auf einen Blick.
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
+import LandingPageFinal from "../../assets/images/Project4/landingpage-final.webp";
 </script>
 
 <style lang="scss" scoped>
@@ -104,8 +90,8 @@ import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
   margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 25px;
-  color: #496b34bf !important;
-  border-bottom: 3px solid #496b34bf !important;
+  color: #E17C2F !important;
+  border-bottom: 3px solid #E17C2F !important;
 }
 
 .user-flow-image {
@@ -114,7 +100,7 @@ import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
   margin-bottom: 92px;
   padding-left: 150px;
   padding-right: 150px;
-  background-color: rgba(73, 107, 52, 0.35);
+  background-color: rgba(225, 124, 47, 0.15);
 }
 
 .sections-title {
@@ -126,7 +112,7 @@ import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
 .sections-subtitle {
   font-weight: 600;
   font-size: 19px;
-  color: #496b34bf !important;
+  color: #E17C2F !important;
   margin-top: 48px;
   margin-bottom: 16px;
 }
@@ -145,14 +131,14 @@ import supabaseP3 from "../../assets/images/Project3/supabaseP3.png";
   color: #000800cc !important;
 
   a {
-    color: #496b34bf !important;
+    color: #E17C2F !important;
     text-decoration: none;
-    border-bottom: 2px solid #496b34bf;
+    border-bottom: 2px solid #E17C2F;
     transition: all 0.3s ease;
 
     &:hover {
-      color: #496b34 !important;
-      border-bottom-color: #496b34;
+      color: #c96a24 !important;
+      border-bottom-color: #c96a24;
     }
   }
 }
