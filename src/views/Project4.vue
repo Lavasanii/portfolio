@@ -4,9 +4,11 @@
     <div class="h2 mt-5 text-center">
       Allreco Landing Page – Markenauftritt & Produktübersicht
     </div>
- <div class="h6 text-center" style="font-weight: 300">
-      <strong>Unternehmen: </strong> Allreco GmbH |  <strong>Rolle: </strong> UX/UI Design, Icon- & Illustrationsdesign sowie ergänzende Frontend-Entwicklung (JavaScript/HTML/CSS) |
-      <strong>Kontext: </strong>Fertiggestelltes, live geschaltetes Projekt für Allreco GmbH, als alleinig zuständiger Designer umgesetzt
+    <div class="h6 text-center" style="font-weight: 300">
+      <strong>Unternehmen: </strong> Allreco GmbH | <strong>Rolle: </strong> UX/UI Design, Icon- & Illustrationsdesign
+      sowie ergänzende Frontend-Entwicklung (JavaScript/HTML/CSS) |
+      <strong>Kontext: </strong>Fertiggestelltes, live geschaltetes Projekt für Allreco GmbH, als alleinig zuständiger
+      Designer umgesetzt
     </div>
     <div class="h3 overview-text text-uppercase">Übersicht</div>
     <div class="margin-between-sections" v-for="s in section1Items" :key="s.id">
@@ -15,7 +17,6 @@
     </div>
   </div>
   <Project4Process class="margin-between-sections"></Project4Process>
-  <Project4Discover></Project4Discover>
   <Project4Design></Project4Design>
   <Project4DesignSystem></Project4DesignSystem>
   <Project4Implementation></Project4Implementation>
@@ -88,9 +89,11 @@ const section1Items = ref<sectionsInterfaces[]>([
   font-weight: 600;
   opacity: 0.6;
 }
+
 .margin-between-sections {
   margin-top: 72px;
 }
+
 .sections-title {
   font-weight: 600;
   font-size: 22px;
