@@ -254,7 +254,7 @@ import FinaleIcons from "../../assets/icons/Project4-Icons/finale-Icons.webp";
 import Typografy4p1 from "../../assets/icons/Project4-Icons/Typografy4p1.webp";
 import Typografy4p2 from "../../assets/icons/Project4-Icons/Typografy4p2.webp";
 import Typografy4p3 from "../../assets/icons/Project4-Icons/Typografy4p3.webp";
-import ButtonsP2 from "../../assets/icons/Project3-Icons/BottunsP3.png";
+
 
 </script>
 
