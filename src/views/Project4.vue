@@ -17,7 +17,9 @@
   <Project4Process class="margin-between-sections"></Project4Process>
   <Project4Discover></Project4Discover>
   <Project4Design></Project4Design>
-  <Project3Implementation></Project3Implementation>
+  <Project4DesignSystem></Project4DesignSystem>
+  <Project4Implementation></Project4Implementation>
+  <Project4Learnings></Project4Learnings>
 </template>
 
 
@@ -34,8 +36,13 @@ import Project4Process from "../components/project4-components/Project4Process.v
 // Ideation&Design3
 import Project4Design from "../components/project4-components/Ideation&Design4.vue";
 
+// Component-Based Design / Design System
+import Project4DesignSystem from "../components/project4-components/Project4DesignSystem.vue";
 
-import Project3Implementation from "../components/project4-components/Project4Implementation.vue";
+import Project4Implementation from "../components/project4-components/Project4Implementation.vue";
+
+// Learnings
+import Project4Learnings from "../components/project4-components/Project4Learnings.vue";
 
 interface sectionsInterfaces {
   id: number;
