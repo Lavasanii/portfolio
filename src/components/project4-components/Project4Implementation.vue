@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <div class="container" style="max-width: 800px; margin-bottom: 170px; margin-top: 220px">
+  <div class="container" style="max-width: 800px; margin-bottom: 70px; margin-top: 220px">
     <div class="sections-title">Technische Umsetzung im Detail</div>
 
     <div class="sections-subtitle">1. Vollflächiger Video-Hero</div>
