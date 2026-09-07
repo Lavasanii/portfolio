@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-5" style="max-width: 800px; margin-bottom: 170px">
+  <div class="container mb-5" style="max-width: 800px; margin-bottom: 90px">
     <div class="row row-cols-auto justify-content-center">
       <div class="cal">
         <div class="display-6 prototype-text">Umsetzung & Livegang</div>
@@ -15,8 +15,7 @@
       Das Layout wurde vollständig responsiv für Desktop, Tablet und Mobile umgesetzt und getestet.
     </div>
     <div class="live-project-link">
-      🔗 Live-Projekt: <a href="https://www.allreco.de" target="_blank"
-        rel="noopener noreferrer">allreco.de</a>
+      🔗 Live-Projekt: <a href="https://www.allreco.de" target="_blank" rel="noopener noreferrer">allreco.de</a>
     </div>
   </div>
   <div class="container-fluid">

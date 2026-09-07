@@ -21,6 +21,8 @@ import project1Image from "../../assets/images/project1.webp";
 import project2Image from "../../assets/images/Project2/Project2MockUp.webp";
 import project3Image from "../../assets/images/Project3/P3wettbewerb.webp";
 import project4Image from "../../assets/images/Project4/P4landingpage.webp";
+import project5Image from "../../assets/images/Project5/P5iotbreeze.webp";
+import project6Image from "../../assets/images/Project6/login-portal-final.webp";
 
 
 interface projectItemsInterface {
@@ -49,12 +51,24 @@ const projectItems = ref<projectItemsInterface[]>([
     imgSrc: project3Image,
     link: "/voting-project",
   },
-    {
+  {
     id: 3,
     textinImg: "Landing Page Design-Allreco GmbH -DE",
     imgSrc: project4Image,
     link: "/landingpage-project",
-   },
+  },
+  {
+    id: 4,
+    textinImg: "IoTBreeze – Dashboard-Konzept für vernetzte Recyclinganlagen -DE",
+    imgSrc: project5Image,
+    link: "/iot-project",
+  },
+  {
+    id: 5,
+    textinImg: "KI-Doku: durchsuchbare Wartungsdokumentation mit Chatbot-Allreco GmbH -DE",
+    imgSrc: project6Image,
+    link: "/ki-doku-project",
+  },
 ]);
 </script>
 <style lang="scss" scoped>

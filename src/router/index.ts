@@ -9,6 +9,8 @@ import IDProject2ImbusVue from "../views/IDProject2Imbus.vue";
 import CodingProjectsVue from "../views/CodingProjects.vue";
 import Project3 from "../views/Project3.vue";
 import Project4 from "../views/Project4.vue";
+import Project5 from "../views/Project5.vue";
+import Project6 from "../views/Project6.vue";
 
 
 const router = createRouter({
@@ -29,15 +31,25 @@ const router = createRouter({
       name: "Project2",
       component: Project2,
     },
-     {
+    {
       path: "/voting-project",
       name: "Project3",
       component: Project3,
     },
-       {
+    {
       path: "/landingpage-project",
       name: "Project4",
       component: Project4,
+    },
+    {
+      path: "/iot-project",
+      name: "Project5",
+      component: Project5,
+    },
+    {
+      path: "/ki-doku-project",
+      name: "Project6",
+      component: Project6,
     },
     {
       path: "/aboutme",
@@ -64,7 +76,7 @@ const router = createRouter({
       name: "CodingProjectsVue",
       component: CodingProjectsVue
     }
-    
+
   ],
   scrollBehavior() {
     // alwasy Scroll to top
