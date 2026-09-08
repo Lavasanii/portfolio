@@ -25,6 +25,7 @@ import project5Image from "../../assets/images/Project5/P5iotbreeze.webp";
 import project6Image from "../../assets/images/Project6/login-portal-final.webp";
 
 
+
 interface projectItemsInterface {
   id: number;
   textinImg: string;
@@ -59,6 +60,7 @@ const projectItems = ref<projectItemsInterface[]>([
   },
   {
     id: 4,
+
     textinImg: "IoTBreeze – Dashboard-Konzept für vernetzte Recyclinganlagen -DE",
     imgSrc: project5Image,
     link: "/iot-project",

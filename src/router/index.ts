@@ -13,6 +13,7 @@ import Project5 from "../views/Project5.vue";
 import Project6 from "../views/Project6.vue";
 
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
