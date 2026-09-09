@@ -92,17 +92,27 @@ const navItems = ref<navItemsInterface[]>([
   color: #666666;
 }
 
+/* Auf Mobil ist das Menü eine gestapelte Liste — dort bleibt der Eintrag
+   ein normaler Link, sonst zieht sich der Rahmen über die volle Breite
+   und sieht aus wie ein Eingabefeld. Erst ab der Breite, ab der Bootstrap
+   die horizontale Navbar zeigt (navbar-expand-lg = 992px), wird er zum Button. */
 .industrial-design-button {
-  border-radius: 5px;
-  border: 1px solid rgba(41, 104, 121, 0.45);
-  background-color: transparent;
   color: #296879 !important;
-  margin-left: 30px;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-.industrial-design-button:hover {
-  border-color: #296879;
-  background-color: rgba(41, 104, 121, 0.08);
+@media (min-width: 992px) {
+  .industrial-design-button {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(41, 104, 121, 0.45);
+    background-color: transparent;
+    margin-left: 30px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .industrial-design-button:hover {
+    border-color: #296879;
+    background-color: rgba(41, 104, 121, 0.08);
+  }
 }
 </style>
