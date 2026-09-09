@@ -5,15 +5,16 @@
         <div class="col-md-8">
           <div class="text-container mt-5">
             <div class="h1 h-text-title-color">
-              UX/UI Designer who also ships the frontend
+              UX/UI Designer for technical products
             </div>
             <p class="h-text-color mt-5" style="font-size: 18px !important">
-              I design digital interfaces and build them myself — with Figma,
-              Vue.js and TypeScript. My background in industrial design taught
-              me to start every project by understanding the people who use the
-              thing, then prototype until it works. Most recently at Allreco
-              GmbH, where I designed a searchable maintenance-documentation
-              platform, an IoT dashboard and the company's landing page.
+              I design digital products for industrial and B2B contexts —
+              searchable machine documentation, IoT dashboards, brand sites.
+              Freelance since 2018, most recently at Allreco GmbH: Figma design
+              system, usability and A/B testing, and the frontend wherever
+              building it was faster than handing it over. My background in
+              industrial design taught me to start with the people who use the
+              thing, under the conditions they use it in.
             </p>
           </div>
         </div>
