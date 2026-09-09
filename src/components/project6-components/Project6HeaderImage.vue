@@ -5,7 +5,7 @@
         <img
           v-lazy="DokumentenlisteHero"
           class="img-Proj6"
-          style="max-height: 400px; border-radius: 8px; box-shadow: 0 12px 32px rgba(0,0,0,0.25)"
+          style="max-height: 400px"
         />
       </div>
     </div>
@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import DokumentenlisteHero from "../../assets/images/Project6/dokumentenliste.webp";
+import DokumentenlisteHero from "../../assets/images/Project6/ki-doku-geraete-mockup.webp";
 </script>
 
 <style lang="scss" scoped>
@@ -23,8 +23,11 @@ import DokumentenlisteHero from "../../assets/images/Project6/dokumentenliste.we
   height: 450px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
+
 .img-Proj6 {
   margin-top: 0px;
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.35));
 }
 </style>

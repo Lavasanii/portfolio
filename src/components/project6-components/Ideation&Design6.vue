@@ -8,6 +8,20 @@
 
     <div class="row justify-content-center my-5">
       <div class="sections-texts-P6">
+        <strong>Ausgangslage: analoge Dokumentenliste</strong>
+        <ul>
+          <li>
+            Die bestehende Dokumentation lag als reine Ablage vor: PDFs,
+            sortiert nach Projektnummer, ohne Volltextsuche und ohne
+            thematische Filterung. Eine konkrete Frage zu beantworten
+            bedeutete, sich manuell durch die passenden Dokumente zu klicken –
+            in der Werkstatt, an der laufenden Maschine, ein realer
+            Zeitverlust.
+          </li>
+        </ul>
+      </div>
+
+      <div class="sections-texts-P6">
         <strong>Designziele festgelegt</strong>
         <ul>
           <li>
@@ -111,25 +125,29 @@
       </div>
     </div>
 
-    <div class="sections-subtitle text-uppercase">Ausgangslage: analoge Dokumentenliste</div>
+    <div class="sections-subtitle text-uppercase">
+      Das Interface: Doku-Plattform mit Allreco-Bot
+    </div>
     <div class="col text-center">
       <img
-        v-lazy="Dokumentenliste"
-        alt="Bestehende Dokumentenliste, sortiert nach Projektnummer, ohne themen- oder volltextbasierte Suche (Kundennamen anonymisiert)"
+        v-lazy="InterfaceKonzept"
+        alt="Doku-Plattform auf Laptop und Tablet: Dokumentenübersicht der Maschine Ceron mit geöffnetem Allreco-Bot, der Antworten mit Quellenangabe liefert"
         class="img-fluid my-5"
       />
     </div>
     <div class="col text-center mb-5">
-      So sah die Ausgangslage aus: Dokumente sortiert nach Projektnummer, ohne
-      Volltextsuche oder thematische Filterung. Eine konkrete Frage zu
-      beantworten bedeutete, sich manuell durch die passenden PDFs zu
-      klicken. Kundennamen im Screenshot sind anonymisiert.
+      Dieselbe Oberfläche auf Laptop und Tablet: links die Dokumente der
+      Maschine, rechts der Allreco-Bot. Auf eine Frage in natürlicher Sprache
+      antwortet er in ganzen Sätzen und nennt darunter das Dokument, aus dem
+      die Antwort stammt – so bleibt jede Antwort nachprüfbar. Auf dem Tablet
+      ist der Bot als seitliche Lasche eingeklappt, damit die Dokumentenliste
+      auf der kleineren Fläche vollständig lesbar bleibt.
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import Dokumentenliste from "../../assets/images/Project6/dokumentenliste.webp";
+import InterfaceKonzept from "../../assets/images/Project6/ki-doku-plattform-overlap.webp";
 </script>
 
 <style lang="scss" scoped>
