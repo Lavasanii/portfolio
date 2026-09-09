@@ -45,8 +45,9 @@
           <a
             href="https://slavasani.com/Lebenslauf_Saeid_Farajollahlavasani.pdf"
             target="_blank"
+            class="cv-button"
           >
-            <button class="orange-button">Download CV</button>
+            Download CV
           </a>
         </div>
       </div>
@@ -144,12 +145,30 @@ const factItems = ref<factItemsInterface[]>([
   font-weight: 400;
 }
 
-.orange-button {
-  background-color: orange;
+.cv-button {
+  display: inline-block;
+  background-color: #e17c2f;
+  color: #ffffff !important;
   width: 180px;
   height: 45px;
+  line-height: 45px;
+  text-align: center;
   border-radius: 7px;
   border: none;
   margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cv-button:hover {
+  background-color: #c96a24;
+  color: #ffffff !important;
+}
+
+.cv-button:active {
+  transform: translateY(1px);
 }
 </style>
