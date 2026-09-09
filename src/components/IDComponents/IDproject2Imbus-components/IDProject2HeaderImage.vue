@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import INBUSCover from "../../../assets/images/IDimages/Inbus/INBUSCover.png";
+import INBUSCover from "../../../assets/images/IDimages/Inbus/INBUSCover.webp";
 </script>
 
 <style lang="scss" scoped>

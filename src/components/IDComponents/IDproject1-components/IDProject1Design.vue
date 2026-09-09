@@ -247,34 +247,34 @@
 
 <script setup lang="ts">
 //import { ref } from "vue";
-import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.svg";
-import CAD from "../../../assets/images/IDimages/Bodum/CADV1.svg";
+import AusbauV3 from "../../../assets/images/IDimages/Bodum/AusbauV3.webp";
+import CAD from "../../../assets/images/IDimages/Bodum/CADV1.webp";
 import IDP1DesignGoal from "./IDP1DesignGoal.vue";
-import MoadBoradIDBodum from "../../../assets/images/IDimages/Bodum/MoadBoradIDBodum.svg";
+import MoadBoradIDBodum from "../../../assets/images/IDimages/Bodum/MoadBoradIDBodum.webp";
 
-import KonKleinR from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RandKlein.svg";
-import DiamondCut from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendEckig.svg";
-import RundKanten from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendRund.svg";
+import KonKleinR from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RandKlein.webp";
+import DiamondCut from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendEckig.webp";
+import RundKanten from "../../../assets/images/IDimages/Bodum/Kon_Konsolid/RendRund.webp";
 
 // Model Making
 
-import CNC1 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC1N.svg";
-import CNC2 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC2N.svg";
-import Bauteile from "../../../assets/images/IDimages/Bodum/Modell_Making/BestandteileV1.svg";
+import CNC1 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC1N.webp";
+import CNC2 from "../../../assets/images/IDimages/Bodum/Modell_Making/CNC2N.webp";
+import Bauteile from "../../../assets/images/IDimages/Bodum/Modell_Making/BestandteileV1.webp";
 
-import BoolianGrafik from "../../../assets/images/IDimages/Bodum/BoolianGrafik.png";
+import BoolianGrafik from "../../../assets/images/IDimages/Bodum/BoolianGrafik.webp";
 
 //Modell
 
-import Test from "../../../assets/images/IDimages/Bodum/Modell/Test.svg";
-import Test1 from "../../../assets/images/IDimages/Bodum/Modell/Test1.svg";
-import Test2 from "../../../assets/images/IDimages/Bodum/Modell/Test3.svg";
-import Test3 from "../../../assets/images/IDimages/Bodum/Modell/Test4.svg";
+import Test from "../../../assets/images/IDimages/Bodum/Modell/Test.webp";
+import Test1 from "../../../assets/images/IDimages/Bodum/Modell/Test1.webp";
+import Test2 from "../../../assets/images/IDimages/Bodum/Modell/Test3.webp";
+import Test3 from "../../../assets/images/IDimages/Bodum/Modell/Test4.webp";
 
 // Rendering
 
-import ContBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/ContBathroom.png";
-import WaageBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/WaageBathroom.png";
+import ContBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/ContBathroom.webp";
+import WaageBathroom from "../../../assets/images/IDimages/Bodum/RenderingBodum/WaageBathroom.webp";
 </script>
 
 <style lang="scss" scoped>

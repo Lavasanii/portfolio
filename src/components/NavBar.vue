@@ -57,11 +57,11 @@ const navItems = ref<navItemsInterface[]>([
     id: 2,
     name: "Contact",
     link: "/contact",
-    active: false,
+    active: true,
   },
   {
     id: 3,
-    name: "<Code>",
+    name: "Code",
     link: "/CodingProjectsVue",
     active: true,
   },
@@ -93,11 +93,16 @@ const navItems = ref<navItemsInterface[]>([
 }
 
 .industrial-design-button {
-  //border: 1px solid #000; /* Hier kannst du die gewünschten Rahmenstile definieren */
-  //padding: 5px 10px; /* Zusätzliche Gestaltung, falls nötig */
   border-radius: 5px;
-  background-color: #4794f6;
+  border: 1px solid rgba(41, 104, 121, 0.45);
+  background-color: transparent;
+  color: #296879 !important;
   margin-left: 30px;
-  /* Weitere Styling-Attribute nach Bedarf hinzufügen */
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.industrial-design-button:hover {
+  border-color: #296879;
+  background-color: rgba(41, 104, 121, 0.08);
 }
 </style>

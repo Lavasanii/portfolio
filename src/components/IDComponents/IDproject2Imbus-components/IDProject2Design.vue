@@ -285,30 +285,30 @@ import IDP2DesignGoal from "./IDP2DesignGoal.vue";
 
 //Problem
 
-import Problems from "../../../assets/images/IDimages/Inbus/ProblemINBUS.png";
+import Problems from "../../../assets/images/IDimages/Inbus/ProblemINBUS.webp";
 
 //Brainstorming
 
-import Brainstorming from "../../../assets/images/IDimages/Inbus/Brainstorming/Brainstorming.png";
+import Brainstorming from "../../../assets/images/IDimages/Inbus/Brainstorming/Brainstorming.webp";
 
 //Modell
 
-import Inbus1 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS1.png";
-import Inbus2 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS2.png";
-import Inbus3 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS3.png";
+import Inbus1 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS1.webp";
+import Inbus2 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS2.webp";
+import Inbus3 from "../../../assets/images/IDimages/Inbus/Kon_Konsolid/INBUS3.webp";
 
 // Model Making
 
-import ModelCNCclose from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelCNCclose.svg";
-import ModelCNCopen from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelCNCopen.svg";
-import ModelPrintopen from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelPrintopen.svg";
-import ModelPrintclose from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelPrintclose.svg";
+import ModelCNCclose from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelCNCclose.webp";
+import ModelCNCopen from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelCNCopen.webp";
+import ModelPrintopen from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelPrintopen.webp";
+import ModelPrintclose from "../../../assets/images/IDimages/Inbus/Modell_Making/ModelPrintclose.webp";
 
 // Rendering
 
-import InbusOneShot from "../../../assets/images/IDimages/Inbus/Renderings/InbusOneShot.png";
-import InbusFaded from "../../../assets/images/IDimages/Inbus/Renderings/InbusFaded.png";
-import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/InbusPlastik.png";
+import InbusOneShot from "../../../assets/images/IDimages/Inbus/Renderings/InbusOneShot.webp";
+import InbusFaded from "../../../assets/images/IDimages/Inbus/Renderings/InbusFaded.webp";
+import Inbusplastik from "../../../assets/images/IDimages/Inbus/Renderings/InbusPlastik.webp";
 </script>
 
 <style lang="scss" scoped>

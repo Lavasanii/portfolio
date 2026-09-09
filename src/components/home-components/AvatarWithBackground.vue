@@ -1,23 +1,32 @@
 <template>
   <div class="h-background-avatar">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-md-8">
           <div class="text-container mt-5">
-            <div class="h1 section1-text-title-color">Who am i ?</div>
+            <div class="h1 h-text-title-color">
+              UX/UI Designer who also ships the frontend
+            </div>
             <p class="h-text-color mt-5" style="font-size: 18px !important">
-              UX/UI designer with a strong background in industrial design and an eye for functional aesthetics.
-              Experience in designing digital interfaces, prototyping, and front-end implementation with Figma and Vue.js. Analytical thinker,
-              team player, and passionate about combining design and technology.
+              I design digital interfaces and build them myself — with Figma,
+              Vue.js and TypeScript. My background in industrial design taught
+              me to start every project by understanding the people who use the
+              thing, then prototype until it works. Most recently at Allreco
+              GmbH, where I designed a searchable maintenance-documentation
+              platform, an IoT dashboard and the company's landing page.
             </p>
           </div>
         </div>
-        <!-- 
+        <!--
               It will not display the image if display is smaller than 750 pixel.
               avatar will be very small at this size
               see  https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements -->
         <div class="col-md-4 d-none d-md-block">
-          <img v-lazy="avatar" class="img-fluid" alt="Profile" />
+          <img
+            v-lazy="avatar"
+            class="img-fluid"
+            alt="Saeid Farajollahlavasani, UX/UI Designer"
+          />
         </div>
       </div>
     </div>
@@ -25,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import avatar from "../../assets//images/Avatar1.png";
+import avatar from "../../assets/images/avatar-saeid.webp";
 </script>
 
 <style lang="scss" scoped>

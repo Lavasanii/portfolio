@@ -17,8 +17,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import project1Image from "../../assets/images/IDimages/Bodum/BodumHA.svg";
-import project2Image from "../../assets/images/IDimages/Inbus/ImbusHA.svg";
+import project1Image from "../../assets/images/IDimages/Bodum/BodumHA.webp";
+import project2Image from "../../assets/images/IDimages/Inbus/ImbusHA.webp";
 
 interface projectItemsInterface {
   id: number;

@@ -29,6 +29,7 @@ import { ref } from "vue";
 import linkedin from "../assets/icons/linkedin.svg";
 import Instagram from "../assets/icons/Instagram.svg";
 import mail from "../assets/icons/mail.svg";
+import github from "../assets/icons/github.svg";
 
 interface socialItemsInterface {
   id: number;
@@ -49,6 +50,12 @@ const socialItems = ref<socialItemsInterface[]>([
     name: "Instagram",
     iconSrc: Instagram,
     linkToSocial: "https://www.instagram.com/saeid_lavasani/",
+  },
+  {
+    id: 2,
+    name: "GitHub",
+    iconSrc: github,
+    linkToSocial: "https://github.com/Lavasanii",
   },
   {
     id: 3,

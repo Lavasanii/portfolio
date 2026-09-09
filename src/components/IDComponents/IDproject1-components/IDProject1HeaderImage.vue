@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import WaageH from "../../../assets/images/IDimages/Bodum/WaageH.svg";
+import WaageH from "../../../assets/images/IDimages/Bodum/WaageH.webp";
 </script>
 
 <style lang="scss" scoped></style>

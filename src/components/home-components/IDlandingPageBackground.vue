@@ -5,11 +5,19 @@
         <div class="col-md-8">
           <div class="text-container mt-5">
             <div class="display-2 h-text-title-color">
-              Industrial design Portfolio
+              Industrial Design
             </div>
+            <p class="h-text-color id-intro">
+              Before I designed interfaces, I designed physical products. These
+              two projects are where my method comes from: understand the
+              people who use the thing, take it apart, build it, test it in the
+              hand — CAD, CNC milling, 3D printing, rendering. It's also why
+              I'm comfortable designing for machines, workshops and technical
+              users today.
+            </p>
           </div>
         </div>
-        <!-- 
+        <!--
               It will not display the image if display is smaller than 750 pixel.
               avatar will be very small at this size
               see  https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements -->
@@ -37,10 +45,17 @@
 
 .h-text-title-color {
   color: #296879;
-  margin-bottom: 100px;
+  padding-top: 40px;
 }
 
 .h-text-color {
   color: #000000;
+}
+
+.id-intro {
+  font-size: 18px;
+  max-width: 620px;
+  margin-top: 32px;
+  margin-bottom: 100px;
 }
 </style>

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Project1 from "../views/Project1.vue";
 import Aboutme from "../views/Aboutme.vue";
+import Contact from "../views/Contact.vue";
 import Project2 from "../views/Project2.vue";
 import IDHome from "../views/IDHome.vue";
 import IDProject1Bodum from "../views/IDProject1Bodum.vue";
@@ -56,6 +57,11 @@ const router = createRouter({
       path: "/aboutme",
       name: "aboutme",
       component: Aboutme,
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: Contact,
     },
     {
       path: "/IDHome",
