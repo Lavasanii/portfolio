@@ -36,40 +36,39 @@ interface projectItemsInterface {
 const projectItems = ref<projectItemsInterface[]>([
   {
     id: 0,
-    textinImg: "A code - learning platform - Rubrik's Code -EN",
-    imgSrc: project1Image,
-    link: "/rubrik-project",
+    textinImg: "KI-Doku: durchsuchbare Wartungsdokumentation mit Chatbot-Allreco GmbH -DE",
+    imgSrc: project6Image,
+    link: "/ki-doku-project",
   },
   {
     id: 1,
-    textinImg: "An app for healthier breaks and nourishing meals - CatchEat -EN",
-    imgSrc: project2Image,
-    link: "/catcheat-project",
-  },
-  {
-    id: 2,
-    textinImg: "School competition voting platform-Allreco GmbH -EN",
-    imgSrc: project3Image,
-    link: "/voting-project",
-  },
-  {
-    id: 3,
-    textinImg: "Landing Page Design-Allreco GmbH -DE",
-    imgSrc: project4Image,
-    link: "/landingpage-project",
-  },
-  {
-    id: 4,
-
     textinImg: "IoTBreeze – Dashboard-Konzept für vernetzte Recyclinganlagen -DE",
     imgSrc: project5Image,
     link: "/iot-project",
   },
   {
+    id: 2,
+    textinImg: "Landing Page Design-Allreco GmbH -DE",
+    imgSrc: project4Image,
+    link: "/landingpage-project",
+  },
+  {
+    id: 3,
+    textinImg: "School competition voting platform-Allreco GmbH -EN",
+    imgSrc: project3Image,
+    link: "/voting-project",
+  },
+  {
+    id: 4,
+    textinImg: "A code - learning platform - Rubrik's Code -EN",
+    imgSrc: project1Image,
+    link: "/rubrik-project",
+  },
+  {
     id: 5,
-    textinImg: "KI-Doku: durchsuchbare Wartungsdokumentation mit Chatbot-Allreco GmbH -DE",
-    imgSrc: project6Image,
-    link: "/ki-doku-project",
+    textinImg: "An app for healthier breaks and nourishing meals - CatchEat -EN",
+    imgSrc: project2Image,
+    link: "/catcheat-project",
   },
 ]);
 </script>
